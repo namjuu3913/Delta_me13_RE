@@ -5,7 +5,7 @@ Because I'm Korean, some part of the code is written in Korean. I will gradually
 
 ## Development environment
 * OS: Windows 11
-* IDE: Visual Studio 2022
+* IDE: VScode
 * CudaToolKit: 12.9
 * CPU: Ryzen 9 7900x
 * GPU: RTX 5080
@@ -40,18 +40,20 @@ Follow these steps to set up the project environment locally. This guide covers 
         * You can download it from the [Python Downloads](https://www.python.org/downloads/)
     * NVIDIA CUDA Toolkit 12.9: Required for GPU acceleration.
         * You can download it from the [NVIDIA CUDA Toolkit Archive.](https://developer.nvidia.com/cuda-12-9-0-download-archive)
-    * Git LFS (Large File Storage): This project uses Git LFS to manage large model files.
-        * Download and install it from the [official Git LFS website.](https://git-lfs.com/) After installing, run ``` git lfs install``` in your terminal once to initialize it.
+
+    * npm
+
+    * React compiler
           
-3.  Setup Steps
+2.  Setup Steps
     1. Clone the Repository
     ```sh
-    git clone https://github.com/namjuu3913/Delta_me13_py.git
+    git clone https://github.com/namjuu3913/Delta_me13_RE.git
     ```
     
     2. Navigate to the project directory.
     ```sh
-    cd Delta_me13_py
+    cd Delta_me13_RE
     ```
     
     3. Create a Python Virtual Environment
@@ -59,7 +61,7 @@ Follow these steps to set up the project environment locally. This guide covers 
        I recommend using a virtual environment to isolate project dependencies. The following command will create a folder named .venv in your project directory.
     ```sh
     
-    python -m venv .venv
+    py -3.11 -m venv .venv
     ```
     
     4. Activate the Virtual Environment
@@ -81,18 +83,22 @@ Follow these steps to set up the project environment locally. This guide covers 
          ```sh
             pip install -r requirements.txt
          ```
+3. Download llama.cpp
+    * #### llama.cpp
+        You can download llama.cpp from [llama.cpp/releases](https://github.com/ggml-org/llama.cpp/releases)
+        
+        Download both cudart-llama-bin-win-cuda-12.4-x64.zip and llama-b6715-bin-win-cuda-12.4-x64.zip
 
-    6. Download Large Model Files
+        After download and unzip the folders, put every files in the ```BackEnd\LLMServer\llama_cpp``` folder.
 
-       Finally, pull the large model and data files managed by Git LFS.
-     ```sh
-     git lfs pull
-     ```
-     
+        ![Example:](README_ingre/llamacpp_example.jpg)
+
+
+
  4. Download Models
    * #### LLM (GGUF)
      
-     You can download any GGUF-formatted model from [huggingface](https://huggingface.co/) in the ```AI/models``` folder.
+     You can download any GGUF-formatted model from [huggingface](https://huggingface.co/) in the ```BackEnd\LLMServer\models``` folder.
      
      Recommended & tested: Qwen3-14B-Q4_K_M, (see the model on [Hugging Face](https://huggingface.co/Qwen))
      
@@ -102,7 +108,9 @@ Follow these steps to set up the project environment locally. This guide covers 
 
      If you download it with sentence transformer, it usually downloaded at ```C:\Users\UserName\.cache\huggingface\hub```
 
-     Put the file in the ```projecfile/Character/models``` file
+     Put the folder in the ```BackEnd\PythonServer\Character\models``` file.
+
+     It will look like ```BackEnd\PythonServer\Character\models\models--sentence-transformers--paraphrase-multilingual-mpnet-base-v2```
 
      Model: [Sentence-Transformers page.](https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2).
 
@@ -130,185 +138,9 @@ You are now ready to run the project!
 
 
 
-
-
 ## How to use it
 
-#### Using saved character
-1. Enable .venv
-```sh
-project path> .\.venv\Scripts\Activate
-```
-
-2. Start the code
-```sh
-(project root path) python delta_me13_py.py
-```
-
-3. Choose a language you want to use.
-```sh
-What language do you want to use? Be careful about typos. I haven't made a validator for the language. (default: Korean) :
-```
-
-The output will look like this. It supports 50 languages. (Check README.md of paraphrase-multilingual-mpnet-base-v2 for language support) If you choose a language, the virtual persona will speak that language. And since I didn't make a validator yet, be careful with typos.
-
-4. Choose a character
-```sh
-Character name: 
-```
-You can input the name of the character from here. If you type a character that is already in the ```Character/CharacterSave``` file, It will start the llama.cpp local server and start the chat with the character. I put the test character named Argenti which is from HSR.
-
-5. Exit the chat
-You can type ```-/exit``` to end the chat. You MUST turn off the server after you finish it.
-
-#### Generate new character
-* *Method 1*: Make a character file by yourself.(**recommanded**)
-You can make a character file manually in the ```CharacterSave``` folder.
-The folder should look like this:
-```sh
-Character name folder(ex. Andrew)
-    backstory
-    GeneralDB
-    VectorDB
-    Character name.json(ex. Andrew.json)
-```
-You must put GeneralDB, VectorDB, and Character name.json.
-
-And for .json file, the format will be like:
-```sh
-{
-    "name": "",
-    "sex": "",
-    "MBTI": "",
-    "age": "",
-    "back_story": "",
-    "constraints": [],
-    "safety": [
-        "",
-        "",
-        ""
-    ]
-}
-```
-    The character is made with these traits:
-    * name: The character's name
-    * sex: The character's gender. (It works well with classic male and female, but I haven't tested it with other genders. I will test it with various genders later.)
-    * MBTI: This is the most important aspect of the character. Based on MBTI, AI will make a personality for the character.
-    * Age: Age of the Character
-    * back_story: Back story of the character. Be careful with the number of tokens. It is usually a long string.
-    * constraints: Constraints of the character
-    * safety: Safety of the character.
-
-
-
-
-* *Method 2*: Make a character file in the code
-1. Enter the new character's name
-```sh
-Character name: Jamal
-Jamal seems not to be in the Character Save folder. Do you want to make a new character, Jamal? (Y : N) : Y
-```
-If you enter a new character's name at ```Character name:```, it will ask you to make a new character. If you enter Y, it will proceed to the next step. If you enter N, it will go back to ```Character name:```
-
-2. Make a new character
-```sh
-Creating folder for character 'Jamal'...
-Successfully created folder for 'Jamal'!
-
------------------------------------------------------------------------
-Now, please enter the character's detailed information.
-Finish lists with an empty line or type END/DONE/QUIT/Q.
-The example below shows the format you will be following.
-
-Example:
-{
-    "name": "Kaelus",
-    "sex": "Male",
-    "MBTI": "INTP",
-    "age": "Unknown (Records Lost)",
-    "back_story": "I am Kaelus, the last librarian of the 'Starlight Archive,'...",
-    "constraints": [
-        "Your personality must be based on your MBTI.",
-        "You must adhere to the role of 'Kaelus' until the end, not an AI.",
-        ...
-    ],
-    "safety": [
-        "Never ask for or record personal information.",
-        "Politely refuse unethical or dangerous requests...",
-        ...
-    ]
-}
------------------------------------------------------------------------
-
-Sex:
-```
-After you enter Y, it will automatically make a new character's folder in ```CharacterSave``` folder. Then the output will be like this. 
-
-The character is made with these traits:
-* name: The character's name
-* sex: The character's gender. (It works well with classic male and female, but I haven't tested it with other genders. I will test it with various genders later.)
-* MBTI: This is the most important aspect of the character. Based on MBTI, AI will make a personality for the character.
-* Age: Age of the Character
-* back_story: Back story of the character. Be careful with the number of tokens. It is usually a long string.
-* constraints: Constraints of the character
-* safety: Safety of the character.
-
-If you want to see the example, you can translate argenti.json for reference.
-
-### *Since this is a new feature for this project, it makes a lot of errors here.* 
-
-
-#### Command
-During the chat, you can adjust the value or check a character's memory with ```-/open command```.
-
-Current commands are:
-```sh
-Here are the available commands:
-
-[Memory Commands]
-    show_memory         : Display all memory about the current character.
-    show_memory_STM     : Show the character's short-term(GDB) memory.
-    show_memory_LTM     : Show a random entry(for now) from the character's long-term memory(VDB).
-
-[Server Commands]
-    show_serverInfo     : Display the current server and model configuration.
-
-[AI Settings]
-    change_temp_or_maxtoken: Change the AI's temperature or max token settings.
-
-[General Commands]
-    help                : Show this help message.
-    exit                : Exit the command handler and return to the conversation.
-```
-
-
-## User Sequence diagram
-
-```mermaid
-flowchart TD
-
-A[Choose language between 50 languages] --> B[Choose character]
-B --> C(Does character folder exist in CharacterSave folder?)
-C -- No -->D[Character generation]
-C -- Yes --> E[Read character info]
-D --> F[Generate character class and other classes like CommandHandler, RequestHandler]
-E --> F[Generate character class and other classes like CommandHandler, RequestHandler]
-F --> G(Start local AI server using llama.cpp)
-G -- No --> H[Program crashes]
-G -- Yes --> J[Server successflly loaded]
-J --> K(Is this user's first chat?)
-K -- Yes -->L[Automatically input: introduce yourself]
-K -- No -->M[Gets input from user]
-M --> P[Request to AI local server]
-L --> P[Request to AI local server]
-P--> Q(Is language Korean?)
-Q -- Yes --> R[Show output]
-Q -- No --> S[Request to AI server again to translate output into selected language]
-S --> R
-R --> T(Does the user want to continue?)
-T -- Yes --> K
-T -- No -->U[End]
-```
+Run main.exe
 
 ## License
 
@@ -340,5 +172,3 @@ This project is distributed under the MIT License. See the ```LICENSE``` file fo
 * llama.cpp — The platform that actually runs LLM and opens the server.
 
     License: MIT.
-
-
