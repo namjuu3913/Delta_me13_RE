@@ -1,0 +1,134 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.interactionArea{
+  width: 100vw;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  background-color:darkgrey;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.interactionArea p{
+  margin: 0;
+  color: black;
+  font-size: 10px;
+}
+
+.interactionArea form{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.aiIndi{
+  text-align: left;
+  margin: 0;
+  font-style: italic;
+}
+
+.interactionArea form textarea{
+  border-radius: 20px;
+  padding: 10px;
+  margin-left: 10px;
+  max-height: 100rem;
+  line-height: 1.5em;
+  resize: none;
+  width: 86%;
+}
+
+.buttonImitation{
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  text-align: center;
+  align-content: center;
+  padding-left: 20px;
+  padding-right: 19px;
+  border-radius: 10px;
+}
+
+.backGrandScrollOverf{
+  width: 94.5vw;
+  height: 84.8  vh;
+  position: relative;
+  overflow: hidden;
+  top: 0;
+}
+
+.coverAllPosts{
+  width: 94.5vw;
+  position: relative;
+  height: 85vh;
+  padding-top: 20px;
+  overflow: scroll;
+}
+.humanSection{
+  text-align: right;
+  margin-right: 50px;
+}
+.humanSection pre{
+  border: 1px solid black;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 20px;
+  background-color:dimgrey;
+  max-width: 70%;
+  white-space: inherit;
+  word-wrap: break-word;
+}
+.AiSection{
+  text-align: left;
+}
+.AiSection pre{
+  border: 1px solid black;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 20px;
+  background-color:dimgrey;
+  max-width: 70%;
+  white-space: inherit;
+  word-wrap: break-word;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
