@@ -31,7 +31,6 @@ class requestHandler:
         except Exception as e:
             raise Exception(e.__str__())
 
-        print(system_msg)
         messages = [
                     {"role": "system", "content": system_msg},
                     {"role": "user", "content": user_input},

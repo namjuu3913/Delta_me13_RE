@@ -10,8 +10,8 @@ class ItemBase(BaseModel):
 # Start llm server
 class Item_startLLMServer(BaseModel):
     llm_model_name : str
-    mode: str
-    chat_template:str
+    mode: str = "new_console"
+    chat_template:str = "chatml"
 
 # Select Character
 class Item_loadCharacter(BaseModel):
