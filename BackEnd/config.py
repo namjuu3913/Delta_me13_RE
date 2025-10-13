@@ -3,17 +3,10 @@
 A file that manages the main settings of the application.
 Defines the path, network information, model parameters, etc. required to run the server.
 """
-
-import sys
 from pathlib import Path
 
-# BASE location
-if getattr(sys, 'frozen', False):
-    #.exe 
-    BASE_DIR = Path(sys.executable).resolve().parent
-else:
-    #.py 
-    BASE_DIR = Path(__file__).resolve().parent
+#.py 
+BASE_DIR = Path(__file__).resolve().parent
 
 # python server
 PYTHON_SERVER_CONFIG = {
@@ -31,18 +24,18 @@ LLM_SERVER_CONFIG = {
 
     # network config
     "HOST": "127.0.0.1",
-    "PORT": 8002,
+    "PORT": 8129,
 
     # model performance and parameter
     "CTX_SIZE": 8192,        # Total tokens
     "NGL": -1,               # GPU layers(-1 means put everything on gpu)
-    "ALIAS": "gpt-oss-20b",  # Alias to use to identify models in the API
+    "ALIAS": "Qwen3-14B",  # Alias to use to identify models in the API
 
     # server options
     "VERBOSE": True,         # Will it print detailed logs?
     "BATCH_SIZE": 1024,      # Batch size for prompt
     "FLASH_ATTN": True,      # Use Flash Attention or not
-    }
+}
 
 
 
