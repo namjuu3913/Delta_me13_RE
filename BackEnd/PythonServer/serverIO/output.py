@@ -34,9 +34,8 @@ class UserOut_generateCharacter(UserOutBase):
 # output of requested chat (Item_Chat)
 class UserOut_Chat(UserOutBase):
     character_name : str
-    thinking : str
-    response : str
-    etc_server: str
+    response : dict
+    everything: dict
 
 # output of server info request (Item_serverInfo)
 class UserOut_serverInfo(UserOutBase):

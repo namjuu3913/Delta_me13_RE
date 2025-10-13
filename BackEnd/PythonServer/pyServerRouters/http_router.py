@@ -180,15 +180,14 @@ def chat_with_character(user: input.Item_Chat):
     
     try:
         # result[0]: full content (goes to client) result[1]: only message (goes to character's memory) <--- not yet
-        result: List[str] = state.request_handler.sendMsg(user.chat, state.character)
+        result: List[dict] = state.request_handler.sendMsg(user.chat, state.character)
+        # character memory update
         state.character.updateMemory(result[1], user.chat)
-        #TODO seperate it into think, answer, from server
         return output.UserOut_Chat(
             is_normal = True,
             character_name=state.character.name,
-            thinking="NOT YET",
-            response=result[1],
-            etc_server=result[0]
+            response = result[0],
+            everything = result[1]
         )
 
     except Exception as e:

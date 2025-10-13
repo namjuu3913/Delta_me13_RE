@@ -1,9 +1,9 @@
 from openai import OpenAI, BadRequestError, OpenAIError
 from PythonServer.Character.Character import Character
 from pathlib import Path
-import json
 from typing import List, Any, Dict
 import config as cfg
+import re
 
 #load config
 BIN:Path        = Path(cfg.LLM_SERVER_CONFIG["BIN"])
@@ -25,7 +25,7 @@ class requestHandler:
     def __init__(self, client:OpenAI):
         self.client  = client
 
-    def sendMsg(self, user_input:str, character:Character) -> List[str]:
+    def sendMsg(self, user_input:str, character:Character) -> List[dict]:
         try:
             system_msg = self.persona_card_from_json(character.getCharJsonLLM(user_input))
         except Exception as e:
@@ -47,17 +47,33 @@ class requestHandler:
             if not r.choices or not r.choices[0].message.content:
                 raise Exception("LLM response did not contain any content.")
                 
-            #TODO seperate it into think, answer, from server
-            response_full = r
-            response_cut: str = self.cutThink(response_full.choices[0].message.content)
-            response_full = response_full.__str__()
+            llm_content = r.choices[0].message.content
+            parsed_response = self._parse_llm_response(llm_content)
             
-            return [response_full, response_cut]
+            return [parsed_response, r.model_dump()]
 
 
         except BadRequestError as e:
             body = getattr(getattr(e, "response", None), "text", None)
             raise Exception("400 from server:", body or str(e))
+        
+    def _parse_llm_response(self, content: str) -> dict:
+        """From string answer from llm, devide 'think' and 'answer'."""
+        think_content = ""
+        answer_content = ""
+
+        think_match = re.search(r'\[THINK\](.*?)\[/THINK\]', content, re.DOTALL)
+        if think_match:
+            think_content = think_match.group(1).strip()
+            content = content.replace(think_match.group(0), "").strip()
+        
+        answer_match = re.search(r'\[ANSWER\](.*?)\[/ANSWER\]', content, re.DOTALL)
+        if answer_match:
+            answer_content = answer_match.group(1).strip()
+        else:
+            answer_content = content
+
+        return {"think": think_content, "answer": answer_content}
 
     def persona_card_from_json(self, j: Dict[str, Any]) -> str:
         name = j.get("name", "unknown")
@@ -97,17 +113,4 @@ class requestHandler:
         {formatted_safety}
         """
         return reval
-    
-    def cutThink(self, text:str) -> str:
-        try:
-            end_str = "</think>"
-            end_idx = text.find(end_str) + len(end_str)
-
-            if end_idx == -1:
-                return text
-
-            return text[end_idx:]
-
-        except Exception:
-            return text    
     
