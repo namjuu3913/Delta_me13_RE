@@ -91,7 +91,7 @@ Follow these steps to set up the project environment locally. This guide covers 
 
         After download and unzip the folders, put every files in the ```BackEnd\LLMServer\llama_cpp``` folder.
 
-        ![Example:](README_ingre/llamacpp_example.jpg)
+        ![Example:](README_ingre/asdf.jpg)
 
 
 
