@@ -1,20 +1,19 @@
 from setuptools import setup
-from pybind11.setup_helpers import Pybind11Extension, build_ext
+from pybind11.setup_helpers import Pybind11Extension
 
-ext_modules = [
-    Pybind11Extension(
-        "config_dy",
-        ["config_dy.cpp"],
-    ),
-]
+ext_module = Pybind11Extension(
+    "PythonServer.Character.connectLLM.config_module",
+    
+    ["config_dy.cpp"],
+    
+    include_dirs=["../ExternalResorces"],
+    
+    language="c++",
+)
 
 setup(
-    name="pybind11-example",
+    name="config_dy", 
     version="0.0.1",
-    author="Your Name",
-    author_email="your@email.com",
-    description="A test project using pybind11",
-    ext_modules=ext_modules,
-    cmdclass={"build_ext": build_ext},
+    ext_modules=[ext_module],
     zip_safe=False,
 )

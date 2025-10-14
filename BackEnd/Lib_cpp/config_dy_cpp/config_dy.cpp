@@ -1,7 +1,7 @@
 #include <pybind11/pybind11.h>
 #include <string>
 #include <stdexcept> // std::runtime_error
-#include "../ExternalResorces/json.hpp"
+#include <json.hpp>
 
 using nlohmann::json;
 namespace py = pybind11;
