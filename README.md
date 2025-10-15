@@ -172,3 +172,7 @@ This project is distributed under the MIT License. See the ```LICENSE``` file fo
 * llama.cpp — The platform that actually runs LLM and opens the server.
 
     License: MIT.
+
+* nlohmann json.hpp - The json.hpp that makes cpp to use json files.
+
+    License: MIT.
