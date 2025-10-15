@@ -62,12 +62,14 @@ class requestHandler:
         think_content = ""
         answer_content = ""
 
-        think_match = re.search(r'\[THINK\](.*?)\[/THINK\]', content, re.DOTALL)
+        matched_result:List[str] = self._cut_based_on_llm_type()
+
+        think_match = re.search(matched_result[0], content, re.DOTALL | re.IGNORECASE)
         if think_match:
             think_content = think_match.group(1).strip()
             content = content.replace(think_match.group(0), "").strip()
         
-        answer_match = re.search(r'\[ANSWER\](.*?)\[/ANSWER\]', content, re.DOTALL)
+        answer_match = re.search(matched_result[1], content, re.DOTALL | re.IGNORECASE)
         if answer_match:
             answer_content = answer_match.group(1).strip()
         else:
@@ -114,3 +116,19 @@ class requestHandler:
         """
         return reval
     
+    def _cut_based_on_llm_type(self)-> List[str]:
+        model_patterns = {
+            "Qwen3": [r'<think>(.*?)</think>', r'<answer>(.*?)</answer>'],
+            "Llama3": [r'\[THINK\](.*?)\[/THINK\]', r'\[ANSWER\](.*?)\[/ANSWER\]'],
+            # add other patterns here
+            
+        }
+
+        # Find the keywords in ALIAS and return
+        for keyword, patterns in model_patterns.items():
+            if keyword in ALIAS:
+                return patterns
+                
+        # default
+        default_patterns = [r'<think>(.*?)</think>', r'<answer>(.*?)</answer>']
+        return default_patterns

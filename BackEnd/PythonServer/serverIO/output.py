@@ -17,8 +17,13 @@ class UserOut_error(UserOutBase):
 class UserOut_startLLMResponse(UserOutBase):
     is_LLM_server_started: bool
     llm_server_info: dict
+# output of stop_llm_server
+class UserOut_stopLLMResponse(UserOutBase):
+    is_normal:bool
+    is_LLM_server_stopped:bool
+    detail:str
 
-# output of show_saved_character(ItemBase)
+# output of show_saved_character
 class UserOut_showSavedCharacter(UserOutBase):
     Characters: list[dict]
 

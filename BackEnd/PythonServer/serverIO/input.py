@@ -1,4 +1,3 @@
-import sys, platform
 from pydantic import BaseModel
 from typing import List, Dict, Any
 # json input

@@ -1,9 +1,0 @@
-README.md
-config_dy.cpp
-pyproject.toml
-setup.py
-config_dy.egg-info/PKG-INFO
-config_dy.egg-info/SOURCES.txt
-config_dy.egg-info/dependency_links.txt
-config_dy.egg-info/not-zip-safe
-config_dy.egg-info/top_level.txt

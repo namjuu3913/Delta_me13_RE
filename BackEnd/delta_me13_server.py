@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from contextlib import asynccontextmanager
-from PythonServer.Global import state  # 2단계에서 만든 state 모듈 임포트
+from PythonServer.Global import state
 from PythonServer.pyServerRouters import http_router
 
 @asynccontextmanager
