@@ -8,6 +8,12 @@ from pathlib import Path
 #.py 
 BASE_DIR = Path(__file__).resolve().parent
 
+# Fixed config
+FIXED_CONFIG = {
+    "BIN": BASE_DIR / "LLMServer" / "llama_cpp" / "llama-server.exe",
+    "HOST": "127.0.0.1",
+}
+
 # python server
 PYTHON_SERVER_CONFIG = {
     # name
@@ -29,7 +35,7 @@ LLM_SERVER_CONFIG = {
     # model performance and parameter
     "CTX_SIZE": 8192,        # Total tokens
     "NGL": -1,               # GPU layers(-1 means put everything on gpu)
-    "ALIAS": "Qwen3-14B",  # Alias to use to identify models in the API
+    "ALIAS": "Qwen3-14B",    # Alias to use to identify models in the API
 
     # server options
     "VERBOSE": True,         # Will it print detailed logs?
