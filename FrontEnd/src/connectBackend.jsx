@@ -1,8 +1,10 @@
 import { useState } from "react";
-import { useNavigate, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+import "./App.css"
 export default function Connecting({setErr}){
     const navigate = useNavigate();
-    const [currentInfo, setInfo] = useState("")
+    // const [currentInfo, setInfo] = useState("")
+    const [userInp, setInp] = useState("")
 
     const navigatingError=()=>{
         navigate('/error')
@@ -14,34 +16,42 @@ export default function Connecting({setErr}){
     
     const newAiCall = async ()=>{
         try{
-        const addData = await fetch(`${api}/chat_with_character/`, {
+        const addData = await fetch(`${api}/start_llm_server/`, {
             method: "POST",
             headers:{"Content-Type": "application/json"},
             body: JSON.stringify({
-                "mode": "???",
-                "chat_template":"???"
+                "user_name": `${userInp}`,
+                "llm_model_name": "string",
+                "mode": "new_console",
+                "chat_template":"chatml"
             })
         }
         )
         let newData = addData.json();
         //since its always true, i just gonna add this for decoration .-.
         if(newData.is_LLM_server_started){
-            setInfo(newData.llm_server_info)
+            // setInfo("Success")
             const das = setInterval(()=>{navigatingNext(), clearInterval(das)}, 5000)
         }else{
             setErr(e.llm_server_info)
         }
         }catch(e){
             setErr(e.llm_server_info)
+            console.log(e)
             navigatingError()
         }
     }
     return(
-        <div>
-            {(currentInfo=="")?(
-                <button onSubmit={newAiCall} >Connect to AI now</button>
-            ):(<pre>{currentInfo}</pre>)
-            }
+        <div className="backGrandScrollOverf">
+            <div className="allignForm">
+                <form onSubmit={newAiCall}>
+                    <pre>Enter your name, AI hope to know more about
+                        your private information 🥰🥰🥰
+                    </pre>
+                    <input type="text" value={userInp} onChange={setInp}></input>
+                    <button type="submit">Connect to AI now</button>
+                </form>
+            </div>
         </div>
     )
 }
