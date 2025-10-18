@@ -33,7 +33,7 @@ export default function Connecting({setErr}){
             // setInfo("Success")
             const das = setInterval(()=>{navigatingNext(), clearInterval(das)}, 5000)
         }else{
-            setErr(e.llm_server_info)
+            setErr(e.llm_server_info);
         }
         }catch(e){
             setErr(e.llm_server_info)
