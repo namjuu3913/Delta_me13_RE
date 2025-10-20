@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./App.css"
 export default function Connecting({setErr}){
+    const api = import.meta.env.VITE_API_URL;
     const navigate = useNavigate();
     // const [currentInfo, setInfo] = useState("")
     const [userInp, setInp] = useState("")
@@ -27,7 +28,7 @@ export default function Connecting({setErr}){
             })
         }
         )
-        let newData = addData.json();
+        let newData = await addData.json();
         //since its always true, i just gonna add this for decoration .-.
         if(newData.is_LLM_server_started){
             // setInfo("Success")
