@@ -12,7 +12,7 @@ export default function Connecting({setErr}){
     }  
     
     const navigatingNext=()=>{
-        navigate('/charDesign')
+        navigate('/charDesignEvery')
     }  
     
     const newAiCall = async ()=>{

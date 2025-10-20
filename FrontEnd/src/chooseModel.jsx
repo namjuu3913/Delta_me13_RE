@@ -1,15 +1,16 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import SetMbti from "./setMbti";
 
 export default function InformationNew(){
     const api = import.meta.env.VITE_API_URL;
+    const [check1, checkLock1] = useState([])
+    const [check2, checkLock2] = useState([])
     //all availble char
     const [characters, setCharacters] = useState([])
     //pick the char
     const [chosenChar, setChoosenChar] = useState("")
     const [chosenFile, setChoosenFile] = useState("")
-    //set MBTI
-    // const [mbti, setmbti] = useState("")
     //eror handler
     const [theError, setErr] = useState("")
     const navigating = useNavigate();
@@ -21,6 +22,7 @@ export default function InformationNew(){
                 if (!listOfChar.ok) {alert("Failed to fetch characters"); return};
                 let getList = await listOfChar.json();
                 setCharacters(getList.Characters)
+                setErr(e.message||getList.error_detail||"No character found")
             }catch(e){
                 setErr(e.message||"No character found")
             }
@@ -38,31 +40,27 @@ export default function InformationNew(){
                 },
                 body: JSON.stringify({"user_name": chosenChar,"character_file_name": chosenFile})
             })
-            let res = await changeCharac.json()
-            if(changeCharac.ok)alert("Character finish")
+            let res
+            if(changeCharac.ok){
+                res = await changeCharac.json()
+                if(res.is_normal&&res.is_char_exists)
+                    checkLock2(true)
+            }
             if(!changeCharac.ok)setErr(res.error_detail||"Failed to load")
         }catch(e){
             setErr(e.message||"Error occured in making character")
         }
     }
 
-    // const setMBTI = async ()=>{
-    //     try{
-    //         const changeCharac = await fetch(`${api}change_character_personality/`, {
-    //             method: PATCH,
-    //             headers: {
-    //                 "Content-Type": "application/json"
-    //             },
-    //             body: {"user_name": chosenChar,"MBTI_to": mbti}
-    //         })
-    //         if(changeCharac.ok)alert("Character finish")
-    //     }catch(e){
-    //         setErr(e.error_detail)
-    //     }
-    // }
+    //navigate next step for generating character
+    useEffect(()=>{
+        if(check1&&check2)
+            navigating("/chatNow")
+    }, [check2, check1])
 
     return(
         <div>
+            {(theError=="")?(""):(<p>theError</p>)}
             <form onSubmit={putChar}>
                 <label>
                     What's your name?
@@ -76,6 +74,7 @@ export default function InformationNew(){
                 </select>
                 <button type="submit">Submit here</button>
             </form>
+            <SetMbti checkLock1={checkLock1} setErr={setErr} chosenChar={chosenChar} />
         </div>
     )
 
