@@ -7,7 +7,7 @@ import InputPButton from "./components/postReqPart"
 
 function Home() {
   //if %2==0 then white, !=0 is grey
-  const api = import.meta.env.VITE_API_URL;
+  // const api = import.meta.env.VITE_API_URL;
   const [disable, setDis] = useState(false);
   const [messages, setMessages] = useState([])
   const [loading, setLoad] = useState(false)
@@ -17,7 +17,7 @@ function Home() {
         let functionCall = async ()=>{
             // let currentMessage = {messages: user, sender: "User"}
             // setMessages(prev => [...prev, currentMessage])
-            const addData = await fetch(`${api}/chat_with_character/`, {
+            const addData = await fetch(`http://127.0.0.1:8000/chat_with_character/`, {
                 method: "POST",
                 headers:{"Content-Type": "application/json"},
                 body: JSON.stringify({"chat":messages})

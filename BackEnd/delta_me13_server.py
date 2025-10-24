@@ -1,3 +1,8 @@
+import sys, os
+
+PROJECT_ROOT = os.path.dirname(os.path.abspath(os.path.dirname(__file__)))
+sys.path.append(PROJECT_ROOT)
+
 from fastapi import FastAPI
 from contextlib import asynccontextmanager
 from PythonServer.Global import state

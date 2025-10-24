@@ -3,7 +3,8 @@ import { useNavigate } from "react-router-dom";
 import SetMbti from "./setMbti";
 
 export default function InformationNew(){
-    const api = import.meta.env.VITE_API_URL;
+    //add later
+    // const api = import.meta.env.VITE_API_URL;
     const [check1, checkLock1] = useState([])
     const [check2, checkLock2] = useState([])
     //all availble char
@@ -18,7 +19,7 @@ export default function InformationNew(){
     useEffect(()=>{
         const callSync=async ()=>{
             try{
-                const listOfChar = await fetch(`${api}show_saved_characters/`)
+                const listOfChar = await fetch(`http://127.0.0.1:8000/show_saved_characters/`)
                 if (!listOfChar.ok) {alert("Failed to fetch characters"); return};
                 let getList = await listOfChar.json();
                 setCharacters(getList.Characters)
