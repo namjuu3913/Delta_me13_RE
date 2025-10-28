@@ -16,3 +16,4 @@ LLMServer/models/*
 #sentence transformer
 PythonServer/Character/models/
 
+Config/LLMServer

@@ -1,0 +1,17 @@
+{
+    "user_name": "string",
+    "file_name": "string",
+    "name": "string",
+    "sex": "string",
+    "MBTI": "string",
+    "age": "string",
+    "back_story": [
+        "string"
+    ],
+    "constraints": [
+        "string"
+    ],
+    "safety": [
+        "string"
+    ]
+}
