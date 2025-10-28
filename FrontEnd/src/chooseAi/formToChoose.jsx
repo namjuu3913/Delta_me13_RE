@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Navigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 export default function FormChoose({userInp}){
     // const api = import.meta.env.VITE_API_URL;
@@ -7,7 +7,7 @@ export default function FormChoose({userInp}){
     const [error, setError] = useState("");
     const [choosenChar, setChar] = useState();
     const [abstract, setAbs] = useState("");
-    const navigating = Navigate;
+    const navigating = useNavigate();
 
     const [loading, setLoad] = useState(false)
 
@@ -32,22 +32,22 @@ export default function FormChoose({userInp}){
         try{
             setLoad(true);
             e.preventDefault();
-            let changeChar = choosenChar;
-            changeChar["user_name"]=userInp;
-            changeChar["is_this_char_target"]=true;
-            const res = await fetch(`http://127.0.0.1:8000/generate_character/`, {
-                method: "POST",
+            // let changeChar = choosenChar;
+            // changeChar["user_name"]=userInp;
+            // changeChar["is_this_char_target"]=true;
+            const res = await fetch(`http://127.0.0.1:8000/load_character/`, {
+                method: "PUT",
                 headers:{
                     "Content-Type":"application/json"
                 },
-                body: JSON.stringify(changeChar)
+                body: JSON.stringify({"character_file_name":abstract})
             })
             if(!res.ok){alert("Something is wrong"); setLoad(false)}
 
             const catching = await res.json();
 
             if(catching.is_normal){
-                if(catching.is_generated)
+                if(catching.is_char_exists)
                     navigating("/chatNow")
             }            
         }catch(e){

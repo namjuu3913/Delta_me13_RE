@@ -26,7 +26,8 @@ PYTHON_SERVER_CONFIG = {
 LLM_SERVER_CONFIG = {
     # model and llama.cpp location
     "BIN": BASE_DIR / "LLMServer" / "llama_cpp" / "llama-server.exe",
-    "MODEL": BASE_DIR/ "LLMServer" / "models" / "Qwen3-14B-Q4_K_M.gguf",
+    # "MODEL": BASE_DIR/ "LLMServer" / "models" / "Qwen3-14B-Q4_K_M.gguf",
+    "MODEL": BASE_DIR/ "LLMServer" / "models" / "Qwen3-0.6B-Q8_0.gguf",
 
     # network config
     "HOST": "127.0.0.1",

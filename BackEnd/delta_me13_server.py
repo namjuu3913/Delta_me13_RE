@@ -8,6 +8,7 @@ from contextlib import asynccontextmanager
 from PythonServer.Global import state
 from PythonServer.pyServerRouters import http_router
 import subprocess
+from fastapi.middleware.cors import CORSMiddleware
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
@@ -24,6 +25,22 @@ async def lifespan(app: FastAPI):
     
 # FastAPI instance
 app = FastAPI(lifespan=lifespan)
+
+allows = [
+    "http://localhost:5173",
+    "http://localhost:5173/",
+    "http://localhost:5173/chatNow",
+    "http://localhost:5173/charDesignEvery",
+    "http://127.0.0.1:8000"
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=allows,
+    allow_credentials=False,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 # http router
 app.include_router(http_router.router)

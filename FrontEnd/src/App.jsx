@@ -14,7 +14,7 @@ function App() {
     <>
     <Routes>
       <Route path='/' element={<Connecting error={error} setInp={setInp} userInp={userInp} setErr={setErr} />} />
-      <Route path='/chatNow' element={<Home setErr={setErr} />} />
+      <Route path='/chatNow' element={<Home userInp={userInp} setErr={setErr} />} />
       <Route path='/charDesignEvery' element={<FormChoose userInp={userInp} />} />
       <Route path='/error' element={<ErrorDisplay error={error} />} />
     </Routes>
