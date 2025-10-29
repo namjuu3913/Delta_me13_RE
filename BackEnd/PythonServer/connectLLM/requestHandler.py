@@ -1,4 +1,4 @@
-from openai import OpenAI, BadRequestError, OpenAIError
+from openai import AsyncOpenAI, BadRequestError, OpenAIError
 from PythonServer.Character.Character import Character
 from pathlib import Path
 from typing import List, Any, Dict
@@ -18,14 +18,14 @@ BATCH_SIZE:int  = cfg.LLM_SERVER_CONFIG["BATCH_SIZE"]
 FLASH_ATTN:bool = cfg.LLM_SERVER_CONFIG["FLASH_ATTN"]
 
 class requestHandler:
-    client : OpenAI
+    client : AsyncOpenAI
     temperature:float = 0.9
     max_tokens:int = 2000
 
-    def __init__(self, client:OpenAI):
+    def __init__(self, client:AsyncOpenAI):
         self.client  = client
 
-    def sendMsg(self, user_input:str, character:Character) -> List[dict]:
+    async def sendMsg(self, user_input:str, character:Character) -> List[dict]:
         try:
             system_msg = self.persona_card_from_json(character.getCharJsonLLM(user_input))
         except Exception as e:
@@ -37,7 +37,7 @@ class requestHandler:
                 ]
         
         try:
-            r = self.client.chat.completions.create(
+            r = await self.client.chat.completions.create(
                 model = ALIAS,
                 messages = messages,
                 temperature = self.temperature,
