@@ -3,7 +3,7 @@ from typing import Union, List
 from PythonServer.serverIO import input, output
 from PythonServer.connectLLM import startServer as serverLauncher
 from PythonServer.Character.Character import Character
-import BackEnd.Config.config as cfg
+import Config.config as cfg
 import subprocess, platform, signal, os
 from PythonServer.Global import state
 

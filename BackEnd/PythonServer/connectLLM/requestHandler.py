@@ -2,7 +2,7 @@ from openai import OpenAI, BadRequestError, OpenAIError
 from PythonServer.Character.Character import Character
 from pathlib import Path
 from typing import List, Any, Dict
-import BackEnd.Config.config as cfg
+import Config.config as cfg
 import re
 
 #load config

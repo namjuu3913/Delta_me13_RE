@@ -1,7 +1,7 @@
 ﻿# Server/startServer.py
 import subprocess, sys, time, json, http.client, socket, threading
 from pathlib import Path
-import BackEnd.Config.config as cfg
+import Config.config as cfg
 
 #mostly written by vibe coding(I don't know about server yet)
 
