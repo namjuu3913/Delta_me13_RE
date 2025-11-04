@@ -5,11 +5,12 @@ import ApiPost from "./components/listAllMessages"
 import './App.css'
 import InputPButton from "./components/postReqPart"
 
-function Home() {
+function Home({userInp}) {
   //if %2==0 then white, !=0 is grey
-  const api = import.meta.env.VITE_API_URL;
+  // const api = import.meta.env.VITE_API_URL;
   const [disable, setDis] = useState(false);
   const [messages, setMessages] = useState([])
+  const [userMessages, makeMess] = useState([])
   const [loading, setLoad] = useState(false)
 
     useEffect(()=>{
@@ -17,17 +18,17 @@ function Home() {
         let functionCall = async ()=>{
             // let currentMessage = {messages: user, sender: "User"}
             // setMessages(prev => [...prev, currentMessage])
-            const addData = await fetch(`${api}/chat_with_character/`, {
+            const addData = await fetch(`http://127.0.0.1:8000/chat_with_character/`, {
                 method: "POST",
                 headers:{"Content-Type": "application/json"},
-                body: JSON.stringify({"chat":messages})
+                body: JSON.stringify({"user_name": userInp, "chat":messages[messages.length-1].messages})
             })
 
             let checkIn = await addData.json();
             let aiForm
             if(checkIn.is_normal){
               try{
-                aiForm = {messages: checkIn.response, sender: "AI"}
+                aiForm = {messages: checkIn.response.answer, sender: "AI"}
                 //add new message in
                 setLoad(false)
                 setMessages(prev=>[...prev, aiForm])
@@ -41,7 +42,7 @@ function Home() {
             }
         }
         functionCall()
-    }, [messages])
+    }, [userMessages])
 
     // useEffect(()=>{
     //     if(messages.length==0) return;
@@ -61,7 +62,7 @@ function Home() {
           <ApiPost posts={messages} />
           {(loading)?(<h3 className='AiSection'><i>Loading</i></h3>):("")}
       </div>
-      <InputPButton loading={loading} disable={disable} setDis={setDis} setLoad={setLoad} setUserMessages={setMessages} />
+      <InputPButton makeMess={makeMess} loading={loading} disable={disable} setDis={setDis} setLoad={setLoad} setUserMessages={setMessages} />
     </div>
   )
 }

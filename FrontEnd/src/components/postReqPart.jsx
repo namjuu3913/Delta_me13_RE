@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import "../App.css"
 
-export default function InputPButton({loading, setLoad, setUserMessages, disable, setDis}){
+export default function InputPButton({loading, makeMess, setLoad, setUserMessages, disable, setDis}){
     const [currentMessage, setMessage] = useState("");
     useEffect(()=>{
         if(currentMessage.length==0)
@@ -16,6 +16,7 @@ export default function InputPButton({loading, setLoad, setUserMessages, disable
         setLoad(true)
         let currentUserPOst = {messages: currentMessage, sender: "User"}
         setUserMessages(prev => [...prev, currentUserPOst])
+        makeMess(prev => [...prev, currentUserPOst])
         setMessage("")
         // setUserMessages(currentMessage);
     }

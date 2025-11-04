@@ -110,6 +110,10 @@
   word-wrap: break-word;
 }
 
+.findItems{
+  border: 1px solid black;
+}
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
