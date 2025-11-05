@@ -1,4 +1,4 @@
-from openai import OpenAI
+from openai import AsyncOpenAI
 from typing import Optional
 import subprocess
 from PythonServer.Character.Character import Character
@@ -14,4 +14,4 @@ llm_controller: Optional[subprocess.Popen] = None
 # character
 character: Optional[Character] = None
 # llm server client
-client_to_LLM: Optional[OpenAI] = None
+client_to_LLM: Optional[AsyncOpenAI] = None

@@ -3,7 +3,7 @@ from typing import Union, List
 from PythonServer.serverIO import input, output
 from PythonServer.connectLLM import startServer as serverLauncher
 from PythonServer.Character.Character import Character
-import Config.config as cfg
+import BackEnd.Config.config as cfg
 import subprocess, platform, signal, os
 from PythonServer.Global import state
 
@@ -28,7 +28,7 @@ def start_llm_server(user: input.Item_startLLMServer):
         state.llm_controller = serverLauncher.startServer(mode = user.mode, chat_template = user.chat_template)
         state.llm_server_flag = True
         #TODO this seems messy --> needs to fix config
-        state.client_to_LLM = state.OpenAI(base_url=f"http://{cfg.LLM_SERVER_CONFIG['HOST']}:{cfg.LLM_SERVER_CONFIG['PORT']}/v1", api_key="sk-no-key-needed")
+        state.client_to_LLM = state.AsyncOpenAI(base_url=f"http://{cfg.LLM_SERVER_CONFIG['HOST']}:{cfg.LLM_SERVER_CONFIG['PORT']}/v1", api_key="sk-no-key-needed")
         state.request_handler = state.requestHandler(state.client_to_LLM)
 
         #TODO add command_handler
@@ -73,21 +73,21 @@ def stop_llm_server():
 
     try:
         print("--- Shutting down LLM server... ---")
-        
-        # 2. call terminate method from controller class
+        pid_to_kill = state.llm_controller.pid
+        # call terminate method from controller class
         if platform.system() == "Windows":
             # Windows: taskkill
             subprocess.run(
-                ["taskkill", "/F", "/T", "/PID", str(state.llm_controller.pid)],
+                ["taskkill", "/F", "/T", "/PID", str(pid_to_kill)],
                 check=True
             )
             print("--- Server process tree terminated via taskkill. ---")
         else:
-            # Linux/macOS:terminate
-            os.killpg(os.getpgid(state.llm_controller.pid), signal.SIGTERM)
-            print("--- Server process group terminated via os.killpg. ---")
+            # Linux/macOS: os.kill
+            os.kill(pid_to_kill, signal.SIGTERM)
+            print(f"--- Sent SIGTERM to PID {pid_to_kill}. ---")
         
-        # 4. initialize server variables
+        # initialize server variables
         state.llm_server_flag = False
         state.llm_controller = None
         state.client_to_LLM = None
@@ -220,7 +220,7 @@ def generate_character(user: input.Item_generateCharacter):
     
 # Chat    
 @router.post("/chat_with_character/", response_model = Union[output.UserOut_Chat, output.UserOut_error])
-def chat_with_character(user: input.Item_Chat):
+async def chat_with_character(user: input.Item_Chat):
     # check character is loaded
     if(state.character == None):
         return output.UserOut_error(
@@ -240,7 +240,7 @@ def chat_with_character(user: input.Item_Chat):
     
     try:
         # result[0]: full content (goes to client) result[1]: only message (goes to character's memory) <--- not yet
-        result: List[dict] = state.request_handler.sendMsg(user.chat, state.character)
+        result: List[dict] = await state.request_handler.sendMsg(user.chat, state.character)
         # character memory update
         state.character.updateMemory(result[0]["answer"], user.chat)
         return output.UserOut_Chat(
@@ -251,6 +251,10 @@ def chat_with_character(user: input.Item_Chat):
         )
 
     except Exception as e:
+        print(f"!!! ERROR in chat_with_character: {e}") 
+        import traceback
+        traceback.print_exc()
+        
         return output.UserOut_error(
             error_location="Error from chat_with_character in delta_me13_server.py",
             error_detail=e.__str__()

@@ -3,10 +3,14 @@ import subprocess, sys, time, json, http.client, socket, threading
 from pathlib import Path
 import Config.config as cfg
 
-#mostly written by vibe coding(I don't know about server yet)
+#mostly written by vibe coding
 
 #load config
 BIN:Path        = Path(cfg.LLM_SERVER_CONFIG["BIN"])
+# if it is Linux/MacOS, it will trim .exe <--- very dangerous
+if sys.platform != "win32":
+    BIN = BIN.with_suffix('')
+
 MODEL:Path      = Path(cfg.LLM_SERVER_CONFIG["MODEL"])
 ALIAS:str       = cfg.LLM_SERVER_CONFIG["ALIAS"]
 HOST:str        = cfg.LLM_SERVER_CONFIG["HOST"] 

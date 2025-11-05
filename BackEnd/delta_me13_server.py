@@ -17,11 +17,29 @@ async def lifespan(app: FastAPI):
     
     yield # From here, FastAPI's application starts
     
-    # This code will be started after server ends
-    subprocess.run(
-                ["taskkill", "/F", "/T", "/PID", str(state.llm_controller.pid)],
-                check=True
+    print(f"Shutting down LLM controller (PID: {state.llm_controller.pid})...")
+    
+    pid_to_kill = state.llm_controller.pid
+    
+    try:
+        if sys.platform == "win32":
+            # Windows: taskkill 
+            subprocess.run(
+                ["taskkill", "/F", "/T", "/PID", str(pid_to_kill)],
+                check=True,
+                capture_output=True, # prevent log to mess up terminal
+                text=True
             )
+            print(f"Successfully sent taskkill to PID {pid_to_kill}")
+            
+        else:
+            # Linux / macOS: os.kill 
+            # signal.SIGKILL == taskkill
+            os.kill(pid_to_kill, signal.SIGKILL)
+            print(f"Successfully sent SIGKILL to PID {pid_to_kill}")
+
+    except Exception as e:
+        print(f"Error while trying to kill process {pid_to_kill}: {e}")
     
 # FastAPI instance
 app = FastAPI(lifespan=lifespan)

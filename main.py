@@ -1,4 +1,5 @@
-import sys, time, webbrowser, os
+import sys, time, webbrowser
+import subprocess
 from pathlib import Path
 
 def get_base_path():
@@ -7,31 +8,59 @@ def get_base_path():
     else:
         return Path(__file__).resolve().parent
 
+# is it windows? --> if it is windows = True
+is_windows = sys.platform == "win32"
+# path
 base_path = get_base_path()
-server_path = base_path / "BackEnd" / "delta_me13_server.py"
+backend_dir = base_path / "BackEnd"
+frontend_dir = base_path / "FrontEnd"
+server_path = backend_dir / "delta_me13_server.py"
 
 if not server_path.exists():
     sys.exit(f"Failed to find backend server: {server_path}")
 
-backend_dir = base_path / "BackEnd"
-frontend_dir = base_path / "FrontEnd"
+# os check
+venv_path = base_path / ".venv"
 
-python_exe_path = base_path / ".venv" / "Scripts" / "python.exe"
+if is_windows:
+    #windows
+    python_exe = venv_path / "Scripts" / "python.exe"
+    npm_cmd = "npm.cmd"
 
-if not python_exe_path.exists():
-    sys.exit(f"Failed to find Python executable in virtual environment: {python_exe_path}")
+else:
+    # Linux, MacOS
+    python_exe = venv_path / "bin" / "python"
+    npm_cmd = "npm"
 
-cmd_back_end = (
-    f'start "BackEnd Server" /D "{backend_dir}" '
-    f'"{python_exe_path}" -m uvicorn delta_me13_server:app --reload'
-)
+if not python_exe.exists():
+    sys.exit(f"Failed to find Python executable in virtual environment: {python_exe}")
 
+# build a command line for each os
+cmd_back_end = [
+    str(python_exe),  # Path -> str
+    "-m", "uvicorn",
+    "delta_me13_server:app",
+    "--reload"
+]
 
-cmd_front_end = f'start "FrontEnd" /D "{frontend_dir}" cmd /k "npm run dev"'
+cmd_front_end = [
+    npm_cmd,
+    "run",
+    "dev"
+]
+
 
 print("Starting BackEnd and FrontEnd servers...")
-os.system(cmd_back_end)
-os.system(cmd_front_end)
+
+back_process = subprocess.Popen(
+    cmd_back_end,
+    cwd=backend_dir
+)
+front_process = subprocess.Popen(
+    cmd_front_end,
+    cwd=frontend_dir,
+    shell=is_windows  
+)
 
 print("Waiting for servers to start...")
 time.sleep(5)
