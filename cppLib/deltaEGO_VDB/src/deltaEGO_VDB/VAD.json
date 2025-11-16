@@ -1,0 +1,9206 @@
+[
+    {
+        "term": "abandonment",
+        "valence": -0.744,
+        "arousal": -0.14,
+        "dominance": -0.596
+    },
+    {
+        "term": "abased",
+        "valence": -1.0,
+        "arousal": -0.667,
+        "dominance": -0.917
+    },
+    {
+        "term": "abasement",
+        "valence": -1.0,
+        "arousal": -0.333,
+        "dominance": -0.958
+    },
+    {
+        "term": "abash",
+        "valence": -0.667,
+        "arousal": -0.667,
+        "dominance": -0.833
+    },
+    {
+        "term": "abashed",
+        "valence": -0.646,
+        "arousal": 0.288,
+        "dominance": -0.386
+    },
+    {
+        "term": "abashment",
+        "valence": -0.815,
+        "arousal": -0.519,
+        "dominance": -0.778
+    },
+    {
+        "term": "abhorrence",
+        "valence": -0.666,
+        "arousal": 0.368,
+        "dominance": -0.16
+    },
+    {
+        "term": "abhorrent",
+        "valence": -0.542,
+        "arousal": 0.5,
+        "dominance": -0.052
+    },
+    {
+        "term": "abhorring",
+        "valence": -1.0,
+        "arousal": 0.704,
+        "dominance": 0.833
+    },
+    {
+        "term": "abjection",
+        "valence": -1.0,
+        "arousal": -0.667,
+        "dominance": -0.952
+    },
+    {
+        "term": "abominate",
+        "valence": -0.604,
+        "arousal": 0.576,
+        "dominance": -0.268
+    },
+    {
+        "term": "acceptance",
+        "valence": 0.666,
+        "arousal": -0.426,
+        "dominance": 0.51
+    },
+    {
+        "term": "accomplished",
+        "valence": 0.74,
+        "arousal": 0.04,
+        "dominance": 0.596
+    },
+    {
+        "term": "ache for",
+        "valence": -0.032,
+        "arousal": 0.188,
+        "dominance": -0.296
+    },
+    {
+        "term": "acrimonious",
+        "valence": -1.0,
+        "arousal": 0.714,
+        "dominance": 0.583
+    },
+    {
+        "term": "acrimoniousness",
+        "valence": -1.0,
+        "arousal": 0.917,
+        "dominance": -0.556
+    },
+    {
+        "term": "acrimony",
+        "valence": -1.0,
+        "arousal": 0.667,
+        "dominance": -0.292
+    },
+    {
+        "term": "admiration",
+        "valence": 0.938,
+        "arousal": 0.166,
+        "dominance": 0.452
+    },
+    {
+        "term": "admired",
+        "valence": 0.834,
+        "arousal": 0.12,
+        "dominance": 0.63
+    },
+    {
+        "term": "admiring",
+        "valence": 0.734,
+        "arousal": 0.156,
+        "dominance": 0.258
+    },
+    {
+        "term": "adoration",
+        "valence": 0.77,
+        "arousal": 0.398,
+        "dominance": 0.416
+    },
+    {
+        "term": "adore",
+        "valence": 0.708,
+        "arousal": -0.124,
+        "dominance": 0.314
+    },
+    {
+        "term": "adored",
+        "valence": 1.0,
+        "arousal": -0.667,
+        "dominance": -0.148
+    },
+    {
+        "term": "adoring",
+        "valence": 0.77,
+        "arousal": 0.24,
+        "dominance": 0.434
+    },
+    {
+        "term": "aerophobia",
+        "valence": -0.667,
+        "arousal": 0.75,
+        "dominance": -0.875
+    },
+    {
+        "term": "affection",
+        "valence": 0.796,
+        "arousal": 0.118,
+        "dominance": 0.392
+    },
+    {
+        "term": "affectionate",
+        "valence": 0.898,
+        "arousal": -0.156,
+        "dominance": 0.1
+    },
+    {
+        "term": "affections",
+        "valence": 0.52,
+        "arousal": 0.094,
+        "dominance": 0.31
+    },
+    {
+        "term": "afflicted",
+        "valence": -0.458,
+        "arousal": 0.0,
+        "dominance": -0.666
+    },
+    {
+        "term": "afflictive",
+        "valence": -0.75,
+        "arousal": -0.667,
+        "dominance": -0.619
+    },
+    {
+        "term": "affronted",
+        "valence": -0.23,
+        "arousal": 0.5,
+        "dominance": 0.054
+    },
+    {
+        "term": "aflutter",
+        "valence": 0.333,
+        "arousal": 1.0,
+        "dominance": -0.5
+    },
+    {
+        "term": "afraid",
+        "valence": -0.977,
+        "arousal": 0.352,
+        "dominance": -0.529
+    },
+    {
+        "term": "aggravated",
+        "valence": -0.842,
+        "arousal": 0.52,
+        "dominance": -0.14
+    },
+    {
+        "term": "aggravation",
+        "valence": -0.858,
+        "arousal": 0.568,
+        "dominance": 0.226
+    },
+    {
+        "term": "aggression",
+        "valence": -0.812,
+        "arousal": 0.858,
+        "dominance": 0.066
+    },
+    {
+        "term": "aggressive",
+        "valence": -0.75,
+        "arousal": 0.898,
+        "dominance": 0.296
+    },
+    {
+        "term": "aggressiveness",
+        "valence": -0.846,
+        "arousal": 0.826,
+        "dominance": 0.296
+    },
+    {
+        "term": "aggrieve",
+        "valence": -0.667,
+        "arousal": 0.667,
+        "dominance": -0.5
+    },
+    {
+        "term": "aggrieved",
+        "valence": -0.667,
+        "arousal": 0.042,
+        "dominance": -0.625
+    },
+    {
+        "term": "aggrievedly",
+        "valence": -0.667,
+        "arousal": 0.611,
+        "dominance": -0.611
+    },
+    {
+        "term": "aghast",
+        "valence": -0.734,
+        "arousal": 0.73,
+        "dominance": -0.072
+    },
+    {
+        "term": "agitate",
+        "valence": -0.4,
+        "arousal": 0.592,
+        "dominance": 0.186
+    },
+    {
+        "term": "agitated",
+        "valence": -0.112,
+        "arousal": 0.764,
+        "dominance": -0.018
+    },
+    {
+        "term": "agitation",
+        "valence": -0.52,
+        "arousal": 0.862,
+        "dominance": -0.106
+    },
+    {
+        "term": "agog",
+        "valence": 0.708,
+        "arousal": 1.0,
+        "dominance": 0.407
+    },
+    {
+        "term": "agonize",
+        "valence": -0.667,
+        "arousal": 1.0,
+        "dominance": -0.619
+    },
+    {
+        "term": "agonizing",
+        "valence": -0.834,
+        "arousal": 0.6,
+        "dominance": -0.32
+    },
+    {
+        "term": "agony",
+        "valence": -0.834,
+        "arousal": 0.55,
+        "dominance": -0.214
+    },
+    {
+        "term": "agressive",
+        "valence": -0.834,
+        "arousal": 0.836,
+        "dominance": 0.502
+    },
+    {
+        "term": "alarm",
+        "valence": -0.518,
+        "arousal": 0.764,
+        "dominance": 0.396
+    },
+    {
+        "term": "alarmed",
+        "valence": -0.624,
+        "arousal": 0.644,
+        "dominance": -0.016
+    },
+    {
+        "term": "alienated",
+        "valence": -0.18,
+        "arousal": -0.154,
+        "dominance": 0.118
+    },
+    {
+        "term": "alienation",
+        "valence": -0.244,
+        "arousal": 0.06,
+        "dominance": -0.255
+    },
+    {
+        "term": "amazed",
+        "valence": 0.592,
+        "arousal": 0.558,
+        "dominance": 0.066
+    },
+    {
+        "term": "amazedness",
+        "valence": 0.654,
+        "arousal": 0.744,
+        "dominance": 0.02
+    },
+    {
+        "term": "amazement",
+        "valence": 0.5,
+        "arousal": 0.6,
+        "dominance": 0.278
+    },
+    {
+        "term": "ambivalence",
+        "valence": -0.417,
+        "arousal": -0.667,
+        "dominance": -0.444
+    },
+    {
+        "term": "ambivalent",
+        "valence": 0.02,
+        "arousal": -0.192,
+        "dominance": -0.036
+    },
+    {
+        "term": "amiability",
+        "valence": 1.0,
+        "arousal": -0.667,
+        "dominance": 0.0
+    },
+    {
+        "term": "amorous",
+        "valence": 0.688,
+        "arousal": 0.34,
+        "dominance": 0.272
+    },
+    {
+        "term": "amorously",
+        "valence": 0.944,
+        "arousal": 0.857,
+        "dominance": 0.417
+    },
+    {
+        "term": "amorousness",
+        "valence": 0.905,
+        "arousal": 0.667,
+        "dominance": 0.407
+    },
+    {
+        "term": "amped up",
+        "valence": 0.034,
+        "arousal": 0.142,
+        "dominance": 0.138
+    },
+    {
+        "term": "amuse",
+        "valence": 0.624,
+        "arousal": 0.368,
+        "dominance": 0.328
+    },
+    {
+        "term": "amused",
+        "valence": 0.884,
+        "arousal": 0.694,
+        "dominance": 0.192
+    },
+    {
+        "term": "amusement",
+        "valence": 0.858,
+        "arousal": 0.674,
+        "dominance": 0.606
+    },
+    {
+        "term": "anger",
+        "valence": -0.666,
+        "arousal": 0.73,
+        "dominance": 0.314
+    },
+    {
+        "term": "angered",
+        "valence": -0.976,
+        "arousal": 0.538,
+        "dominance": 0.094
+    },
+    {
+        "term": "angriest",
+        "valence": -0.812,
+        "arousal": 0.784,
+        "dominance": -0.14
+    },
+    {
+        "term": "angriness",
+        "valence": -0.889,
+        "arousal": 1.0,
+        "dominance": 0.143
+    },
+    {
+        "term": "angry",
+        "valence": -0.756,
+        "arousal": 0.66,
+        "dominance": 0.208
+    },
+    {
+        "term": "angst",
+        "valence": -0.666,
+        "arousal": 0.776,
+        "dominance": -0.334
+    },
+    {
+        "term": "anguish",
+        "valence": -0.694,
+        "arousal": 0.584,
+        "dominance": -0.47
+    },
+    {
+        "term": "anguished",
+        "valence": -0.73,
+        "arousal": 0.44,
+        "dominance": -0.386
+    },
+    {
+        "term": "animosity",
+        "valence": 0.02,
+        "arousal": 0.448,
+        "dominance": 0.09
+    },
+    {
+        "term": "annoy",
+        "valence": -0.812,
+        "arousal": 0.53,
+        "dominance": -0.428
+    },
+    {
+        "term": "annoyance",
+        "valence": -0.666,
+        "arousal": 0.436,
+        "dominance": -0.316
+    },
+    {
+        "term": "annoyed",
+        "valence": -0.792,
+        "arousal": 0.566,
+        "dominance": -0.31
+    },
+    {
+        "term": "annoys",
+        "valence": -0.708,
+        "arousal": 0.556,
+        "dominance": -0.13
+    },
+    {
+        "term": "antagonism",
+        "valence": -0.552,
+        "arousal": 0.236,
+        "dominance": 0.048
+    },
+    {
+        "term": "antagonistic",
+        "valence": -0.408,
+        "arousal": 0.208,
+        "dominance": 0.13
+    },
+    {
+        "term": "anticipant",
+        "valence": 0.667,
+        "arousal": 0.667,
+        "dominance": 0.37
+    },
+    {
+        "term": "anticipation",
+        "valence": 0.396,
+        "arousal": 0.078,
+        "dominance": 0.422
+    },
+    {
+        "term": "anticipative",
+        "valence": 0.667,
+        "arousal": 0.667,
+        "dominance": 0.5
+    },
+    {
+        "term": "anticipatory",
+        "valence": 0.306,
+        "arousal": 0.102,
+        "dominance": 0.364
+    },
+    {
+        "term": "antipathetic",
+        "valence": -0.952,
+        "arousal": -0.593,
+        "dominance": 0.095
+    },
+    {
+        "term": "antipathic",
+        "valence": -0.889,
+        "arousal": -0.63,
+        "dominance": -0.519
+    },
+    {
+        "term": "antipathy",
+        "valence": -0.604,
+        "arousal": 0.098,
+        "dominance": -0.214
+    },
+    {
+        "term": "antsy",
+        "valence": -0.102,
+        "arousal": 0.116,
+        "dominance": -0.166
+    },
+    {
+        "term": "anxiety",
+        "valence": -0.708,
+        "arousal": 0.73,
+        "dominance": -0.316
+    },
+    {
+        "term": "anxiety attack",
+        "valence": -0.75,
+        "arousal": 0.97,
+        "dominance": -0.5
+    },
+    {
+        "term": "anxietyattack",
+        "valence": -0.7,
+        "arousal": 0.85,
+        "dominance": -0.108
+    },
+    {
+        "term": "anxious",
+        "valence": -0.438,
+        "arousal": 0.75,
+        "dominance": -0.132
+    },
+    {
+        "term": "anxiously",
+        "valence": -0.667,
+        "arousal": 0.667,
+        "dominance": -0.741
+    },
+    {
+        "term": "anxiousness",
+        "valence": -0.53,
+        "arousal": 0.628,
+        "dominance": -0.436
+    },
+    {
+        "term": "apathetic",
+        "valence": -0.624,
+        "arousal": -0.416,
+        "dominance": -0.334
+    },
+    {
+        "term": "apathetically",
+        "valence": -0.667,
+        "arousal": -1.0,
+        "dominance": -0.833
+    },
+    {
+        "term": "apathy",
+        "valence": -0.632,
+        "arousal": -0.576,
+        "dominance": -0.592
+    },
+    {
+        "term": "apologetic",
+        "valence": -0.042,
+        "arousal": -0.078,
+        "dominance": 0.142
+    },
+    {
+        "term": "apoplectic",
+        "valence": -0.667,
+        "arousal": 1.0,
+        "dominance": 0.095
+    },
+    {
+        "term": "appall",
+        "valence": -1.0,
+        "arousal": 0.667,
+        "dominance": 0.667
+    },
+    {
+        "term": "appalled",
+        "valence": -0.612,
+        "arousal": 0.584,
+        "dominance": 0.124
+    },
+    {
+        "term": "appreciated",
+        "valence": 0.82,
+        "arousal": -0.132,
+        "dominance": 0.558
+    },
+    {
+        "term": "appreciation",
+        "valence": 0.834,
+        "arousal": 0.058,
+        "dominance": 0.176
+    },
+    {
+        "term": "appreciative",
+        "valence": 0.714,
+        "arousal": -0.24,
+        "dominance": 0.308
+    },
+    {
+        "term": "appreciativeness",
+        "valence": 1.0,
+        "arousal": -0.407,
+        "dominance": 0.375
+    },
+    {
+        "term": "appreciatory",
+        "valence": 1.0,
+        "arousal": -0.259,
+        "dominance": 0.208
+    },
+    {
+        "term": "apprehension",
+        "valence": -0.23,
+        "arousal": 0.44,
+        "dominance": -0.092
+    },
+    {
+        "term": "apprehensive",
+        "valence": -0.188,
+        "arousal": 0.184,
+        "dominance": -0.138
+    },
+    {
+        "term": "apprehensively",
+        "valence": -0.667,
+        "arousal": -0.667,
+        "dominance": -0.619
+    },
+    {
+        "term": "apprehensiveness",
+        "valence": -0.63,
+        "arousal": 0.667,
+        "dominance": -0.583
+    },
+    {
+        "term": "approving",
+        "valence": 0.886,
+        "arousal": 0.166,
+        "dominance": 0.546
+    },
+    {
+        "term": "ardent",
+        "valence": 0.388,
+        "arousal": 0.746,
+        "dominance": 0.444
+    },
+    {
+        "term": "ardor",
+        "valence": 0.0,
+        "arousal": 0.56,
+        "dominance": 0.076
+    },
+    {
+        "term": "aroused",
+        "valence": 0.416,
+        "arousal": 0.95,
+        "dominance": 0.334
+    },
+    {
+        "term": "ashamed",
+        "valence": -0.688,
+        "arousal": 0.176,
+        "dominance": -0.544
+    },
+    {
+        "term": "ashamedly",
+        "valence": -0.667,
+        "arousal": -0.375,
+        "dominance": -0.833
+    },
+    {
+        "term": "ashamedness",
+        "valence": -0.963,
+        "arousal": -0.667,
+        "dominance": -0.889
+    },
+    {
+        "term": "astonished",
+        "valence": 0.02,
+        "arousal": 0.55,
+        "dominance": 0.148
+    },
+    {
+        "term": "astonishment",
+        "valence": 0.36,
+        "arousal": 0.436,
+        "dominance": 0.038
+    },
+    {
+        "term": "at ease",
+        "valence": 0.064,
+        "arousal": -0.37,
+        "dominance": -0.242
+    },
+    {
+        "term": "at peace",
+        "valence": 0.484,
+        "arousal": -0.566,
+        "dominance": -0.108
+    },
+    {
+        "term": "atpeace",
+        "valence": 0.448,
+        "arousal": -0.404,
+        "dominance": 0.038
+    },
+    {
+        "term": "attraction",
+        "valence": 0.812,
+        "arousal": 0.548,
+        "dominance": 0.424
+    },
+    {
+        "term": "averseness",
+        "valence": -0.408,
+        "arousal": 0.212,
+        "dominance": 0.056
+    },
+    {
+        "term": "aversion",
+        "valence": -0.852,
+        "arousal": 0.326,
+        "dominance": 0.05
+    },
+    {
+        "term": "aversive",
+        "valence": -1.0,
+        "arousal": -0.625,
+        "dominance": -0.556
+    },
+    {
+        "term": "awe",
+        "valence": -0.062,
+        "arousal": 0.48,
+        "dominance": -0.4
+    },
+    {
+        "term": "awed",
+        "valence": -0.272,
+        "arousal": 0.548,
+        "dominance": -0.278
+    },
+    {
+        "term": "awestruck",
+        "valence": 0.23,
+        "arousal": 0.534,
+        "dominance": 0.36
+    },
+    {
+        "term": "awful",
+        "valence": -0.878,
+        "arousal": 0.572,
+        "dominance": -0.1
+    },
+    {
+        "term": "awkward",
+        "valence": -0.408,
+        "arousal": 0.3,
+        "dominance": -0.284
+    },
+    {
+        "term": "awkwardness",
+        "valence": -0.666,
+        "arousal": -0.092,
+        "dominance": -0.704
+    },
+    {
+        "term": "bad feeling",
+        "valence": -0.562,
+        "arousal": 0.032,
+        "dominance": -0.58
+    },
+    {
+        "term": "baffled",
+        "valence": -0.698,
+        "arousal": 0.2,
+        "dominance": -0.322
+    },
+    {
+        "term": "bafflement",
+        "valence": -0.667,
+        "arousal": -0.593,
+        "dominance": -0.667
+    },
+    {
+        "term": "balefully",
+        "valence": -0.852,
+        "arousal": 0.667,
+        "dominance": -0.519
+    },
+    {
+        "term": "bamboozled",
+        "valence": -0.611,
+        "arousal": 0.667,
+        "dominance": -0.63
+    },
+    {
+        "term": "bashful",
+        "valence": -0.2,
+        "arousal": -0.188,
+        "dominance": -0.566
+    },
+    {
+        "term": "bashfully",
+        "valence": -0.333,
+        "arousal": -0.333,
+        "dominance": -0.833
+    },
+    {
+        "term": "bashfulness",
+        "valence": -0.524,
+        "arousal": -0.667,
+        "dominance": -0.833
+    },
+    {
+        "term": "be afraid",
+        "valence": -0.7,
+        "arousal": -0.114,
+        "dominance": -0.646
+    },
+    {
+        "term": "be down",
+        "valence": -0.528,
+        "arousal": -0.21,
+        "dominance": -0.448
+    },
+    {
+        "term": "beaming",
+        "valence": 0.784,
+        "arousal": 0.308,
+        "dominance": 0.174
+    },
+    {
+        "term": "beatitude",
+        "valence": 1.0,
+        "arousal": -0.37,
+        "dominance": 0.37
+    },
+    {
+        "term": "befuddled",
+        "valence": -0.688,
+        "arousal": 0.428,
+        "dominance": -0.462
+    },
+    {
+        "term": "befuddlement",
+        "valence": -0.667,
+        "arousal": -0.667,
+        "dominance": -0.667
+    },
+    {
+        "term": "begrudge",
+        "valence": -0.646,
+        "arousal": 0.462,
+        "dominance": -0.246
+    },
+    {
+        "term": "belittled",
+        "valence": -0.646,
+        "arousal": -0.216,
+        "dominance": -0.548
+    },
+    {
+        "term": "belligerent",
+        "valence": -0.312,
+        "arousal": 0.36,
+        "dominance": 0.188
+    },
+    {
+        "term": "beloved",
+        "valence": 0.938,
+        "arousal": 0.226,
+        "dominance": 0.416
+    },
+    {
+        "term": "bemused",
+        "valence": -0.438,
+        "arousal": -0.02,
+        "dominance": -0.444
+    },
+    {
+        "term": "bemusement",
+        "valence": 0.333,
+        "arousal": -0.458,
+        "dominance": -0.333
+    },
+    {
+        "term": "bereaved",
+        "valence": -0.792,
+        "arousal": -0.042,
+        "dominance": -0.558
+    },
+    {
+        "term": "bereavement",
+        "valence": -0.47,
+        "arousal": 0.354,
+        "dominance": 0.0
+    },
+    {
+        "term": "bereft",
+        "valence": -0.542,
+        "arousal": -0.02,
+        "dominance": -0.328
+    },
+    {
+        "term": "berserk",
+        "valence": -0.204,
+        "arousal": 0.112,
+        "dominance": -0.04
+    },
+    {
+        "term": "besotted",
+        "valence": -0.5,
+        "arousal": 0.667,
+        "dominance": -0.583
+    },
+    {
+        "term": "betrayed",
+        "valence": -0.756,
+        "arousal": 0.538,
+        "dominance": -0.384
+    },
+    {
+        "term": "bewildered",
+        "valence": -0.54,
+        "arousal": 0.26,
+        "dominance": -0.4
+    },
+    {
+        "term": "bewilderment",
+        "valence": -0.376,
+        "arousal": 0.432,
+        "dominance": -0.666
+    },
+    {
+        "term": "bilious",
+        "valence": -0.75,
+        "arousal": 0.667,
+        "dominance": -0.417
+    },
+    {
+        "term": "bitchiness",
+        "valence": -1.0,
+        "arousal": 0.667,
+        "dominance": 0.0
+    },
+    {
+        "term": "bitchy",
+        "valence": -0.624,
+        "arousal": 0.4,
+        "dominance": -0.254
+    },
+    {
+        "term": "bitter",
+        "valence": -0.564,
+        "arousal": 0.254,
+        "dominance": -0.178
+    },
+    {
+        "term": "bitterness",
+        "valence": -0.77,
+        "arousal": 0.266,
+        "dominance": -0.46
+    },
+    {
+        "term": "bittersweet",
+        "valence": -0.062,
+        "arousal": 0.138,
+        "dominance": -0.052
+    },
+    {
+        "term": "blase",
+        "valence": -0.16,
+        "arousal": -0.38,
+        "dominance": -0.176
+    },
+    {
+        "term": "bleak",
+        "valence": -0.592,
+        "arousal": -0.146,
+        "dominance": -0.456
+    },
+    {
+        "term": "bleakness",
+        "valence": -1.0,
+        "arousal": -1.0,
+        "dominance": -0.905
+    },
+    {
+        "term": "blessed",
+        "valence": 0.82,
+        "arousal": -0.442,
+        "dominance": 0.392
+    },
+    {
+        "term": "blessedness",
+        "valence": 1.0,
+        "arousal": -1.0,
+        "dominance": 0.333
+    },
+    {
+        "term": "bliss",
+        "valence": 0.632,
+        "arousal": 0.0,
+        "dominance": 0.564
+    },
+    {
+        "term": "blissful",
+        "valence": 0.77,
+        "arousal": 0.278,
+        "dominance": 0.352
+    },
+    {
+        "term": "blissfully",
+        "valence": 1.0,
+        "arousal": -0.333,
+        "dominance": -0.148
+    },
+    {
+        "term": "blissfulness",
+        "valence": 1.0,
+        "arousal": -0.963,
+        "dominance": -0.286
+    },
+    {
+        "term": "blitheness",
+        "valence": 0.889,
+        "arousal": -0.333,
+        "dominance": -0.042
+    },
+    {
+        "term": "bloodlust",
+        "valence": -1.0,
+        "arousal": 1.0,
+        "dominance": 0.952
+    },
+    {
+        "term": "blue devils",
+        "valence": -0.358,
+        "arousal": 0.096,
+        "dominance": -0.104
+    },
+    {
+        "term": "blues",
+        "valence": -0.062,
+        "arousal": -0.56,
+        "dominance": -0.426
+    },
+    {
+        "term": "bore",
+        "valence": -0.166,
+        "arousal": -0.12,
+        "dominance": -0.09
+    },
+    {
+        "term": "bored",
+        "valence": -0.694,
+        "arousal": -0.666,
+        "dominance": -0.608
+    },
+    {
+        "term": "boredom",
+        "valence": -0.666,
+        "arousal": -0.722,
+        "dominance": -0.49
+    },
+    {
+        "term": "bother",
+        "valence": -0.584,
+        "arousal": 0.56,
+        "dominance": -0.26
+    },
+    {
+        "term": "broken heart",
+        "valence": -0.758,
+        "arousal": 0.072,
+        "dominance": -0.666
+    },
+    {
+        "term": "brokenheart",
+        "valence": -0.77,
+        "arousal": 0.154,
+        "dominance": -0.314
+    },
+    {
+        "term": "brokenhearted",
+        "valence": -0.74,
+        "arousal": 0.196,
+        "dominance": -0.546
+    },
+    {
+        "term": "brokenheartedly",
+        "valence": -0.963,
+        "arousal": -0.667,
+        "dominance": -0.704
+    },
+    {
+        "term": "broodiness",
+        "valence": -0.429,
+        "arousal": -0.524,
+        "dominance": -0.556
+    },
+    {
+        "term": "brooding",
+        "valence": -0.346,
+        "arousal": -0.266,
+        "dominance": -0.334
+    },
+    {
+        "term": "broody",
+        "valence": -0.333,
+        "arousal": -0.556,
+        "dominance": -0.458
+    },
+    {
+        "term": "brotherly love",
+        "valence": 0.734,
+        "arousal": 0.124,
+        "dominance": 0.042
+    },
+    {
+        "term": "bugged",
+        "valence": 0.122,
+        "arousal": -0.122,
+        "dominance": 0.0
+    },
+    {
+        "term": "bummed",
+        "valence": -0.408,
+        "arousal": -0.14,
+        "dominance": -0.485
+    },
+    {
+        "term": "bummed out",
+        "valence": -0.364,
+        "arousal": -0.114,
+        "dominance": -0.3
+    },
+    {
+        "term": "burdened",
+        "valence": -0.142,
+        "arousal": 0.038,
+        "dominance": 0.13
+    },
+    {
+        "term": "burn out",
+        "valence": -0.646,
+        "arousal": 0.1,
+        "dominance": -0.13
+    },
+    {
+        "term": "burned out",
+        "valence": -0.734,
+        "arousal": 0.25,
+        "dominance": -0.5
+    },
+    {
+        "term": "burnout",
+        "valence": -0.562,
+        "arousal": -0.11,
+        "dominance": -0.52
+    },
+    {
+        "term": "burnt out",
+        "valence": -0.656,
+        "arousal": -0.158,
+        "dominance": -0.642
+    },
+    {
+        "term": "cabin fever",
+        "valence": -0.4,
+        "arousal": -0.082,
+        "dominance": -0.358
+    },
+    {
+        "term": "caginess",
+        "valence": -0.524,
+        "arousal": -0.5,
+        "dominance": 0.0
+    },
+    {
+        "term": "calm",
+        "valence": 0.75,
+        "arousal": -0.9,
+        "dominance": -0.373
+    },
+    {
+        "term": "calming",
+        "valence": 0.77,
+        "arousal": -0.882,
+        "dominance": -0.247
+    },
+    {
+        "term": "calmness",
+        "valence": 0.868,
+        "arousal": -0.895,
+        "dominance": -0.199
+    },
+    {
+        "term": "cantankerous",
+        "valence": -0.833,
+        "arousal": 0.667,
+        "dominance": 0.667
+    },
+    {
+        "term": "cantankerousness",
+        "valence": -0.889,
+        "arousal": 0.667,
+        "dominance": -0.208
+    },
+    {
+        "term": "carefree",
+        "valence": 0.51,
+        "arousal": -0.56,
+        "dominance": 0.0
+    },
+    {
+        "term": "caring",
+        "valence": 0.27,
+        "arousal": -0.062,
+        "dominance": 0.0
+    },
+    {
+        "term": "carried away",
+        "valence": -0.314,
+        "arousal": 0.124,
+        "dominance": -0.068
+    },
+    {
+        "term": "carsick",
+        "valence": -0.552,
+        "arousal": 0.148,
+        "dominance": -0.49
+    },
+    {
+        "term": "cathartic",
+        "valence": -0.1,
+        "arousal": 0.02,
+        "dominance": 0.208
+    },
+    {
+        "term": "cattiness",
+        "valence": -0.667,
+        "arousal": 0.667,
+        "dominance": 0.407
+    },
+    {
+        "term": "catty",
+        "valence": -0.667,
+        "arousal": 0.667,
+        "dominance": -0.583
+    },
+    {
+        "term": "cautiously optimistic",
+        "valence": 0.2,
+        "arousal": 0.05,
+        "dominance": 0.178
+    },
+    {
+        "term": "celebratory",
+        "valence": 0.714,
+        "arousal": 0.306,
+        "dominance": 0.69
+    },
+    {
+        "term": "chagrin",
+        "valence": -0.834,
+        "arousal": 0.408,
+        "dominance": -0.593
+    },
+    {
+        "term": "chagrined",
+        "valence": -0.776,
+        "arousal": 0.49,
+        "dominance": -0.278
+    },
+    {
+        "term": "charmed",
+        "valence": 0.876,
+        "arousal": 0.14,
+        "dominance": 0.538
+    },
+    {
+        "term": "chastened",
+        "valence": -0.688,
+        "arousal": 0.16,
+        "dominance": -0.31
+    },
+    {
+        "term": "cheekiness",
+        "valence": 0.333,
+        "arousal": 0.667,
+        "dominance": 0.042
+    },
+    {
+        "term": "cheer",
+        "valence": 0.876,
+        "arousal": 0.568,
+        "dominance": 0.69
+    },
+    {
+        "term": "cheered",
+        "valence": 0.75,
+        "arousal": 0.296,
+        "dominance": 0.58
+    },
+    {
+        "term": "cheerful",
+        "valence": 0.99,
+        "arousal": 0.228,
+        "dominance": 0.25
+    },
+    {
+        "term": "cheerfully",
+        "valence": 0.952,
+        "arousal": 0.714,
+        "dominance": 0.0
+    },
+    {
+        "term": "cheerfulness",
+        "valence": 0.938,
+        "arousal": 0.604,
+        "dominance": 0.35
+    },
+    {
+        "term": "cheeriness",
+        "valence": 0.958,
+        "arousal": 0.741,
+        "dominance": 0.519
+    },
+    {
+        "term": "cheerless",
+        "valence": -0.592,
+        "arousal": -0.254,
+        "dominance": -0.551
+    },
+    {
+        "term": "cheerlessly",
+        "valence": -1.0,
+        "arousal": -0.963,
+        "dominance": -0.667
+    },
+    {
+        "term": "cheerlessness",
+        "valence": -1.0,
+        "arousal": -1.0,
+        "dominance": -0.619
+    },
+    {
+        "term": "cheery",
+        "valence": 0.927,
+        "arousal": 0.314,
+        "dominance": -0.028
+    },
+    {
+        "term": "cherishing",
+        "valence": 0.672,
+        "arousal": -0.24,
+        "dominance": 0.25
+    },
+    {
+        "term": "chickenhearted",
+        "valence": -0.667,
+        "arousal": 0.222,
+        "dominance": -1.0
+    },
+    {
+        "term": "chipper",
+        "valence": -0.164,
+        "arousal": 0.176,
+        "dominance": 0.0
+    },
+    {
+        "term": "chirpiness",
+        "valence": 0.857,
+        "arousal": 1.0,
+        "dominance": -0.25
+    },
+    {
+        "term": "chirpy",
+        "valence": 0.778,
+        "arousal": 1.0,
+        "dominance": -0.185
+    },
+    {
+        "term": "choked",
+        "valence": -0.667,
+        "arousal": 0.81,
+        "dominance": -0.741
+    },
+    {
+        "term": "choked up",
+        "valence": -0.37,
+        "arousal": 0.26,
+        "dominance": -0.282
+    },
+    {
+        "term": "choleric",
+        "valence": -0.667,
+        "arousal": 1.0,
+        "dominance": 0.815
+    },
+    {
+        "term": "claustrophobic",
+        "valence": -0.816,
+        "arousal": 0.51,
+        "dominance": -0.2
+    },
+    {
+        "term": "cloud nine",
+        "valence": 0.366,
+        "arousal": -0.15,
+        "dominance": -0.344
+    },
+    {
+        "term": "cockiness",
+        "valence": 0.476,
+        "arousal": 0.667,
+        "dominance": 0.852
+    },
+    {
+        "term": "cocky",
+        "valence": -0.48,
+        "arousal": 0.568,
+        "dominance": 0.038
+    },
+    {
+        "term": "combative",
+        "valence": -0.238,
+        "arousal": 0.38,
+        "dominance": 0.632
+    },
+    {
+        "term": "combativeness",
+        "valence": -0.667,
+        "arousal": 1.0,
+        "dominance": 1.0
+    },
+    {
+        "term": "comfort",
+        "valence": 0.726,
+        "arousal": -0.538,
+        "dominance": 0.34
+    },
+    {
+        "term": "comfortable",
+        "valence": 0.854,
+        "arousal": -0.674,
+        "dominance": -0.054
+    },
+    {
+        "term": "comforting",
+        "valence": 0.812,
+        "arousal": -0.326,
+        "dominance": 0.24
+    },
+    {
+        "term": "comfortless",
+        "valence": -1.0,
+        "arousal": -0.917,
+        "dominance": -0.519
+    },
+    {
+        "term": "comfortlessness",
+        "valence": -0.833,
+        "arousal": -1.0,
+        "dominance": -0.778
+    },
+    {
+        "term": "commiseration",
+        "valence": -0.333,
+        "arousal": -0.667,
+        "dominance": -0.458
+    },
+    {
+        "term": "commiserative",
+        "valence": 0.667,
+        "arousal": -0.5,
+        "dominance": -0.333
+    },
+    {
+        "term": "companionless",
+        "valence": -0.458,
+        "arousal": -0.482,
+        "dominance": -0.6
+    },
+    {
+        "term": "compassion",
+        "valence": 0.47,
+        "arousal": -0.484,
+        "dominance": 0.018
+    },
+    {
+        "term": "compassionate",
+        "valence": 0.714,
+        "arousal": -0.192,
+        "dominance": -0.178
+    },
+    {
+        "term": "complacence",
+        "valence": -0.333,
+        "arousal": -1.0,
+        "dominance": -0.667
+    },
+    {
+        "term": "complacency",
+        "valence": 0.208,
+        "arousal": 0.006,
+        "dominance": 0.038
+    },
+    {
+        "term": "complacent",
+        "valence": 0.25,
+        "arousal": -0.096,
+        "dominance": 0.036
+    },
+    {
+        "term": "composed",
+        "valence": 0.368,
+        "arousal": -0.23,
+        "dominance": 0.364
+    },
+    {
+        "term": "compunction",
+        "valence": -0.667,
+        "arousal": -0.667,
+        "dominance": -0.259
+    },
+    {
+        "term": "concern",
+        "valence": -0.5,
+        "arousal": 0.468,
+        "dominance": -0.074
+    },
+    {
+        "term": "concerned",
+        "valence": -0.416,
+        "arousal": 0.396,
+        "dominance": -0.3
+    },
+    {
+        "term": "concernedness",
+        "valence": 0.458,
+        "arousal": -0.037,
+        "dominance": -0.19
+    },
+    {
+        "term": "confidence",
+        "valence": 0.918,
+        "arousal": -0.448,
+        "dominance": 0.886
+    },
+    {
+        "term": "confident",
+        "valence": 0.53,
+        "arousal": -0.352,
+        "dominance": 0.446
+    },
+    {
+        "term": "confounded",
+        "valence": -0.334,
+        "arousal": 0.056,
+        "dominance": -0.472
+    },
+    {
+        "term": "confrontational",
+        "valence": -0.667,
+        "arousal": 0.944,
+        "dominance": 0.833
+    },
+    {
+        "term": "confused",
+        "valence": -0.56,
+        "arousal": 0.3,
+        "dominance": -0.642
+    },
+    {
+        "term": "confusion",
+        "valence": -0.49,
+        "arousal": 0.334,
+        "dominance": -0.446
+    },
+    {
+        "term": "consolatory",
+        "valence": 0.667,
+        "arousal": -0.963,
+        "dominance": -0.556
+    },
+    {
+        "term": "consoled",
+        "valence": 0.4,
+        "arousal": -0.314,
+        "dominance": -0.096
+    },
+    {
+        "term": "consternate",
+        "valence": -0.667,
+        "arousal": 0.111,
+        "dominance": -0.667
+    },
+    {
+        "term": "consternation",
+        "valence": -0.537,
+        "arousal": 0.36,
+        "dominance": -0.062
+    },
+    {
+        "term": "contempt",
+        "valence": -0.588,
+        "arousal": 0.27,
+        "dominance": -0.208
+    },
+    {
+        "term": "contemptuous",
+        "valence": -0.592,
+        "arousal": 0.0,
+        "dominance": -0.25
+    },
+    {
+        "term": "contemptuousness",
+        "valence": -0.815,
+        "arousal": -0.375,
+        "dominance": 0.889
+    },
+    {
+        "term": "content",
+        "valence": 0.528,
+        "arousal": -0.408,
+        "dominance": 0.118
+    },
+    {
+        "term": "contented",
+        "valence": 0.714,
+        "arousal": 0.224,
+        "dominance": 0.492
+    },
+    {
+        "term": "contentedly",
+        "valence": 0.905,
+        "arousal": -0.889,
+        "dominance": -0.25
+    },
+    {
+        "term": "contentedness",
+        "valence": 1.0,
+        "arousal": -1.0,
+        "dominance": 0.333
+    },
+    {
+        "term": "contently",
+        "valence": 0.833,
+        "arousal": -1.0,
+        "dominance": -0.222
+    },
+    {
+        "term": "contentment",
+        "valence": 0.75,
+        "arousal": 0.22,
+        "dominance": 0.564
+    },
+    {
+        "term": "contrariness",
+        "valence": -0.667,
+        "arousal": 0.667,
+        "dominance": 0.286
+    },
+    {
+        "term": "contrite",
+        "valence": -0.306,
+        "arousal": -0.274,
+        "dominance": -0.054
+    },
+    {
+        "term": "contriteness",
+        "valence": -0.476,
+        "arousal": -0.667,
+        "dominance": -0.556
+    },
+    {
+        "term": "contrition",
+        "valence": -0.306,
+        "arousal": 0.166,
+        "dominance": -0.074
+    },
+    {
+        "term": "convivial",
+        "valence": 0.963,
+        "arousal": 0.667,
+        "dominance": 0.259
+    },
+    {
+        "term": "copacetic",
+        "valence": 0.02,
+        "arousal": -0.058,
+        "dominance": -0.094
+    },
+    {
+        "term": "cordial",
+        "valence": 0.646,
+        "arousal": -0.376,
+        "dominance": -0.036
+    },
+    {
+        "term": "covetous",
+        "valence": -0.667,
+        "arousal": 0.667,
+        "dominance": -0.619
+    },
+    {
+        "term": "covetousness",
+        "valence": -0.75,
+        "arousal": 0.667,
+        "dominance": -0.286
+    },
+    {
+        "term": "cowardliness",
+        "valence": -1.0,
+        "arousal": -0.667,
+        "dominance": -0.952
+    },
+    {
+        "term": "coy",
+        "valence": -0.306,
+        "arousal": -0.34,
+        "dominance": -0.574
+    },
+    {
+        "term": "coyness",
+        "valence": 0.278,
+        "arousal": -0.667,
+        "dominance": -0.593
+    },
+    {
+        "term": "crabbiness",
+        "valence": -1.0,
+        "arousal": 0.63,
+        "dominance": -0.407
+    },
+    {
+        "term": "crabby",
+        "valence": -0.604,
+        "arousal": 0.624,
+        "dominance": -0.26
+    },
+    {
+        "term": "crack up",
+        "valence": -0.194,
+        "arousal": 0.162,
+        "dominance": -0.044
+    },
+    {
+        "term": "crackup",
+        "valence": -0.667,
+        "arousal": 0.963,
+        "dominance": -0.667
+    },
+    {
+        "term": "crankily",
+        "valence": -0.741,
+        "arousal": 0.667,
+        "dominance": -0.542
+    },
+    {
+        "term": "crankiness",
+        "valence": -0.667,
+        "arousal": 0.667,
+        "dominance": -0.417
+    },
+    {
+        "term": "cranky",
+        "valence": -0.612,
+        "arousal": 0.552,
+        "dominance": -0.208
+    },
+    {
+        "term": "crappy",
+        "valence": -0.922,
+        "arousal": 0.164,
+        "dominance": -0.584
+    },
+    {
+        "term": "craving",
+        "valence": 0.02,
+        "arousal": 0.51,
+        "dominance": 0.272
+    },
+    {
+        "term": "crazed",
+        "valence": -0.694,
+        "arousal": 0.754,
+        "dominance": -0.166
+    },
+    {
+        "term": "crazy about",
+        "valence": 0.194,
+        "arousal": 0.278,
+        "dominance": 0.058
+    },
+    {
+        "term": "creepiness",
+        "valence": -1.0,
+        "arousal": 0.625,
+        "dominance": -0.458
+    },
+    {
+        "term": "crestfallen",
+        "valence": -0.53,
+        "arousal": -0.308,
+        "dominance": -0.65
+    },
+    {
+        "term": "cross",
+        "valence": -0.104,
+        "arousal": -0.358,
+        "dominance": 0.138
+    },
+    {
+        "term": "crossly",
+        "valence": -0.778,
+        "arousal": 0.519,
+        "dominance": -0.296
+    },
+    {
+        "term": "crossness",
+        "valence": -0.714,
+        "arousal": 0.667,
+        "dominance": -0.37
+    },
+    {
+        "term": "crotchetiness",
+        "valence": -0.667,
+        "arousal": 0.519,
+        "dominance": -0.444
+    },
+    {
+        "term": "crotchety",
+        "valence": -0.667,
+        "arousal": 0.625,
+        "dominance": -0.556
+    },
+    {
+        "term": "crummy",
+        "valence": -0.75,
+        "arousal": 0.062,
+        "dominance": -0.552
+    },
+    {
+        "term": "crushed",
+        "valence": -0.667,
+        "arousal": 0.294,
+        "dominance": -0.926
+    },
+    {
+        "term": "curious",
+        "valence": 0.27,
+        "arousal": 0.2,
+        "dominance": -0.034
+    },
+    {
+        "term": "curiousness",
+        "valence": 0.6,
+        "arousal": 0.5,
+        "dominance": 0.407
+    },
+    {
+        "term": "cut up",
+        "valence": -0.552,
+        "arousal": 0.09,
+        "dominance": -0.53
+    },
+    {
+        "term": "cynical",
+        "valence": -0.688,
+        "arousal": 0.52,
+        "dominance": -0.052
+    },
+    {
+        "term": "dazed",
+        "valence": -0.4,
+        "arousal": 0.394,
+        "dominance": -0.446
+    },
+    {
+        "term": "deceived",
+        "valence": -0.882,
+        "arousal": 0.346,
+        "dominance": -0.396
+    },
+    {
+        "term": "defeated",
+        "valence": -0.792,
+        "arousal": 0.164,
+        "dominance": -0.71
+    },
+    {
+        "term": "defensive",
+        "valence": 0.084,
+        "arousal": 0.28,
+        "dominance": 0.356
+    },
+    {
+        "term": "defensiveness",
+        "valence": -0.625,
+        "arousal": 0.619,
+        "dominance": -0.593
+    },
+    {
+        "term": "defiance",
+        "valence": -0.334,
+        "arousal": 0.56,
+        "dominance": 0.52
+    },
+    {
+        "term": "defiant",
+        "valence": -0.5,
+        "arousal": 0.584,
+        "dominance": 0.538
+    },
+    {
+        "term": "deject",
+        "valence": -0.958,
+        "arousal": -0.917,
+        "dominance": -0.619
+    },
+    {
+        "term": "dejected",
+        "valence": -0.792,
+        "arousal": 0.308,
+        "dominance": -0.306
+    },
+    {
+        "term": "dejectedly",
+        "valence": -0.952,
+        "arousal": -0.667,
+        "dominance": -0.852
+    },
+    {
+        "term": "dejectedness",
+        "valence": -0.958,
+        "arousal": -0.667,
+        "dominance": -0.792
+    },
+    {
+        "term": "dejection",
+        "valence": -1.0,
+        "arousal": -0.917,
+        "dominance": -0.815
+    },
+    {
+        "term": "delight",
+        "valence": 0.898,
+        "arousal": 0.332,
+        "dominance": 0.294
+    },
+    {
+        "term": "delight in",
+        "valence": 0.392,
+        "arousal": -0.076,
+        "dominance": 0.178
+    },
+    {
+        "term": "delighted",
+        "valence": 0.938,
+        "arousal": 0.944,
+        "dominance": 0.122
+    },
+    {
+        "term": "delightedly",
+        "valence": 1.0,
+        "arousal": 0.667,
+        "dominance": 0.0
+    },
+    {
+        "term": "delightful",
+        "valence": 0.836,
+        "arousal": 0.47,
+        "dominance": 0.288
+    },
+    {
+        "term": "delightfulness",
+        "valence": 1.0,
+        "arousal": -0.292,
+        "dominance": -0.286
+    },
+    {
+        "term": "delirious",
+        "valence": -0.562,
+        "arousal": 0.548,
+        "dominance": 0.076
+    },
+    {
+        "term": "demeaned",
+        "valence": -0.458,
+        "arousal": 0.04,
+        "dominance": -0.576
+    },
+    {
+        "term": "demeaning",
+        "valence": -0.792,
+        "arousal": 0.29,
+        "dominance": -0.384
+    },
+    {
+        "term": "demoralization",
+        "valence": -1.0,
+        "arousal": -0.875,
+        "dominance": -0.958
+    },
+    {
+        "term": "demoralized",
+        "valence": -0.836,
+        "arousal": 0.18,
+        "dominance": -0.702
+    },
+    {
+        "term": "depersonalization",
+        "valence": -0.778,
+        "arousal": -0.63,
+        "dominance": -0.625
+    },
+    {
+        "term": "deprecatory",
+        "valence": -0.667,
+        "arousal": -0.429,
+        "dominance": -0.667
+    },
+    {
+        "term": "depress",
+        "valence": -0.562,
+        "arousal": 0.27,
+        "dominance": 0.056
+    },
+    {
+        "term": "depressed",
+        "valence": -0.952,
+        "arousal": -0.11,
+        "dominance": -0.728
+    },
+    {
+        "term": "depressing",
+        "valence": -0.708,
+        "arousal": 0.118,
+        "dominance": -0.568
+    },
+    {
+        "term": "depression",
+        "valence": -0.938,
+        "arousal": 0.04,
+        "dominance": -0.536
+    },
+    {
+        "term": "depressive",
+        "valence": -0.714,
+        "arousal": -0.132,
+        "dominance": -0.596
+    },
+    {
+        "term": "depressively",
+        "valence": -1.0,
+        "arousal": -0.944,
+        "dominance": -0.905
+    },
+    {
+        "term": "depressiveness",
+        "valence": -1.0,
+        "arousal": -0.208,
+        "dominance": -0.875
+    },
+    {
+        "term": "derision",
+        "valence": -0.47,
+        "arousal": 0.34,
+        "dominance": -0.416
+    },
+    {
+        "term": "derisive",
+        "valence": -0.667,
+        "arousal": 0.667,
+        "dominance": 0.381
+    },
+    {
+        "term": "derisiveness",
+        "valence": -0.708,
+        "arousal": 0.722,
+        "dominance": 0.208
+    },
+    {
+        "term": "desire",
+        "valence": 0.792,
+        "arousal": 0.384,
+        "dominance": 0.294
+    },
+    {
+        "term": "desiring",
+        "valence": 0.628,
+        "arousal": 0.642,
+        "dominance": 0.264
+    },
+    {
+        "term": "desirous",
+        "valence": 0.438,
+        "arousal": 0.648,
+        "dominance": 0.124
+    },
+    {
+        "term": "desolate",
+        "valence": -0.792,
+        "arousal": -0.36,
+        "dominance": -0.544
+    },
+    {
+        "term": "desolated",
+        "valence": -1.0,
+        "arousal": -1.0,
+        "dominance": -0.952
+    },
+    {
+        "term": "desolately",
+        "valence": -1.0,
+        "arousal": -0.926,
+        "dominance": -0.667
+    },
+    {
+        "term": "desolateness",
+        "valence": -1.0,
+        "arousal": -1.0,
+        "dominance": -0.75
+    },
+    {
+        "term": "desolation",
+        "valence": -0.854,
+        "arousal": -0.038,
+        "dominance": -0.454
+    },
+    {
+        "term": "despair",
+        "valence": -0.77,
+        "arousal": 0.588,
+        "dominance": -0.51
+    },
+    {
+        "term": "despairing",
+        "valence": -0.927,
+        "arousal": 0.47,
+        "dominance": -0.63
+    },
+    {
+        "term": "desperate",
+        "valence": -0.834,
+        "arousal": 0.684,
+        "dominance": -0.326
+    },
+    {
+        "term": "desperateness",
+        "valence": -0.714,
+        "arousal": 0.667,
+        "dominance": -0.778
+    },
+    {
+        "term": "desperation",
+        "valence": -0.75,
+        "arousal": 0.808,
+        "dominance": -0.162
+    },
+    {
+        "term": "despise",
+        "valence": -0.666,
+        "arousal": 0.49,
+        "dominance": -0.408
+    },
+    {
+        "term": "despised",
+        "valence": -1.0,
+        "arousal": -0.556,
+        "dominance": -0.741
+    },
+    {
+        "term": "despond",
+        "valence": -1.0,
+        "arousal": -0.5,
+        "dominance": -0.708
+    },
+    {
+        "term": "despondence",
+        "valence": -0.958,
+        "arousal": -0.704,
+        "dominance": -1.0
+    },
+    {
+        "term": "despondency",
+        "valence": -1.0,
+        "arousal": -0.917,
+        "dominance": -0.926
+    },
+    {
+        "term": "despondent",
+        "valence": -0.734,
+        "arousal": -0.244,
+        "dominance": -0.558
+    },
+    {
+        "term": "despondently",
+        "valence": -0.762,
+        "arousal": -0.952,
+        "dominance": -0.963
+    },
+    {
+        "term": "destroyed",
+        "valence": -0.938,
+        "arousal": 0.392,
+        "dominance": -0.424
+    },
+    {
+        "term": "detached",
+        "valence": -0.44,
+        "arousal": -0.208,
+        "dominance": -0.568
+    },
+    {
+        "term": "detachedness",
+        "valence": 0.0,
+        "arousal": -1.0,
+        "dominance": -0.286
+    },
+    {
+        "term": "detachment",
+        "valence": -0.514,
+        "arousal": 0.4,
+        "dominance": -0.114
+    },
+    {
+        "term": "detest",
+        "valence": -0.611,
+        "arousal": 0.6,
+        "dominance": -0.016
+    },
+    {
+        "term": "detestable",
+        "valence": -1.0,
+        "arousal": 0.074,
+        "dominance": -0.333
+    },
+    {
+        "term": "detestation",
+        "valence": -0.646,
+        "arousal": 0.274,
+        "dominance": -0.176
+    },
+    {
+        "term": "devastated",
+        "valence": -0.76,
+        "arousal": 0.088,
+        "dominance": -0.472
+    },
+    {
+        "term": "diffidence",
+        "valence": -0.667,
+        "arousal": -0.667,
+        "dominance": -0.944
+    },
+    {
+        "term": "diffident",
+        "valence": -0.417,
+        "arousal": -0.875,
+        "dominance": -0.857
+    },
+    {
+        "term": "directionless",
+        "valence": -0.667,
+        "arousal": -0.958,
+        "dominance": -0.905
+    },
+    {
+        "term": "disaffected",
+        "valence": -0.648,
+        "arousal": -0.18,
+        "dominance": -0.418
+    },
+    {
+        "term": "disaffectedness",
+        "valence": -0.708,
+        "arousal": -0.667,
+        "dominance": -0.958
+    },
+    {
+        "term": "disaffection",
+        "valence": -0.667,
+        "arousal": 0.667,
+        "dominance": -0.619
+    },
+    {
+        "term": "disagreeable",
+        "valence": -0.916,
+        "arousal": 0.286,
+        "dominance": -0.644
+    },
+    {
+        "term": "disapointment",
+        "valence": -0.792,
+        "arousal": -0.164,
+        "dominance": -0.538
+    },
+    {
+        "term": "disappoint",
+        "valence": -0.7,
+        "arousal": 0.266,
+        "dominance": -0.424
+    },
+    {
+        "term": "disappointed",
+        "valence": -0.858,
+        "arousal": -0.056,
+        "dominance": -0.518
+    },
+    {
+        "term": "disappointed with",
+        "valence": -0.774,
+        "arousal": 0.16,
+        "dominance": -0.464
+    },
+    {
+        "term": "disappointedly",
+        "valence": -0.714,
+        "arousal": -0.593,
+        "dominance": -0.593
+    },
+    {
+        "term": "disappointing",
+        "valence": -0.854,
+        "arousal": 0.28,
+        "dominance": -0.6
+    },
+    {
+        "term": "disappointment",
+        "valence": -0.77,
+        "arousal": -0.02,
+        "dominance": -0.328
+    },
+    {
+        "term": "disapproval",
+        "valence": -0.83,
+        "arousal": 0.102,
+        "dominance": -0.266
+    },
+    {
+        "term": "disapproved",
+        "valence": -0.792,
+        "arousal": 0.1,
+        "dominance": -0.818
+    },
+    {
+        "term": "disapproving",
+        "valence": -0.51,
+        "arousal": 0.25,
+        "dominance": -0.096
+    },
+    {
+        "term": "disbelief",
+        "valence": -0.624,
+        "arousal": -0.182,
+        "dominance": -0.254
+    },
+    {
+        "term": "discomfort",
+        "valence": -0.694,
+        "arousal": 0.438,
+        "dominance": -0.456
+    },
+    {
+        "term": "discomposure",
+        "valence": -0.667,
+        "arousal": 0.667,
+        "dominance": -0.708
+    },
+    {
+        "term": "disconcert",
+        "valence": -0.667,
+        "arousal": 0.667,
+        "dominance": -0.571
+    },
+    {
+        "term": "disconcerted",
+        "valence": -0.8,
+        "arousal": 0.224,
+        "dominance": -0.424
+    },
+    {
+        "term": "disconcertedness",
+        "valence": -0.667,
+        "arousal": -0.667,
+        "dominance": -0.704
+    },
+    {
+        "term": "disconcertion",
+        "valence": -0.667,
+        "arousal": -0.524,
+        "dominance": -0.625
+    },
+    {
+        "term": "disconcertment",
+        "valence": -0.667,
+        "arousal": -0.667,
+        "dominance": -0.667
+    },
+    {
+        "term": "disconsolate",
+        "valence": -0.852,
+        "arousal": -1.0,
+        "dominance": -0.741
+    },
+    {
+        "term": "disconsolately",
+        "valence": -1.0,
+        "arousal": -1.0,
+        "dominance": -0.833
+    },
+    {
+        "term": "disconsolation",
+        "valence": -1.0,
+        "arousal": -1.0,
+        "dominance": -0.917
+    },
+    {
+        "term": "discontent",
+        "valence": -0.52,
+        "arousal": 0.06,
+        "dominance": -0.474
+    },
+    {
+        "term": "discontentedly",
+        "valence": -0.889,
+        "arousal": -0.542,
+        "dominance": -0.625
+    },
+    {
+        "term": "discontentedness",
+        "valence": -0.75,
+        "arousal": -0.63,
+        "dominance": -0.611
+    },
+    {
+        "term": "discontentment",
+        "valence": -1.0,
+        "arousal": -0.667,
+        "dominance": -0.476
+    },
+    {
+        "term": "discourage",
+        "valence": -0.632,
+        "arousal": -0.114,
+        "dominance": -0.466
+    },
+    {
+        "term": "discouraged",
+        "valence": -0.56,
+        "arousal": -0.392,
+        "dominance": -0.91
+    },
+    {
+        "term": "discouragement",
+        "valence": -0.776,
+        "arousal": -0.362,
+        "dominance": -0.588
+    },
+    {
+        "term": "disdain",
+        "valence": -0.694,
+        "arousal": -0.108,
+        "dominance": -0.118
+    },
+    {
+        "term": "disdainful",
+        "valence": -0.806,
+        "arousal": -0.04,
+        "dominance": -0.474
+    },
+    {
+        "term": "disdainfulness",
+        "valence": -0.667,
+        "arousal": -0.444,
+        "dominance": 0.704
+    },
+    {
+        "term": "disenchant",
+        "valence": -0.667,
+        "arousal": -0.619,
+        "dominance": -0.292
+    },
+    {
+        "term": "disenchantment",
+        "valence": -0.889,
+        "arousal": -0.619,
+        "dominance": -0.619
+    },
+    {
+        "term": "disfavor",
+        "valence": -1.0,
+        "arousal": -0.467,
+        "dominance": -0.625
+    },
+    {
+        "term": "disgruntle",
+        "valence": -1.0,
+        "arousal": 0.185,
+        "dominance": -0.417
+    },
+    {
+        "term": "disgruntled",
+        "valence": -0.792,
+        "arousal": 0.316,
+        "dominance": -0.116
+    },
+    {
+        "term": "disgruntlement",
+        "valence": -0.952,
+        "arousal": -0.542,
+        "dominance": -0.519
+    },
+    {
+        "term": "disgust",
+        "valence": -0.896,
+        "arousal": 0.55,
+        "dominance": -0.366
+    },
+    {
+        "term": "disgusted",
+        "valence": -0.898,
+        "arousal": 0.546,
+        "dominance": -0.452
+    },
+    {
+        "term": "disgustedly",
+        "valence": -0.952,
+        "arousal": 0.619,
+        "dominance": -0.429
+    },
+    {
+        "term": "dishearten",
+        "valence": -0.667,
+        "arousal": -0.667,
+        "dominance": -0.667
+    },
+    {
+        "term": "disheartened",
+        "valence": -0.541,
+        "arousal": -0.314,
+        "dominance": -0.524
+    },
+    {
+        "term": "disheartening",
+        "valence": -0.984,
+        "arousal": -0.097,
+        "dominance": -0.543
+    },
+    {
+        "term": "disheartenment",
+        "valence": -1.0,
+        "arousal": -0.944,
+        "dominance": -0.667
+    },
+    {
+        "term": "disillusion",
+        "valence": -0.667,
+        "arousal": -0.667,
+        "dominance": -0.583
+    },
+    {
+        "term": "disillusionment",
+        "valence": -0.898,
+        "arousal": 0.038,
+        "dominance": -0.62
+    },
+    {
+        "term": "dislike",
+        "valence": -0.688,
+        "arousal": -0.188,
+        "dominance": -0.358
+    },
+    {
+        "term": "disliked",
+        "valence": -0.876,
+        "arousal": 0.02,
+        "dominance": -0.558
+    },
+    {
+        "term": "disliking",
+        "valence": -0.674,
+        "arousal": 0.274,
+        "dominance": -0.268
+    },
+    {
+        "term": "dismal",
+        "valence": -0.612,
+        "arousal": -0.1,
+        "dominance": -0.616
+    },
+    {
+        "term": "dismay",
+        "valence": -0.372,
+        "arousal": 0.362,
+        "dominance": -0.082
+    },
+    {
+        "term": "dismayed",
+        "valence": -0.67,
+        "arousal": 0.47,
+        "dominance": -0.222
+    },
+    {
+        "term": "dismissive",
+        "valence": -0.624,
+        "arousal": 0.082,
+        "dominance": -0.14
+    },
+    {
+        "term": "dismissiveness",
+        "valence": -0.667,
+        "arousal": -0.524,
+        "dominance": -0.19
+    },
+    {
+        "term": "dispirit",
+        "valence": -0.944,
+        "arousal": -0.667,
+        "dominance": -0.963
+    },
+    {
+        "term": "dispirited",
+        "valence": -0.592,
+        "arousal": -0.44,
+        "dominance": -0.716
+    },
+    {
+        "term": "dispiritedly",
+        "valence": -0.857,
+        "arousal": -0.667,
+        "dominance": -0.958
+    },
+    {
+        "term": "dispiritedness",
+        "valence": -1.0,
+        "arousal": -1.0,
+        "dominance": -0.852
+    },
+    {
+        "term": "displease",
+        "valence": -0.958,
+        "arousal": 0.404,
+        "dominance": -0.428
+    },
+    {
+        "term": "displeased",
+        "valence": -0.73,
+        "arousal": 0.38,
+        "dominance": -0.2
+    },
+    {
+        "term": "displeasure",
+        "valence": -0.77,
+        "arousal": 0.118,
+        "dominance": -0.5
+    },
+    {
+        "term": "disquiet",
+        "valence": -0.667,
+        "arousal": 0.667,
+        "dominance": -0.556
+    },
+    {
+        "term": "disquieted",
+        "valence": -0.542,
+        "arousal": 0.7,
+        "dominance": -0.42
+    },
+    {
+        "term": "disquietedly",
+        "valence": -0.667,
+        "arousal": 0.667,
+        "dominance": -0.519
+    },
+    {
+        "term": "disquietly",
+        "valence": -0.762,
+        "arousal": -0.407,
+        "dominance": -0.524
+    },
+    {
+        "term": "dissatisfaction",
+        "valence": -0.77,
+        "arousal": 0.326,
+        "dominance": -0.596
+    },
+    {
+        "term": "dissatisfied",
+        "valence": -0.916,
+        "arousal": 0.122,
+        "dominance": -0.418
+    },
+    {
+        "term": "distaste",
+        "valence": -0.632,
+        "arousal": 0.25,
+        "dominance": -0.26
+    },
+    {
+        "term": "distraught",
+        "valence": -0.77,
+        "arousal": 0.806,
+        "dominance": -0.472
+    },
+    {
+        "term": "distress",
+        "valence": -0.854,
+        "arousal": 0.68,
+        "dominance": -0.208
+    },
+    {
+        "term": "distressed",
+        "valence": -0.714,
+        "arousal": 0.542,
+        "dominance": -0.352
+    },
+    {
+        "term": "distressful",
+        "valence": -0.952,
+        "arousal": 0.917,
+        "dominance": -0.667
+    },
+    {
+        "term": "distressfully",
+        "valence": -1.0,
+        "arousal": 0.963,
+        "dominance": -0.815
+    },
+    {
+        "term": "distressfulness",
+        "valence": -0.917,
+        "arousal": 0.741,
+        "dominance": -0.889
+    },
+    {
+        "term": "distressing",
+        "valence": -0.85,
+        "arousal": 0.5,
+        "dominance": -0.25
+    },
+    {
+        "term": "distrust",
+        "valence": -0.88,
+        "arousal": 0.34,
+        "dominance": -0.448
+    },
+    {
+        "term": "distrustful",
+        "valence": -0.667,
+        "arousal": -0.667,
+        "dominance": -0.238
+    },
+    {
+        "term": "distrustfulness",
+        "valence": -0.667,
+        "arousal": -0.667,
+        "dominance": -0.37
+    },
+    {
+        "term": "disturbed",
+        "valence": -0.75,
+        "arousal": 0.74,
+        "dominance": -0.39
+    },
+    {
+        "term": "doldrums",
+        "valence": -0.542,
+        "arousal": -0.15,
+        "dominance": -0.468
+    },
+    {
+        "term": "doleful",
+        "valence": -0.944,
+        "arousal": -1.0,
+        "dominance": -0.63
+    },
+    {
+        "term": "dolefully",
+        "valence": -1.0,
+        "arousal": -0.667,
+        "dominance": -0.792
+    },
+    {
+        "term": "dolefulness",
+        "valence": -1.0,
+        "arousal": -1.0,
+        "dominance": -1.0
+    },
+    {
+        "term": "dolor",
+        "valence": -0.666,
+        "arousal": 0.27,
+        "dominance": -0.25
+    },
+    {
+        "term": "doomed",
+        "valence": -0.918,
+        "arousal": 0.51,
+        "dominance": -0.398
+    },
+    {
+        "term": "doubtful",
+        "valence": -0.5,
+        "arousal": -0.07,
+        "dominance": -0.518
+    },
+    {
+        "term": "doubtfulness",
+        "valence": -0.667,
+        "arousal": -0.667,
+        "dominance": -0.667
+    },
+    {
+        "term": "dour",
+        "valence": -0.28,
+        "arousal": -0.192,
+        "dominance": -0.35
+    },
+    {
+        "term": "downcast",
+        "valence": -0.858,
+        "arousal": 0.0,
+        "dominance": -0.556
+    },
+    {
+        "term": "downhearted",
+        "valence": -0.762,
+        "arousal": -0.078,
+        "dominance": -0.49
+    },
+    {
+        "term": "downheartedly",
+        "valence": -0.952,
+        "arousal": -1.0,
+        "dominance": -0.722
+    },
+    {
+        "term": "downheartedness",
+        "valence": -0.952,
+        "arousal": -0.889,
+        "dominance": -0.667
+    },
+    {
+        "term": "downtrodden",
+        "valence": -1.0,
+        "arousal": -0.667,
+        "dominance": -1.0
+    },
+    {
+        "term": "drained",
+        "valence": -0.38,
+        "arousal": -0.118,
+        "dominance": -0.296
+    },
+    {
+        "term": "dread",
+        "valence": -0.694,
+        "arousal": 0.584,
+        "dominance": -0.264
+    },
+    {
+        "term": "dreaded",
+        "valence": -0.756,
+        "arousal": 0.412,
+        "dominance": -0.08
+    },
+    {
+        "term": "dreadfulness",
+        "valence": -1.0,
+        "arousal": -0.667,
+        "dominance": -0.875
+    },
+    {
+        "term": "dreading",
+        "valence": -0.75,
+        "arousal": 0.52,
+        "dominance": -0.246
+    },
+    {
+        "term": "dreamy",
+        "valence": 0.674,
+        "arousal": -0.3,
+        "dominance": 0.0
+    },
+    {
+        "term": "dreariness",
+        "valence": -0.958,
+        "arousal": -1.0,
+        "dominance": -0.963
+    },
+    {
+        "term": "dreary",
+        "valence": -0.48,
+        "arousal": -0.02,
+        "dominance": -0.352
+    },
+    {
+        "term": "dumbstruck",
+        "valence": -0.5,
+        "arousal": -0.889,
+        "dominance": -0.75
+    },
+    {
+        "term": "dysphoria",
+        "valence": -1.0,
+        "arousal": 0.667,
+        "dominance": -0.667
+    },
+    {
+        "term": "dysphoric",
+        "valence": -0.963,
+        "arousal": -0.5,
+        "dominance": -0.905
+    },
+    {
+        "term": "eager",
+        "valence": 0.042,
+        "arousal": 0.624,
+        "dominance": -0.388
+    },
+    {
+        "term": "eagerness",
+        "valence": -0.188,
+        "arousal": 0.242,
+        "dominance": -0.114
+    },
+    {
+        "term": "ease",
+        "valence": 0.592,
+        "arousal": -0.23,
+        "dominance": -0.018
+    },
+    {
+        "term": "ebullient",
+        "valence": 0.318,
+        "arousal": 0.712,
+        "dominance": 0.492
+    },
+    {
+        "term": "ecstasy",
+        "valence": 0.592,
+        "arousal": 0.844,
+        "dominance": 0.31
+    },
+    {
+        "term": "ecstatic",
+        "valence": 0.75,
+        "arousal": 0.538,
+        "dominance": 0.484
+    },
+    {
+        "term": "ecstatically",
+        "valence": 1.0,
+        "arousal": 1.0,
+        "dominance": 0.5
+    },
+    {
+        "term": "edginess",
+        "valence": -0.375,
+        "arousal": 0.667,
+        "dominance": 0.519
+    },
+    {
+        "term": "edgy",
+        "valence": -0.438,
+        "arousal": 0.79,
+        "dominance": -0.388
+    },
+    {
+        "term": "eeriness",
+        "valence": -0.667,
+        "arousal": -0.333,
+        "dominance": -0.481
+    },
+    {
+        "term": "effusive",
+        "valence": 0.619,
+        "arousal": 0.708,
+        "dominance": 0.381
+    },
+    {
+        "term": "effusiveness",
+        "valence": 0.667,
+        "arousal": 0.667,
+        "dominance": -0.444
+    },
+    {
+        "term": "elate",
+        "valence": 0.944,
+        "arousal": 1.0,
+        "dominance": 0.481
+    },
+    {
+        "term": "elated",
+        "valence": 0.584,
+        "arousal": 0.897,
+        "dominance": 0.45
+    },
+    {
+        "term": "elatedly",
+        "valence": 1.0,
+        "arousal": 1.0,
+        "dominance": 0.381
+    },
+    {
+        "term": "elatedness",
+        "valence": 1.0,
+        "arousal": 0.963,
+        "dominance": 0.429
+    },
+    {
+        "term": "elation",
+        "valence": 0.48,
+        "arousal": 0.706,
+        "dominance": 0.246
+    },
+    {
+        "term": "emasculated",
+        "valence": -0.857,
+        "arousal": -0.667,
+        "dominance": -1.0
+    },
+    {
+        "term": "embarrass",
+        "valence": -0.836,
+        "arousal": 0.334,
+        "dominance": -0.272
+    },
+    {
+        "term": "embarrassed",
+        "valence": -0.632,
+        "arousal": 0.12,
+        "dominance": -0.47
+    },
+    {
+        "term": "embarrassment",
+        "valence": -0.714,
+        "arousal": 0.37,
+        "dominance": -0.548
+    },
+    {
+        "term": "embitter",
+        "valence": -1.0,
+        "arousal": 0.667,
+        "dominance": -0.583
+    },
+    {
+        "term": "embitterment",
+        "valence": -1.0,
+        "arousal": -0.625,
+        "dominance": -0.704
+    },
+    {
+        "term": "emptiness",
+        "valence": -0.646,
+        "arousal": -0.654,
+        "dominance": -0.632
+    },
+    {
+        "term": "empty",
+        "valence": -0.624,
+        "arousal": -0.634,
+        "dominance": -0.919
+    },
+    {
+        "term": "enamor",
+        "valence": 0.958,
+        "arousal": 0.63,
+        "dominance": 0.583
+    },
+    {
+        "term": "enchanted",
+        "valence": 0.834,
+        "arousal": 0.266,
+        "dominance": 0.374
+    },
+    {
+        "term": "encouraged",
+        "valence": 0.906,
+        "arousal": 0.404,
+        "dominance": 0.314
+    },
+    {
+        "term": "enjoy",
+        "valence": 0.918,
+        "arousal": 0.45,
+        "dominance": 0.5
+    },
+    {
+        "term": "enjoying",
+        "valence": 0.816,
+        "arousal": 0.518,
+        "dominance": 0.518
+    },
+    {
+        "term": "enjoyment",
+        "valence": 0.86,
+        "arousal": 0.224,
+        "dominance": 0.432
+    },
+    {
+        "term": "ennui",
+        "valence": -0.188,
+        "arousal": -0.078,
+        "dominance": -0.368
+    },
+    {
+        "term": "enrage",
+        "valence": -0.833,
+        "arousal": 1.0,
+        "dominance": 0.958
+    },
+    {
+        "term": "enraged",
+        "valence": -0.834,
+        "arousal": 0.962,
+        "dominance": -0.25
+    },
+    {
+        "term": "enragement",
+        "valence": -1.0,
+        "arousal": 1.0,
+        "dominance": 0.875
+    },
+    {
+        "term": "enrapt",
+        "valence": 1.0,
+        "arousal": 0.963,
+        "dominance": -0.286
+    },
+    {
+        "term": "enrapture",
+        "valence": 1.0,
+        "arousal": 0.667,
+        "dominance": 0.37
+    },
+    {
+        "term": "enraptured",
+        "valence": 1.0,
+        "arousal": 0.667,
+        "dominance": 0.185
+    },
+    {
+        "term": "entertained",
+        "valence": 0.804,
+        "arousal": 0.288,
+        "dominance": 0.424
+    },
+    {
+        "term": "enthralled",
+        "valence": 0.49,
+        "arousal": 0.204,
+        "dominance": 0.23
+    },
+    {
+        "term": "enthrallment",
+        "valence": 0.667,
+        "arousal": 0.667,
+        "dominance": -0.524
+    },
+    {
+        "term": "enthralment",
+        "valence": 0.75,
+        "arousal": 0.704,
+        "dominance": -0.458
+    },
+    {
+        "term": "enthusiasm",
+        "valence": 0.637,
+        "arousal": 0.514,
+        "dominance": 0.596
+    },
+    {
+        "term": "enthusiastic",
+        "valence": 0.77,
+        "arousal": 0.736,
+        "dominance": 0.696
+    },
+    {
+        "term": "entranced",
+        "valence": 0.733,
+        "arousal": -0.815,
+        "dominance": -0.708
+    },
+    {
+        "term": "entrancement",
+        "valence": 0.708,
+        "arousal": -0.222,
+        "dominance": -0.083
+    },
+    {
+        "term": "envied",
+        "valence": 0.889,
+        "arousal": -0.333,
+        "dominance": 0.792
+    },
+    {
+        "term": "envious",
+        "valence": -0.78,
+        "arousal": 0.508,
+        "dominance": -0.318
+    },
+    {
+        "term": "enviously",
+        "valence": -0.667,
+        "arousal": 0.667,
+        "dominance": -0.333
+    },
+    {
+        "term": "enviousness",
+        "valence": -0.762,
+        "arousal": -0.407,
+        "dominance": -0.37
+    },
+    {
+        "term": "envy",
+        "valence": -0.52,
+        "arousal": 0.408,
+        "dominance": -0.146
+    },
+    {
+        "term": "equanimity",
+        "valence": 1.0,
+        "arousal": -0.963,
+        "dominance": 0.667
+    },
+    {
+        "term": "estrangement",
+        "valence": -0.667,
+        "arousal": -0.571,
+        "dominance": -0.593
+    },
+    {
+        "term": "eternally grateful",
+        "valence": 0.466,
+        "arousal": 0.016,
+        "dominance": 0.274
+    },
+    {
+        "term": "euphoria",
+        "valence": 0.538,
+        "arousal": 0.91,
+        "dominance": 0.296
+    },
+    {
+        "term": "euphoric",
+        "valence": 0.49,
+        "arousal": 0.808,
+        "dominance": 0.176
+    },
+    {
+        "term": "exalt",
+        "valence": 0.312,
+        "arousal": 0.5,
+        "dominance": 0.49
+    },
+    {
+        "term": "exaltation",
+        "valence": 0.188,
+        "arousal": 0.784,
+        "dominance": 0.346
+    },
+    {
+        "term": "exalted",
+        "valence": 0.352,
+        "arousal": 0.69,
+        "dominance": 0.392
+    },
+    {
+        "term": "exaltedly",
+        "valence": 1.0,
+        "arousal": 1.0,
+        "dominance": 0.6
+    },
+    {
+        "term": "exaltedness",
+        "valence": 1.0,
+        "arousal": -0.667,
+        "dominance": 0.917
+    },
+    {
+        "term": "exasperated",
+        "valence": -0.542,
+        "arousal": 0.506,
+        "dominance": -0.246
+    },
+    {
+        "term": "exasperatedly",
+        "valence": -0.704,
+        "arousal": 1.0,
+        "dominance": -0.429
+    },
+    {
+        "term": "exasperation",
+        "valence": -0.572,
+        "arousal": 0.666,
+        "dominance": -0.034
+    },
+    {
+        "term": "excitability",
+        "valence": 0.812,
+        "arousal": 0.82,
+        "dominance": 0.448
+    },
+    {
+        "term": "excitable",
+        "valence": 0.606,
+        "arousal": 0.878,
+        "dominance": 0.258
+    },
+    {
+        "term": "excitableness",
+        "valence": 0.0,
+        "arousal": 1.0,
+        "dominance": -0.296
+    },
+    {
+        "term": "excitation",
+        "valence": 0.584,
+        "arousal": 0.958,
+        "dominance": 0.393
+    },
+    {
+        "term": "excite",
+        "valence": 0.646,
+        "arousal": 0.9,
+        "dominance": 0.336
+    },
+    {
+        "term": "excited",
+        "valence": 0.816,
+        "arousal": 0.862,
+        "dominance": 0.418
+    },
+    {
+        "term": "excitement",
+        "valence": 0.792,
+        "arousal": 0.368,
+        "dominance": 0.462
+    },
+    {
+        "term": "exciting",
+        "valence": 0.9,
+        "arousal": 0.584,
+        "dominance": 0.578
+    },
+    {
+        "term": "excluded",
+        "valence": -0.878,
+        "arousal": 0.08,
+        "dominance": -0.732
+    },
+    {
+        "term": "exhausted",
+        "valence": -0.754,
+        "arousal": -0.154,
+        "dominance": -0.596
+    },
+    {
+        "term": "exhilarant",
+        "valence": 0.792,
+        "arousal": 1.0,
+        "dominance": 0.407
+    },
+    {
+        "term": "exhilarate",
+        "valence": 1.0,
+        "arousal": 0.81,
+        "dominance": 0.704
+    },
+    {
+        "term": "exhilarated",
+        "valence": 0.78,
+        "arousal": 0.963,
+        "dominance": 0.342
+    },
+    {
+        "term": "exhilarating",
+        "valence": 0.834,
+        "arousal": 0.646,
+        "dominance": 0.62
+    },
+    {
+        "term": "exhilaration",
+        "valence": 0.792,
+        "arousal": 0.736,
+        "dominance": 0.566
+    },
+    {
+        "term": "exhilarative",
+        "valence": 0.933,
+        "arousal": 0.917,
+        "dominance": 0.63
+    },
+    {
+        "term": "expectant",
+        "valence": 0.541,
+        "arousal": 0.484,
+        "dominance": -0.002
+    },
+    {
+        "term": "extreme anticipation",
+        "valence": 0.102,
+        "arousal": 0.48,
+        "dominance": 0.408
+    },
+    {
+        "term": "extreme disgust",
+        "valence": -0.896,
+        "arousal": 0.746,
+        "dominance": -0.088
+    },
+    {
+        "term": "extreme surprise",
+        "valence": 0.666,
+        "arousal": 0.87,
+        "dominance": 0.352
+    },
+    {
+        "term": "exuberance",
+        "valence": 0.396,
+        "arousal": 0.632,
+        "dominance": 0.574
+    },
+    {
+        "term": "exuberant",
+        "valence": 1.0,
+        "arousal": 1.0,
+        "dominance": 0.593
+    },
+    {
+        "term": "exult",
+        "valence": 0.958,
+        "arousal": 1.0,
+        "dominance": 0.792
+    },
+    {
+        "term": "exultance",
+        "valence": 1.0,
+        "arousal": 1.0,
+        "dominance": 0.778
+    },
+    {
+        "term": "exultancy",
+        "valence": 1.0,
+        "arousal": 1.0,
+        "dominance": 0.583
+    },
+    {
+        "term": "exultant",
+        "valence": 1.0,
+        "arousal": 1.0,
+        "dominance": 0.714
+    },
+    {
+        "term": "exultantly",
+        "valence": 1.0,
+        "arousal": 1.0,
+        "dominance": 0.833
+    },
+    {
+        "term": "exultation",
+        "valence": 1.0,
+        "arousal": 1.0,
+        "dominance": 0.81
+    },
+    {
+        "term": "fainthearted",
+        "valence": -0.667,
+        "arousal": -0.667,
+        "dominance": -0.704
+    },
+    {
+        "term": "faintheartedness",
+        "valence": -0.667,
+        "arousal": -0.889,
+        "dominance": -0.926
+    },
+    {
+        "term": "fanatical",
+        "valence": 0.11,
+        "arousal": 0.66,
+        "dominance": 0.428
+    },
+    {
+        "term": "fascinated",
+        "valence": 0.624,
+        "arousal": 0.428,
+        "dominance": 0.576
+    },
+    {
+        "term": "fascination",
+        "valence": 0.77,
+        "arousal": 0.546,
+        "dominance": 0.67
+    },
+    {
+        "term": "fatalistic",
+        "valence": -0.667,
+        "arousal": -0.667,
+        "dominance": -0.667
+    },
+    {
+        "term": "fatigue",
+        "valence": -0.654,
+        "arousal": -0.244,
+        "dominance": -0.47
+    },
+    {
+        "term": "fatigued",
+        "valence": -0.708,
+        "arousal": -0.134,
+        "dominance": -0.51
+    },
+    {
+        "term": "fear",
+        "valence": -0.854,
+        "arousal": 0.68,
+        "dominance": -0.414
+    },
+    {
+        "term": "fear for",
+        "valence": -0.534,
+        "arousal": 0.058,
+        "dominance": -0.242
+    },
+    {
+        "term": "feared",
+        "valence": -0.52,
+        "arousal": 0.466,
+        "dominance": 0.018
+    },
+    {
+        "term": "fearful",
+        "valence": -0.834,
+        "arousal": -0.036,
+        "dominance": -0.444
+    },
+    {
+        "term": "fearfully",
+        "valence": -0.776,
+        "arousal": 0.134,
+        "dominance": -0.458
+    },
+    {
+        "term": "fearfulness",
+        "valence": -0.889,
+        "arousal": 0.667,
+        "dominance": -0.958
+    },
+    {
+        "term": "fearing",
+        "valence": -0.75,
+        "arousal": 0.132,
+        "dominance": -0.488
+    },
+    {
+        "term": "fears",
+        "valence": -0.878,
+        "arousal": 0.642,
+        "dominance": -0.388
+    },
+    {
+        "term": "fed up",
+        "valence": -0.5,
+        "arousal": 0.096,
+        "dominance": -0.346
+    },
+    {
+        "term": "fedup",
+        "valence": -0.346,
+        "arousal": 0.0,
+        "dominance": -0.296
+    },
+    {
+        "term": "feel bad",
+        "valence": -0.966,
+        "arousal": -0.174,
+        "dominance": -0.536
+    },
+    {
+        "term": "feel good",
+        "valence": 0.812,
+        "arousal": -0.194,
+        "dominance": 0.114
+    },
+    {
+        "term": "feel sorry",
+        "valence": -0.444,
+        "arousal": -0.266,
+        "dominance": -0.322
+    },
+    {
+        "term": "feeling good",
+        "valence": 0.838,
+        "arousal": -0.282,
+        "dominance": 0.6
+    },
+    {
+        "term": "feisty",
+        "valence": 0.184,
+        "arousal": 0.706,
+        "dominance": 0.578
+    },
+    {
+        "term": "felicity",
+        "valence": 0.826,
+        "arousal": 0.408,
+        "dominance": 0.586
+    },
+    {
+        "term": "fervency",
+        "valence": 0.571,
+        "arousal": 1.0,
+        "dominance": 0.5
+    },
+    {
+        "term": "fervor",
+        "valence": 0.146,
+        "arousal": 0.538,
+        "dominance": 0.302
+    },
+    {
+        "term": "fidgetiness",
+        "valence": -0.667,
+        "arousal": 0.81,
+        "dominance": -0.542
+    },
+    {
+        "term": "fidgety",
+        "valence": -0.542,
+        "arousal": 0.572,
+        "dominance": -0.298
+    },
+    {
+        "term": "fired up",
+        "valence": -0.066,
+        "arousal": 0.328,
+        "dominance": 0.112
+    },
+    {
+        "term": "fitfulness",
+        "valence": -0.667,
+        "arousal": 0.667,
+        "dominance": -0.625
+    },
+    {
+        "term": "flabbergasted",
+        "valence": -0.376,
+        "arousal": 0.604,
+        "dominance": -0.316
+    },
+    {
+        "term": "flattered",
+        "valence": 0.73,
+        "arousal": 0.216,
+        "dominance": 0.416
+    },
+    {
+        "term": "flip out",
+        "valence": -0.678,
+        "arousal": 0.15,
+        "dominance": -0.5
+    },
+    {
+        "term": "flirtatious",
+        "valence": 0.63,
+        "arousal": 0.667,
+        "dominance": 0.542
+    },
+    {
+        "term": "flirty",
+        "valence": 0.428,
+        "arousal": 0.442,
+        "dominance": -0.018
+    },
+    {
+        "term": "flurried",
+        "valence": -0.333,
+        "arousal": 1.0,
+        "dominance": -0.593
+    },
+    {
+        "term": "fluster",
+        "valence": -0.667,
+        "arousal": 1.0,
+        "dominance": -0.667
+    },
+    {
+        "term": "flustered",
+        "valence": -0.368,
+        "arousal": 0.806,
+        "dominance": -0.434
+    },
+    {
+        "term": "fluttery",
+        "valence": 0.667,
+        "arousal": 0.708,
+        "dominance": -0.458
+    },
+    {
+        "term": "fomo",
+        "valence": -0.3,
+        "arousal": -0.126,
+        "dominance": -0.148
+    },
+    {
+        "term": "fond",
+        "valence": 0.77,
+        "arousal": 0.204,
+        "dominance": 0.036
+    },
+    {
+        "term": "fondness",
+        "valence": 0.77,
+        "arousal": -0.218,
+        "dominance": 0.006
+    },
+    {
+        "term": "foreboding",
+        "valence": -0.122,
+        "arousal": 0.412,
+        "dominance": 0.272
+    },
+    {
+        "term": "forlorn",
+        "valence": -0.368,
+        "arousal": 0.142,
+        "dominance": -0.566
+    },
+    {
+        "term": "forlornly",
+        "valence": -0.944,
+        "arousal": -0.667,
+        "dominance": -0.708
+    },
+    {
+        "term": "forlornness",
+        "valence": -0.875,
+        "arousal": -0.667,
+        "dominance": -0.708
+    },
+    {
+        "term": "forsaken",
+        "valence": -0.9,
+        "arousal": -0.02,
+        "dominance": -0.616
+    },
+    {
+        "term": "forsakenness",
+        "valence": -1.0,
+        "arousal": -0.963,
+        "dominance": -0.952
+    },
+    {
+        "term": "fractious",
+        "valence": -0.667,
+        "arousal": 1.0,
+        "dominance": -0.625
+    },
+    {
+        "term": "fractiously",
+        "valence": -0.667,
+        "arousal": 0.905,
+        "dominance": -0.533
+    },
+    {
+        "term": "fractiousness",
+        "valence": -0.667,
+        "arousal": 0.958,
+        "dominance": -0.611
+    },
+    {
+        "term": "frantic",
+        "valence": -0.58,
+        "arousal": 0.78,
+        "dominance": 0.254
+    },
+    {
+        "term": "frazzled",
+        "valence": -0.312,
+        "arousal": -0.17,
+        "dominance": -0.322
+    },
+    {
+        "term": "freak out",
+        "valence": -0.434,
+        "arousal": 0.348,
+        "dominance": -0.2
+    },
+    {
+        "term": "freaked",
+        "valence": -0.73,
+        "arousal": 0.834,
+        "dominance": -0.32
+    },
+    {
+        "term": "freaked out",
+        "valence": -0.552,
+        "arousal": 0.39,
+        "dominance": -0.734
+    },
+    {
+        "term": "freakedout",
+        "valence": -0.354,
+        "arousal": 0.376,
+        "dominance": -0.27
+    },
+    {
+        "term": "freakingout",
+        "valence": -0.562,
+        "arousal": 0.538,
+        "dominance": -0.322
+    },
+    {
+        "term": "freakout",
+        "valence": -0.5,
+        "arousal": 0.392,
+        "dominance": -0.206
+    },
+    {
+        "term": "freehearted",
+        "valence": 0.963,
+        "arousal": -0.167,
+        "dominance": 0.296
+    },
+    {
+        "term": "frenzied",
+        "valence": -0.27,
+        "arousal": 0.902,
+        "dominance": 0.31
+    },
+    {
+        "term": "frenzy",
+        "valence": 0.22,
+        "arousal": 0.967,
+        "dominance": 0.199
+    },
+    {
+        "term": "fret",
+        "valence": -0.422,
+        "arousal": -0.08,
+        "dominance": -0.538
+    },
+    {
+        "term": "fretful",
+        "valence": -0.182,
+        "arousal": 0.378,
+        "dominance": -0.272
+    },
+    {
+        "term": "fretfully",
+        "valence": -0.667,
+        "arousal": 0.667,
+        "dominance": -0.917
+    },
+    {
+        "term": "fretfulness",
+        "valence": -0.667,
+        "arousal": 1.0,
+        "dominance": -0.778
+    },
+    {
+        "term": "fretted",
+        "valence": -0.625,
+        "arousal": 0.619,
+        "dominance": -0.583
+    },
+    {
+        "term": "fretting",
+        "valence": -0.667,
+        "arousal": 0.667,
+        "dominance": -0.667
+    },
+    {
+        "term": "friendless",
+        "valence": -0.796,
+        "arousal": -0.28,
+        "dominance": -0.592
+    },
+    {
+        "term": "friendlessness",
+        "valence": -1.0,
+        "arousal": -0.667,
+        "dominance": -0.667
+    },
+    {
+        "term": "friendliness",
+        "valence": 0.899,
+        "arousal": -0.286,
+        "dominance": 0.111
+    },
+    {
+        "term": "fright",
+        "valence": -0.646,
+        "arousal": 0.632,
+        "dominance": -0.618
+    },
+    {
+        "term": "frighten",
+        "valence": -0.49,
+        "arousal": 0.686,
+        "dominance": 0.0
+    },
+    {
+        "term": "frightened",
+        "valence": -0.694,
+        "arousal": 0.634,
+        "dominance": -0.49
+    },
+    {
+        "term": "friskiness",
+        "valence": 0.667,
+        "arousal": 0.958,
+        "dominance": -0.292
+    },
+    {
+        "term": "frustrate",
+        "valence": -0.8,
+        "arousal": 0.618,
+        "dominance": -0.514
+    },
+    {
+        "term": "frustrated",
+        "valence": -0.84,
+        "arousal": 0.302,
+        "dominance": -0.49
+    },
+    {
+        "term": "frustrates",
+        "valence": -0.708,
+        "arousal": 0.306,
+        "dominance": -0.32
+    },
+    {
+        "term": "frustrating",
+        "valence": -0.916,
+        "arousal": 0.392,
+        "dominance": -0.472
+    },
+    {
+        "term": "frustration",
+        "valence": -0.88,
+        "arousal": 0.46,
+        "dominance": -0.44
+    },
+    {
+        "term": "fulfilled",
+        "valence": 0.792,
+        "arousal": -0.04,
+        "dominance": 0.352
+    },
+    {
+        "term": "fulfilling",
+        "valence": 0.646,
+        "arousal": -0.166,
+        "dominance": 0.51
+    },
+    {
+        "term": "fulfillment",
+        "valence": 0.666,
+        "arousal": 0.056,
+        "dominance": 0.366
+    },
+    {
+        "term": "fuming",
+        "valence": -0.52,
+        "arousal": 0.32,
+        "dominance": -0.038
+    },
+    {
+        "term": "furious",
+        "valence": -0.876,
+        "arousal": 0.906,
+        "dominance": 0.196
+    },
+    {
+        "term": "furiously",
+        "valence": -0.876,
+        "arousal": 0.85,
+        "dominance": 0.314
+    },
+    {
+        "term": "furiousness",
+        "valence": -0.926,
+        "arousal": 1.0,
+        "dominance": 1.0
+    },
+    {
+        "term": "furor",
+        "valence": 0.0,
+        "arousal": 0.726,
+        "dominance": 0.272
+    },
+    {
+        "term": "fury",
+        "valence": -0.876,
+        "arousal": 0.75,
+        "dominance": 0.352
+    },
+    {
+        "term": "fussiness",
+        "valence": -0.667,
+        "arousal": 0.667,
+        "dominance": -0.542
+    },
+    {
+        "term": "fussy",
+        "valence": -0.166,
+        "arousal": 0.286,
+        "dominance": 0.038
+    },
+    {
+        "term": "fustrated",
+        "valence": -0.674,
+        "arousal": 0.368,
+        "dominance": -0.288
+    },
+    {
+        "term": "gaiety",
+        "valence": 0.708,
+        "arousal": 0.518,
+        "dominance": 0.44
+    },
+    {
+        "term": "galled",
+        "valence": -0.46,
+        "arousal": 0.462,
+        "dominance": -0.288
+    },
+    {
+        "term": "genial",
+        "valence": 0.734,
+        "arousal": 0.26,
+        "dominance": 0.538
+    },
+    {
+        "term": "geniality",
+        "valence": 1.0,
+        "arousal": -0.524,
+        "dominance": 0.5
+    },
+    {
+        "term": "get mad",
+        "valence": -0.634,
+        "arousal": 0.276,
+        "dominance": -0.366
+    },
+    {
+        "term": "giddiness",
+        "valence": 0.708,
+        "arousal": 0.952,
+        "dominance": -0.458
+    },
+    {
+        "term": "giddy",
+        "valence": -0.124,
+        "arousal": 0.694,
+        "dominance": 0.222
+    },
+    {
+        "term": "giggly",
+        "valence": 0.926,
+        "arousal": 0.722,
+        "dominance": -0.75
+    },
+    {
+        "term": "glad",
+        "valence": 0.876,
+        "arousal": 0.52,
+        "dominance": 0.48
+    },
+    {
+        "term": "gladness",
+        "valence": 0.792,
+        "arousal": 0.34,
+        "dominance": 0.286
+    },
+    {
+        "term": "glee",
+        "valence": 0.396,
+        "arousal": 0.16,
+        "dominance": -0.072
+    },
+    {
+        "term": "gleeful",
+        "valence": 0.812,
+        "arousal": 0.612,
+        "dominance": 0.358
+    },
+    {
+        "term": "gleefully",
+        "valence": 1.0,
+        "arousal": 0.963,
+        "dominance": 0.0
+    },
+    {
+        "term": "gleefulness",
+        "valence": 1.0,
+        "arousal": 0.852,
+        "dominance": 0.074
+    },
+    {
+        "term": "gleesome",
+        "valence": 0.905,
+        "arousal": 1.0,
+        "dominance": 0.222
+    },
+    {
+        "term": "gloat",
+        "valence": 0.0,
+        "arousal": 0.274,
+        "dominance": 0.206
+    },
+    {
+        "term": "gloom",
+        "valence": -0.73,
+        "arousal": -0.192,
+        "dominance": -0.608
+    },
+    {
+        "term": "gloomily",
+        "valence": -0.933,
+        "arousal": -1.0,
+        "dominance": -0.593
+    },
+    {
+        "term": "gloominess",
+        "valence": -1.0,
+        "arousal": -1.0,
+        "dominance": -0.778
+    },
+    {
+        "term": "gloomy",
+        "valence": -0.786,
+        "arousal": -0.18,
+        "dominance": -0.426
+    },
+    {
+        "term": "glum",
+        "valence": -0.512,
+        "arousal": -0.326,
+        "dominance": -0.754
+    },
+    {
+        "term": "glumly",
+        "valence": -1.0,
+        "arousal": -0.667,
+        "dominance": -0.667
+    },
+    {
+        "term": "glumness",
+        "valence": -1.0,
+        "arousal": -0.958,
+        "dominance": -0.958
+    },
+    {
+        "term": "go ape",
+        "valence": -0.322,
+        "arousal": 0.162,
+        "dominance": -0.234
+    },
+    {
+        "term": "gobsmacked",
+        "valence": 0.556,
+        "arousal": 0.667,
+        "dominance": -0.556
+    },
+    {
+        "term": "good mood",
+        "valence": 0.866,
+        "arousal": -0.308,
+        "dominance": 0.274
+    },
+    {
+        "term": "goofiness",
+        "valence": 0.222,
+        "arousal": 0.625,
+        "dominance": -0.593
+    },
+    {
+        "term": "grandiosity",
+        "valence": 0.333,
+        "arousal": 0.667,
+        "dominance": 0.958
+    },
+    {
+        "term": "grateful",
+        "valence": 0.916,
+        "arousal": -0.294,
+        "dominance": 0.12
+    },
+    {
+        "term": "gratefulness",
+        "valence": 1.0,
+        "arousal": -0.381,
+        "dominance": -0.333
+    },
+    {
+        "term": "gratification",
+        "valence": 0.734,
+        "arousal": 0.286,
+        "dominance": 0.51
+    },
+    {
+        "term": "gratified",
+        "valence": 0.526,
+        "arousal": 0.038,
+        "dominance": 0.404
+    },
+    {
+        "term": "gratifying",
+        "valence": 0.714,
+        "arousal": 0.212,
+        "dominance": 0.552
+    },
+    {
+        "term": "gratitude",
+        "valence": 0.77,
+        "arousal": -0.118,
+        "dominance": 0.22
+    },
+    {
+        "term": "great anticipation",
+        "valence": 0.572,
+        "arousal": 0.47,
+        "dominance": 0.31
+    },
+    {
+        "term": "great disgust",
+        "valence": -0.916,
+        "arousal": 0.672,
+        "dominance": -0.222
+    },
+    {
+        "term": "grief",
+        "valence": -0.86,
+        "arousal": 0.28,
+        "dominance": -0.052
+    },
+    {
+        "term": "grieve",
+        "valence": -0.756,
+        "arousal": 0.0,
+        "dominance": -0.334
+    },
+    {
+        "term": "grieved",
+        "valence": -0.792,
+        "arousal": -0.08,
+        "dominance": -0.618
+    },
+    {
+        "term": "grieving",
+        "valence": -0.814,
+        "arousal": 0.346,
+        "dominance": -0.194
+    },
+    {
+        "term": "grievous",
+        "valence": -0.708,
+        "arousal": 0.28,
+        "dominance": -0.642
+    },
+    {
+        "term": "grimness",
+        "valence": -1.0,
+        "arousal": -0.667,
+        "dominance": -0.375
+    },
+    {
+        "term": "grouchily",
+        "valence": -0.667,
+        "arousal": 0.593,
+        "dominance": -0.5
+    },
+    {
+        "term": "grouchiness",
+        "valence": -0.905,
+        "arousal": 0.63,
+        "dominance": -0.333
+    },
+    {
+        "term": "grouchy",
+        "valence": -0.714,
+        "arousal": 0.416,
+        "dominance": -0.186
+    },
+    {
+        "term": "grudging",
+        "valence": -0.742,
+        "arousal": 0.272,
+        "dominance": -0.054
+    },
+    {
+        "term": "grump",
+        "valence": -0.48,
+        "arousal": -0.062,
+        "dominance": -0.15
+    },
+    {
+        "term": "grumpily",
+        "valence": -0.963,
+        "arousal": -0.667,
+        "dominance": -0.556
+    },
+    {
+        "term": "grumpiness",
+        "valence": -0.958,
+        "arousal": -0.381,
+        "dominance": -0.333
+    },
+    {
+        "term": "grumpy",
+        "valence": -0.604,
+        "arousal": 0.616,
+        "dominance": 0.118
+    },
+    {
+        "term": "guarded",
+        "valence": 0.516,
+        "arousal": 0.372,
+        "dominance": 0.0
+    },
+    {
+        "term": "guilt",
+        "valence": -0.584,
+        "arousal": 0.134,
+        "dominance": -0.588
+    },
+    {
+        "term": "guiltily",
+        "valence": -0.667,
+        "arousal": 0.571,
+        "dominance": -0.6
+    },
+    {
+        "term": "guiltiness",
+        "valence": -0.704,
+        "arousal": -0.444,
+        "dominance": -0.5
+    },
+    {
+        "term": "guilty",
+        "valence": -0.73,
+        "arousal": 0.54,
+        "dominance": -0.296
+    },
+    {
+        "term": "guilty conscience",
+        "valence": -0.734,
+        "arousal": 0.218,
+        "dominance": -0.47
+    },
+    {
+        "term": "gushiness",
+        "valence": -0.222,
+        "arousal": 0.667,
+        "dominance": -0.467
+    },
+    {
+        "term": "gushy",
+        "valence": -0.556,
+        "arousal": 0.667,
+        "dominance": -0.667
+    },
+    {
+        "term": "gut wrenching",
+        "valence": -0.734,
+        "arousal": 0.54,
+        "dominance": -0.482
+    },
+    {
+        "term": "halfhearted",
+        "valence": -0.667,
+        "arousal": -0.667,
+        "dominance": -0.556
+    },
+    {
+        "term": "hangry",
+        "valence": -0.562,
+        "arousal": 0.588,
+        "dominance": -0.442
+    },
+    {
+        "term": "hankering",
+        "valence": 0.208,
+        "arousal": 0.08,
+        "dominance": 0.116
+    },
+    {
+        "term": "happier",
+        "valence": 0.986,
+        "arousal": 0.334,
+        "dominance": 0.565
+    },
+    {
+        "term": "happiest",
+        "valence": 0.99,
+        "arousal": 0.185,
+        "dominance": 0.591
+    },
+    {
+        "term": "happiness",
+        "valence": 0.92,
+        "arousal": 0.464,
+        "dominance": 0.7
+    },
+    {
+        "term": "happy",
+        "valence": 0.985,
+        "arousal": 0.47,
+        "dominance": 0.39
+    },
+    {
+        "term": "hard feelings",
+        "valence": -0.75,
+        "arousal": 0.204,
+        "dominance": 0.068
+    },
+    {
+        "term": "hardhearted",
+        "valence": -0.667,
+        "arousal": -0.524,
+        "dominance": 0.5
+    },
+    {
+        "term": "hate",
+        "valence": -0.938,
+        "arousal": 0.604,
+        "dominance": -0.14
+    },
+    {
+        "term": "hateful",
+        "valence": -0.858,
+        "arousal": 0.638,
+        "dominance": -0.14
+    },
+    {
+        "term": "hatefully",
+        "valence": -1.0,
+        "arousal": 0.852,
+        "dominance": -0.407
+    },
+    {
+        "term": "hatefulness",
+        "valence": -1.0,
+        "arousal": 0.762,
+        "dominance": 0.75
+    },
+    {
+        "term": "hating",
+        "valence": -0.834,
+        "arousal": 0.64,
+        "dominance": -0.132
+    },
+    {
+        "term": "hatred",
+        "valence": -0.926,
+        "arousal": 0.694,
+        "dominance": -0.152
+    },
+    {
+        "term": "have hope",
+        "valence": 0.586,
+        "arousal": -0.062,
+        "dominance": 0.0
+    },
+    {
+        "term": "heart breaking",
+        "valence": -0.794,
+        "arousal": 0.284,
+        "dominance": -0.434
+    },
+    {
+        "term": "heart wrenching",
+        "valence": -0.29,
+        "arousal": 0.328,
+        "dominance": -0.138
+    },
+    {
+        "term": "heartache",
+        "valence": -0.824,
+        "arousal": 0.5,
+        "dominance": -0.418
+    },
+    {
+        "term": "heartbreak",
+        "valence": -0.584,
+        "arousal": 0.22,
+        "dominance": -0.51
+    },
+    {
+        "term": "heartbreaking",
+        "valence": -0.708,
+        "arousal": 0.622,
+        "dominance": -0.154
+    },
+    {
+        "term": "heartbroken",
+        "valence": -0.836,
+        "arousal": 0.102,
+        "dominance": -0.53
+    },
+    {
+        "term": "heartbrokenly",
+        "valence": -1.0,
+        "arousal": -0.519,
+        "dominance": -0.958
+    },
+    {
+        "term": "heartbrokenness",
+        "valence": -1.0,
+        "arousal": -0.417,
+        "dominance": -0.75
+    },
+    {
+        "term": "hearten",
+        "valence": 1.0,
+        "arousal": 0.625,
+        "dominance": 0.524
+    },
+    {
+        "term": "heartrending",
+        "valence": -0.833,
+        "arousal": 0.667,
+        "dominance": -0.619
+    },
+    {
+        "term": "heartsick",
+        "valence": -0.52,
+        "arousal": -0.224,
+        "dominance": -0.584
+    },
+    {
+        "term": "heartsickness",
+        "valence": -1.0,
+        "arousal": -0.625,
+        "dominance": -0.667
+    },
+    {
+        "term": "heartwarming",
+        "valence": 1.0,
+        "arousal": -0.708,
+        "dominance": 0.296
+    },
+    {
+        "term": "heavy heart",
+        "valence": -0.358,
+        "arousal": 0.0,
+        "dominance": 0.034
+    },
+    {
+        "term": "heavyhearted",
+        "valence": -0.75,
+        "arousal": -0.708,
+        "dominance": -0.815
+    },
+    {
+        "term": "heavyheartedness",
+        "valence": -1.0,
+        "arousal": -0.704,
+        "dominance": -0.81
+    },
+    {
+        "term": "helpless",
+        "valence": -0.792,
+        "arousal": -0.16,
+        "dominance": -0.572
+    },
+    {
+        "term": "helplessness",
+        "valence": -0.826,
+        "arousal": -0.04,
+        "dominance": -0.5
+    },
+    {
+        "term": "hilarity",
+        "valence": 0.49,
+        "arousal": -0.04,
+        "dominance": 0.15
+    },
+    {
+        "term": "hissy fit",
+        "valence": -0.5,
+        "arousal": 0.154,
+        "dominance": -0.178
+    },
+    {
+        "term": "hold dear",
+        "valence": 0.276,
+        "arousal": -0.26,
+        "dominance": -0.322
+    },
+    {
+        "term": "hollowness",
+        "valence": -0.667,
+        "arousal": -0.952,
+        "dominance": -0.667
+    },
+    {
+        "term": "homesick",
+        "valence": -0.128,
+        "arousal": -0.392,
+        "dominance": -0.306
+    },
+    {
+        "term": "homesickness",
+        "valence": -0.714,
+        "arousal": -0.593,
+        "dominance": -0.542
+    },
+    {
+        "term": "homicidal",
+        "valence": -0.96,
+        "arousal": 0.824,
+        "dominance": 0.146
+    },
+    {
+        "term": "honored",
+        "valence": 0.876,
+        "arousal": -0.106,
+        "dominance": 0.464
+    },
+    {
+        "term": "honoured",
+        "valence": 1.0,
+        "arousal": -0.5,
+        "dominance": 0.542
+    },
+    {
+        "term": "hooked",
+        "valence": 0.22,
+        "arousal": 0.322,
+        "dominance": -0.092
+    },
+    {
+        "term": "hope",
+        "valence": 0.854,
+        "arousal": -0.366,
+        "dominance": 0.478
+    },
+    {
+        "term": "hopeful",
+        "valence": 0.894,
+        "arousal": -0.286,
+        "dominance": 0.254
+    },
+    {
+        "term": "hopefulness",
+        "valence": 1.0,
+        "arousal": -0.259,
+        "dominance": -0.148
+    },
+    {
+        "term": "hopeless",
+        "valence": -0.812,
+        "arousal": -0.404,
+        "dominance": -0.888
+    },
+    {
+        "term": "hopelessness",
+        "valence": -0.948,
+        "arousal": -0.196,
+        "dominance": -0.554
+    },
+    {
+        "term": "hoping",
+        "valence": 0.368,
+        "arousal": -0.062,
+        "dominance": -0.092
+    },
+    {
+        "term": "horniness",
+        "valence": -0.667,
+        "arousal": 1.0,
+        "dominance": 0.25
+    },
+    {
+        "term": "horny",
+        "valence": -0.02,
+        "arousal": 0.816,
+        "dominance": 0.12
+    },
+    {
+        "term": "horrified",
+        "valence": -0.92,
+        "arousal": 0.77,
+        "dominance": -0.264
+    },
+    {
+        "term": "horrify",
+        "valence": -1.0,
+        "arousal": 0.704,
+        "dominance": -0.042
+    },
+    {
+        "term": "horrifying",
+        "valence": -0.99,
+        "arousal": 0.481,
+        "dominance": -0.407
+    },
+    {
+        "term": "horror",
+        "valence": -0.77,
+        "arousal": 0.7,
+        "dominance": -0.124
+    },
+    {
+        "term": "hostile",
+        "valence": -0.624,
+        "arousal": 0.754,
+        "dominance": -0.052
+    },
+    {
+        "term": "hostilely",
+        "valence": -1.0,
+        "arousal": 0.857,
+        "dominance": 0.5
+    },
+    {
+        "term": "hostility",
+        "valence": -0.756,
+        "arousal": 0.55,
+        "dominance": -0.07
+    },
+    {
+        "term": "hotheadedness",
+        "valence": -0.667,
+        "arousal": 0.905,
+        "dominance": -0.625
+    },
+    {
+        "term": "huff",
+        "valence": -0.224,
+        "arousal": -0.018,
+        "dominance": -0.37
+    },
+    {
+        "term": "huffily",
+        "valence": -0.667,
+        "arousal": 0.667,
+        "dominance": -0.429
+    },
+    {
+        "term": "huffiness",
+        "valence": -0.667,
+        "arousal": 0.667,
+        "dominance": -0.444
+    },
+    {
+        "term": "huffy",
+        "valence": -0.16,
+        "arousal": 0.232,
+        "dominance": -0.25
+    },
+    {
+        "term": "humbled",
+        "valence": -0.44,
+        "arousal": 0.236,
+        "dominance": -0.604
+    },
+    {
+        "term": "humiliate",
+        "valence": -0.896,
+        "arousal": 0.428,
+        "dominance": -0.45
+    },
+    {
+        "term": "humiliated",
+        "valence": -0.792,
+        "arousal": 0.424,
+        "dominance": -0.568
+    },
+    {
+        "term": "humiliating",
+        "valence": -0.876,
+        "arousal": 0.432,
+        "dominance": -0.442
+    },
+    {
+        "term": "humiliation",
+        "valence": -0.904,
+        "arousal": 0.424,
+        "dominance": -0.38
+    },
+    {
+        "term": "humored",
+        "valence": 0.708,
+        "arousal": 0.314,
+        "dominance": 0.09
+    },
+    {
+        "term": "humorless",
+        "valence": -0.667,
+        "arousal": -0.667,
+        "dominance": -0.381
+    },
+    {
+        "term": "humorlessness",
+        "valence": -0.667,
+        "arousal": -0.704,
+        "dominance": -0.333
+    },
+    {
+        "term": "hurt",
+        "valence": -0.876,
+        "arousal": 0.546,
+        "dominance": -0.418
+    },
+    {
+        "term": "hurtfulness",
+        "valence": -1.0,
+        "arousal": -0.667,
+        "dominance": -0.167
+    },
+    {
+        "term": "hurting",
+        "valence": -0.694,
+        "arousal": 0.556,
+        "dominance": -0.558
+    },
+    {
+        "term": "hyped",
+        "valence": 0.416,
+        "arousal": 0.164,
+        "dominance": 0.358
+    },
+    {
+        "term": "hyped up",
+        "valence": 0.094,
+        "arousal": 0.05,
+        "dominance": -0.048
+    },
+    {
+        "term": "hyperirritability",
+        "valence": -0.667,
+        "arousal": 1.0,
+        "dominance": -0.476
+    },
+    {
+        "term": "hyperirritable",
+        "valence": -0.833,
+        "arousal": 0.952,
+        "dominance": -0.481
+    },
+    {
+        "term": "hypersensitive",
+        "valence": -0.481,
+        "arousal": 0.667,
+        "dominance": -0.542
+    },
+    {
+        "term": "hypersensitiveness",
+        "valence": -0.63,
+        "arousal": 0.704,
+        "dominance": -0.667
+    },
+    {
+        "term": "hypomania",
+        "valence": 0.667,
+        "arousal": 1.0,
+        "dominance": 0.37
+    },
+    {
+        "term": "hysteria",
+        "valence": -0.552,
+        "arousal": 0.812,
+        "dominance": -0.036
+    },
+    {
+        "term": "hysteric",
+        "valence": -0.667,
+        "arousal": 1.0,
+        "dominance": -0.667
+    },
+    {
+        "term": "hysterical",
+        "valence": -0.42,
+        "arousal": 0.884,
+        "dominance": -0.204
+    },
+    {
+        "term": "icky",
+        "valence": -0.286,
+        "arousal": 0.02,
+        "dominance": -0.316
+    },
+    {
+        "term": "idolization",
+        "valence": 0.667,
+        "arousal": 0.667,
+        "dominance": 0.556
+    },
+    {
+        "term": "ignored",
+        "valence": -0.667,
+        "arousal": -1.0,
+        "dominance": -0.667
+    },
+    {
+        "term": "ill will",
+        "valence": -0.552,
+        "arousal": -0.12,
+        "dominance": -0.572
+    },
+    {
+        "term": "impassioned",
+        "valence": 0.48,
+        "arousal": 0.56,
+        "dominance": 0.604
+    },
+    {
+        "term": "impassiveness",
+        "valence": -0.333,
+        "arousal": -1.0,
+        "dominance": 0.167
+    },
+    {
+        "term": "impatience",
+        "valence": -0.444,
+        "arousal": 0.56,
+        "dominance": -0.178
+    },
+    {
+        "term": "impatient",
+        "valence": -0.5,
+        "arousal": 0.416,
+        "dominance": -0.142
+    },
+    {
+        "term": "impressed",
+        "valence": 0.612,
+        "arousal": 0.54,
+        "dominance": -0.142
+    },
+    {
+        "term": "impressed with",
+        "valence": 0.758,
+        "arousal": 0.37,
+        "dominance": 0.068
+    },
+    {
+        "term": "in doubt",
+        "valence": -0.534,
+        "arousal": -0.14,
+        "dominance": -0.42
+    },
+    {
+        "term": "in love",
+        "valence": 0.896,
+        "arousal": 0.0,
+        "dominance": 0.106
+    },
+    {
+        "term": "in pain",
+        "valence": -0.758,
+        "arousal": 0.18,
+        "dominance": -0.612
+    },
+    {
+        "term": "in peace",
+        "valence": 0.536,
+        "arousal": -0.412,
+        "dominance": 0.286
+    },
+    {
+        "term": "in relief",
+        "valence": 0.666,
+        "arousal": -0.258,
+        "dominance": 0.108
+    },
+    {
+        "term": "in tears",
+        "valence": -0.5,
+        "arousal": -0.176,
+        "dominance": -0.484
+    },
+    {
+        "term": "inadequacy",
+        "valence": -0.428,
+        "arousal": 0.0,
+        "dominance": -0.406
+    },
+    {
+        "term": "inadequate",
+        "valence": -0.756,
+        "arousal": -0.1,
+        "dominance": -0.554
+    },
+    {
+        "term": "incensed",
+        "valence": -0.324,
+        "arousal": 0.286,
+        "dominance": -0.216
+    },
+    {
+        "term": "inconsolability",
+        "valence": -0.667,
+        "arousal": -0.75,
+        "dominance": -0.917
+    },
+    {
+        "term": "inconsolable",
+        "valence": -1.0,
+        "arousal": -0.963,
+        "dominance": -0.917
+    },
+    {
+        "term": "inconsolableness",
+        "valence": -1.0,
+        "arousal": -1.0,
+        "dominance": -0.875
+    },
+    {
+        "term": "indifference",
+        "valence": -0.47,
+        "arousal": -0.166,
+        "dominance": -0.402
+    },
+    {
+        "term": "indifferent",
+        "valence": -0.208,
+        "arousal": -0.686,
+        "dominance": -0.5
+    },
+    {
+        "term": "indignant",
+        "valence": -0.48,
+        "arousal": 0.2,
+        "dominance": -0.154
+    },
+    {
+        "term": "indignantly",
+        "valence": -0.667,
+        "arousal": 0.667,
+        "dominance": 0.5
+    },
+    {
+        "term": "indignation",
+        "valence": -0.654,
+        "arousal": 0.556,
+        "dominance": -0.138
+    },
+    {
+        "term": "infatuated",
+        "valence": 0.458,
+        "arousal": 0.528,
+        "dominance": -0.166
+    },
+    {
+        "term": "infatuatedly",
+        "valence": 0.476,
+        "arousal": 0.667,
+        "dominance": -0.556
+    },
+    {
+        "term": "infatuation",
+        "valence": 0.688,
+        "arousal": 0.49,
+        "dominance": 0.06
+    },
+    {
+        "term": "inferior",
+        "valence": -0.48,
+        "arousal": -0.492,
+        "dominance": -0.894
+    },
+    {
+        "term": "inferiority",
+        "valence": -0.646,
+        "arousal": -0.14,
+        "dominance": -0.573
+    },
+    {
+        "term": "infuriated",
+        "valence": -0.854,
+        "arousal": 0.86,
+        "dominance": 0.02
+    },
+    {
+        "term": "infuriates",
+        "valence": -0.73,
+        "arousal": 0.826,
+        "dominance": 0.254
+    },
+    {
+        "term": "infuriating",
+        "valence": -0.722,
+        "arousal": 0.74,
+        "dominance": 0.018
+    },
+    {
+        "term": "infuriation",
+        "valence": -0.958,
+        "arousal": 1.0,
+        "dominance": 0.667
+    },
+    {
+        "term": "inner peace",
+        "valence": 0.536,
+        "arousal": -0.338,
+        "dominance": 0.1
+    },
+    {
+        "term": "innerpeace",
+        "valence": 0.428,
+        "arousal": -0.364,
+        "dominance": 0.102
+    },
+    {
+        "term": "insecure",
+        "valence": -0.772,
+        "arousal": 0.076,
+        "dominance": -0.736
+    },
+    {
+        "term": "insecurity",
+        "valence": -0.812,
+        "arousal": 0.294,
+        "dominance": -0.3
+    },
+    {
+        "term": "inspired",
+        "valence": 0.934,
+        "arousal": 0.404,
+        "dominance": 0.472
+    },
+    {
+        "term": "interested",
+        "valence": 0.5,
+        "arousal": 0.058,
+        "dominance": 0.45
+    },
+    {
+        "term": "intimacy",
+        "valence": 0.714,
+        "arousal": 0.604,
+        "dominance": 0.116
+    },
+    {
+        "term": "intimidated",
+        "valence": -0.646,
+        "arousal": 0.326,
+        "dominance": -0.584
+    },
+    {
+        "term": "intrigued",
+        "valence": 0.542,
+        "arousal": 0.593,
+        "dominance": 0.333
+    },
+    {
+        "term": "invidious",
+        "valence": -0.776,
+        "arousal": 0.3,
+        "dominance": -0.272
+    },
+    {
+        "term": "invigorated",
+        "valence": 1.0,
+        "arousal": 1.0,
+        "dominance": 0.741
+    },
+    {
+        "term": "irate",
+        "valence": -0.624,
+        "arousal": 0.704,
+        "dominance": -0.052
+    },
+    {
+        "term": "irately",
+        "valence": -0.792,
+        "arousal": 1.0,
+        "dominance": 0.286
+    },
+    {
+        "term": "ire",
+        "valence": -0.604,
+        "arousal": 0.48,
+        "dominance": 0.15
+    },
+    {
+        "term": "irk",
+        "valence": -0.958,
+        "arousal": 0.667,
+        "dominance": -0.5
+    },
+    {
+        "term": "irked",
+        "valence": -0.672,
+        "arousal": 0.582,
+        "dominance": -0.294
+    },
+    {
+        "term": "irks",
+        "valence": -0.448,
+        "arousal": 0.562,
+        "dominance": -0.322
+    },
+    {
+        "term": "irksome",
+        "valence": -0.952,
+        "arousal": -0.042,
+        "dominance": -0.296
+    },
+    {
+        "term": "irksomeness",
+        "valence": -0.875,
+        "arousal": -0.667,
+        "dominance": -0.667
+    },
+    {
+        "term": "irresolute",
+        "valence": -0.667,
+        "arousal": -0.667,
+        "dominance": -0.667
+    },
+    {
+        "term": "irritability",
+        "valence": -0.708,
+        "arousal": 0.706,
+        "dominance": -0.434
+    },
+    {
+        "term": "irritable",
+        "valence": -0.776,
+        "arousal": 0.904,
+        "dominance": -0.076
+    },
+    {
+        "term": "irritableness",
+        "valence": -1.0,
+        "arousal": 0.667,
+        "dominance": -0.407
+    },
+    {
+        "term": "irritated",
+        "valence": -0.58,
+        "arousal": 0.632,
+        "dominance": -0.438
+    },
+    {
+        "term": "irritation",
+        "valence": -0.854,
+        "arousal": 0.666,
+        "dominance": -0.008
+    },
+    {
+        "term": "isolated",
+        "valence": -0.558,
+        "arousal": -0.288,
+        "dominance": -0.49
+    },
+    {
+        "term": "jaded",
+        "valence": -0.49,
+        "arousal": 0.12,
+        "dominance": -0.2
+    },
+    {
+        "term": "jadedness",
+        "valence": -0.667,
+        "arousal": -0.667,
+        "dominance": -0.481
+    },
+    {
+        "term": "jauntiness",
+        "valence": 0.815,
+        "arousal": 0.708,
+        "dominance": 0.524
+    },
+    {
+        "term": "jealous",
+        "valence": -0.654,
+        "arousal": 0.71,
+        "dominance": -0.31
+    },
+    {
+        "term": "jealously",
+        "valence": -0.815,
+        "arousal": 0.667,
+        "dominance": -0.476
+    },
+    {
+        "term": "jealousness",
+        "valence": -0.667,
+        "arousal": -0.542,
+        "dominance": -0.542
+    },
+    {
+        "term": "jealousy",
+        "valence": -0.708,
+        "arousal": 0.566,
+        "dominance": -0.038
+    },
+    {
+        "term": "jitters",
+        "valence": -0.552,
+        "arousal": 0.836,
+        "dominance": -0.616
+    },
+    {
+        "term": "jittery",
+        "valence": -0.312,
+        "arousal": 0.712,
+        "dominance": -0.49
+    },
+    {
+        "term": "jollier",
+        "valence": 0.667,
+        "arousal": 1.0,
+        "dominance": 0.074
+    },
+    {
+        "term": "jolliness",
+        "valence": 1.0,
+        "arousal": 1.0,
+        "dominance": -0.037
+    },
+    {
+        "term": "jolly",
+        "valence": 0.918,
+        "arousal": 0.41,
+        "dominance": 0.416
+    },
+    {
+        "term": "jovial",
+        "valence": 0.646,
+        "arousal": -0.08,
+        "dominance": 0.052
+    },
+    {
+        "term": "joviality",
+        "valence": 1.0,
+        "arousal": 0.667,
+        "dominance": 0.125
+    },
+    {
+        "term": "jovialness",
+        "valence": 1.0,
+        "arousal": 0.667,
+        "dominance": 0.238
+    },
+    {
+        "term": "joy",
+        "valence": 0.96,
+        "arousal": 0.648,
+        "dominance": 0.588
+    },
+    {
+        "term": "joyful",
+        "valence": 0.99,
+        "arousal": 0.24,
+        "dominance": 0.296
+    },
+    {
+        "term": "joyfully",
+        "valence": 1.0,
+        "arousal": 1.0,
+        "dominance": 0.037
+    },
+    {
+        "term": "joyfulness",
+        "valence": 1.0,
+        "arousal": 0.667,
+        "dominance": 0.296
+    },
+    {
+        "term": "joyless",
+        "valence": -0.81,
+        "arousal": -0.963,
+        "dominance": -0.762
+    },
+    {
+        "term": "joylessness",
+        "valence": -1.0,
+        "arousal": -1.0,
+        "dominance": -0.875
+    },
+    {
+        "term": "joyous",
+        "valence": 0.916,
+        "arousal": 0.16,
+        "dominance": 0.456
+    },
+    {
+        "term": "joyously",
+        "valence": 1.0,
+        "arousal": 1.0,
+        "dominance": 0.381
+    },
+    {
+        "term": "joyousness",
+        "valence": 1.0,
+        "arousal": 0.905,
+        "dominance": 0.0
+    },
+    {
+        "term": "joys",
+        "valence": 0.981,
+        "arousal": 0.109,
+        "dominance": 0.184
+    },
+    {
+        "term": "jubilance",
+        "valence": 1.0,
+        "arousal": 1.0,
+        "dominance": 0.238
+    },
+    {
+        "term": "jubilancy",
+        "valence": 1.0,
+        "arousal": 1.0,
+        "dominance": 0.333
+    },
+    {
+        "term": "jubilant",
+        "valence": 0.688,
+        "arousal": 0.346,
+        "dominance": 0.328
+    },
+    {
+        "term": "jubilantly",
+        "valence": 1.0,
+        "arousal": 1.0,
+        "dominance": 0.741
+    },
+    {
+        "term": "jubilation",
+        "valence": 1.0,
+        "arousal": 1.0,
+        "dominance": 0.583
+    },
+    {
+        "term": "jubilatory",
+        "valence": 1.0,
+        "arousal": 1.0,
+        "dominance": 0.148
+    },
+    {
+        "term": "jumpiness",
+        "valence": -0.625,
+        "arousal": 1.0,
+        "dominance": -0.6
+    },
+    {
+        "term": "jumpy",
+        "valence": -0.294,
+        "arousal": 0.62,
+        "dominance": -0.568
+    },
+    {
+        "term": "lament",
+        "valence": -0.604,
+        "arousal": -0.204,
+        "dominance": -0.296
+    },
+    {
+        "term": "lamentation",
+        "valence": -0.667,
+        "arousal": -0.625,
+        "dominance": -0.815
+    },
+    {
+        "term": "lamenting",
+        "valence": -0.688,
+        "arousal": -0.22,
+        "dominance": -0.492
+    },
+    {
+        "term": "languish",
+        "valence": -0.53,
+        "arousal": -0.184,
+        "dominance": -0.236
+    },
+    {
+        "term": "languishing",
+        "valence": -0.384,
+        "arousal": -0.082,
+        "dominance": -0.294
+    },
+    {
+        "term": "languishment",
+        "valence": -0.833,
+        "arousal": -0.905,
+        "dominance": -0.75
+    },
+    {
+        "term": "languorous",
+        "valence": 0.167,
+        "arousal": -1.0,
+        "dominance": -0.625
+    },
+    {
+        "term": "leery",
+        "valence": -0.326,
+        "arousal": 0.28,
+        "dominance": -0.18
+    },
+    {
+        "term": "left out",
+        "valence": -0.7,
+        "arousal": -0.224,
+        "dominance": -0.434
+    },
+    {
+        "term": "leftout",
+        "valence": -0.542,
+        "arousal": -0.27,
+        "dominance": -0.51
+    },
+    {
+        "term": "let down",
+        "valence": -0.534,
+        "arousal": -0.38,
+        "dominance": -0.188
+    },
+    {
+        "term": "letdown",
+        "valence": -0.667,
+        "arousal": -0.583,
+        "dominance": -0.667
+    },
+    {
+        "term": "lethargic",
+        "valence": -0.572,
+        "arousal": -0.51,
+        "dominance": -0.25
+    },
+    {
+        "term": "liberated",
+        "valence": 0.56,
+        "arousal": 0.26,
+        "dominance": 0.366
+    },
+    {
+        "term": "liberating",
+        "valence": 0.83,
+        "arousal": 0.24,
+        "dominance": 0.49
+    },
+    {
+        "term": "light hearted",
+        "valence": 0.566,
+        "arousal": -0.2,
+        "dominance": -0.258
+    },
+    {
+        "term": "lighthearted",
+        "valence": 1.0,
+        "arousal": -0.25,
+        "dominance": -0.333
+    },
+    {
+        "term": "lightheartedness",
+        "valence": 1.0,
+        "arousal": -0.143,
+        "dominance": 0.143
+    },
+    {
+        "term": "liking",
+        "valence": 0.926,
+        "arousal": 0.208,
+        "dominance": 0.178
+    },
+    {
+        "term": "listless",
+        "valence": -0.562,
+        "arousal": -0.3,
+        "dominance": -0.538
+    },
+    {
+        "term": "listlessness",
+        "valence": -0.667,
+        "arousal": -1.0,
+        "dominance": -0.905
+    },
+    {
+        "term": "livid",
+        "valence": -0.062,
+        "arousal": 0.576,
+        "dominance": -0.02
+    },
+    {
+        "term": "lividness",
+        "valence": -0.667,
+        "arousal": -0.185,
+        "dominance": -0.333
+    },
+    {
+        "term": "loath",
+        "valence": -0.73,
+        "arousal": 0.428,
+        "dominance": -0.11
+    },
+    {
+        "term": "loathe",
+        "valence": -0.812,
+        "arousal": 0.46,
+        "dominance": -0.142
+    },
+    {
+        "term": "loathful",
+        "valence": -0.864,
+        "arousal": 0.48,
+        "dominance": -0.284
+    },
+    {
+        "term": "loathing",
+        "valence": -0.834,
+        "arousal": 0.592,
+        "dominance": -0.264
+    },
+    {
+        "term": "loathsome",
+        "valence": -0.76,
+        "arousal": 0.388,
+        "dominance": -0.314
+    },
+    {
+        "term": "loathsomeness",
+        "valence": -1.0,
+        "arousal": -0.667,
+        "dominance": -0.542
+    },
+    {
+        "term": "loneliness",
+        "valence": -0.708,
+        "arousal": -0.636,
+        "dominance": -0.556
+    },
+    {
+        "term": "lonely",
+        "valence": -0.5,
+        "arousal": -0.548,
+        "dominance": -0.524
+    },
+    {
+        "term": "lonesome",
+        "valence": -0.438,
+        "arousal": -0.574,
+        "dominance": -0.328
+    },
+    {
+        "term": "lonesomeness",
+        "valence": -0.667,
+        "arousal": -0.917,
+        "dominance": -0.875
+    },
+    {
+        "term": "long for",
+        "valence": 0.064,
+        "arousal": -0.23,
+        "dominance": -0.032
+    },
+    {
+        "term": "longing",
+        "valence": 0.208,
+        "arousal": -0.132,
+        "dominance": 0.12
+    },
+    {
+        "term": "losing it",
+        "valence": -0.646,
+        "arousal": 0.076,
+        "dominance": -0.448
+    },
+    {
+        "term": "lost",
+        "valence": -0.635,
+        "arousal": 0.326,
+        "dominance": -0.58
+    },
+    {
+        "term": "lousy",
+        "valence": -0.75,
+        "arousal": -0.036,
+        "dominance": -0.532
+    },
+    {
+        "term": "love",
+        "valence": 0.996,
+        "arousal": 0.334,
+        "dominance": 0.234
+    },
+    {
+        "term": "love ya",
+        "valence": 0.87,
+        "arousal": -0.172,
+        "dominance": 0.3
+    },
+    {
+        "term": "loved",
+        "valence": 0.854,
+        "arousal": -0.096,
+        "dominance": 0.164
+    },
+    {
+        "term": "loveee",
+        "valence": 0.854,
+        "arousal": 0.184,
+        "dominance": 0.386
+    },
+    {
+        "term": "loveless",
+        "valence": -0.627,
+        "arousal": -0.27,
+        "dominance": -0.568
+    },
+    {
+        "term": "lovelorn",
+        "valence": -0.667,
+        "arousal": 0.375,
+        "dominance": -0.6
+    },
+    {
+        "term": "lovesick",
+        "valence": 0.592,
+        "arousal": 0.684,
+        "dominance": 0.0
+    },
+    {
+        "term": "lovesickness",
+        "valence": -0.667,
+        "arousal": 0.667,
+        "dominance": -0.667
+    },
+    {
+        "term": "loving",
+        "valence": 0.688,
+        "arousal": 0.224,
+        "dominance": 0.272
+    },
+    {
+        "term": "lovingness",
+        "valence": 1.0,
+        "arousal": -0.667,
+        "dominance": -0.148
+    },
+    {
+        "term": "lust",
+        "valence": -0.062,
+        "arousal": 0.888,
+        "dominance": 0.036
+    },
+    {
+        "term": "lustful",
+        "valence": -0.146,
+        "arousal": 0.792,
+        "dominance": 0.286
+    },
+    {
+        "term": "lustfulness",
+        "valence": -0.667,
+        "arousal": 1.0,
+        "dominance": 0.375
+    },
+    {
+        "term": "mad",
+        "valence": -0.562,
+        "arousal": 0.746,
+        "dominance": -0.446
+    },
+    {
+        "term": "mad about",
+        "valence": -0.548,
+        "arousal": -0.11,
+        "dominance": -0.37
+    },
+    {
+        "term": "madden",
+        "valence": -0.342,
+        "arousal": 0.204,
+        "dominance": -0.086
+    },
+    {
+        "term": "malaise",
+        "valence": -0.7,
+        "arousal": 0.2,
+        "dominance": -0.568
+    },
+    {
+        "term": "malcontent",
+        "valence": -0.667,
+        "arousal": 0.667,
+        "dominance": -0.25
+    },
+    {
+        "term": "malevolency",
+        "valence": -1.0,
+        "arousal": 0.583,
+        "dominance": 0.917
+    },
+    {
+        "term": "malice",
+        "valence": -0.854,
+        "arousal": 0.622,
+        "dominance": -0.016
+    },
+    {
+        "term": "mania",
+        "valence": -0.42,
+        "arousal": 0.366,
+        "dominance": -0.236
+    },
+    {
+        "term": "maniacal",
+        "valence": -0.6,
+        "arousal": 0.696,
+        "dominance": 0.0
+    },
+    {
+        "term": "manic",
+        "valence": -0.892,
+        "arousal": 0.784,
+        "dominance": -0.264
+    },
+    {
+        "term": "masochistic",
+        "valence": -1.0,
+        "arousal": 0.708,
+        "dominance": -0.792
+    },
+    {
+        "term": "mass hysteria",
+        "valence": -0.482,
+        "arousal": 0.39,
+        "dominance": 0.068
+    },
+    {
+        "term": "maudlin",
+        "valence": -0.326,
+        "arousal": -0.166,
+        "dominance": -0.264
+    },
+    {
+        "term": "mean spirited",
+        "valence": -0.428,
+        "arousal": 0.204,
+        "dominance": 0.206
+    },
+    {
+        "term": "meanness",
+        "valence": -0.796,
+        "arousal": 0.388,
+        "dominance": -0.264
+    },
+    {
+        "term": "meh",
+        "valence": -0.24,
+        "arousal": -0.428,
+        "dominance": -0.27
+    },
+    {
+        "term": "melancholia",
+        "valence": -0.704,
+        "arousal": -1.0,
+        "dominance": -0.381
+    },
+    {
+        "term": "melancholic",
+        "valence": -0.638,
+        "arousal": -0.388,
+        "dominance": -0.446
+    },
+    {
+        "term": "melancholically",
+        "valence": -0.667,
+        "arousal": -0.75,
+        "dominance": -0.611
+    },
+    {
+        "term": "melancholy",
+        "valence": -0.624,
+        "arousal": -0.48,
+        "dominance": -0.526
+    },
+    {
+        "term": "mellowness",
+        "valence": 0.667,
+        "arousal": -0.963,
+        "dominance": -0.37
+    },
+    {
+        "term": "merrier",
+        "valence": 1.0,
+        "arousal": 0.75,
+        "dominance": 0.042
+    },
+    {
+        "term": "merriment",
+        "valence": 0.948,
+        "arousal": 0.721,
+        "dominance": 0.298
+    },
+    {
+        "term": "merriness",
+        "valence": 0.958,
+        "arousal": 0.958,
+        "dominance": 0.074
+    },
+    {
+        "term": "merry",
+        "valence": 0.958,
+        "arousal": 0.462,
+        "dominance": 0.528
+    },
+    {
+        "term": "mesmerized",
+        "valence": 0.04,
+        "arousal": 0.104,
+        "dominance": -0.158
+    },
+    {
+        "term": "miff",
+        "valence": -0.5,
+        "arousal": 0.667,
+        "dominance": -0.417
+    },
+    {
+        "term": "miffed",
+        "valence": -0.592,
+        "arousal": 0.452,
+        "dominance": -0.142
+    },
+    {
+        "term": "mirth",
+        "valence": 0.776,
+        "arousal": 0.28,
+        "dominance": 0.216
+    },
+    {
+        "term": "mirthful",
+        "valence": 1.0,
+        "arousal": 0.667,
+        "dominance": 0.333
+    },
+    {
+        "term": "mirthfully",
+        "valence": 0.958,
+        "arousal": 0.889,
+        "dominance": 0.222
+    },
+    {
+        "term": "mirthfulness",
+        "valence": 1.0,
+        "arousal": 0.667,
+        "dominance": 0.083
+    },
+    {
+        "term": "mirthless",
+        "valence": -1.0,
+        "arousal": -0.714,
+        "dominance": -0.593
+    },
+    {
+        "term": "mischievousness",
+        "valence": 0.042,
+        "arousal": 0.667,
+        "dominance": 0.333
+    },
+    {
+        "term": "miserable",
+        "valence": -0.876,
+        "arousal": -0.078,
+        "dominance": -0.624
+    },
+    {
+        "term": "miserably",
+        "valence": -0.44,
+        "arousal": 0.09,
+        "dominance": -0.7
+    },
+    {
+        "term": "misery",
+        "valence": -0.708,
+        "arousal": -0.244,
+        "dominance": -0.684
+    },
+    {
+        "term": "misgiving",
+        "valence": -0.667,
+        "arousal": -0.519,
+        "dominance": -0.542
+    },
+    {
+        "term": "misjudged",
+        "valence": -0.667,
+        "arousal": 0.458,
+        "dominance": -0.704
+    },
+    {
+        "term": "miss",
+        "valence": 0.146,
+        "arousal": -0.02,
+        "dominance": -0.184
+    },
+    {
+        "term": "miss you",
+        "valence": 0.032,
+        "arousal": -0.246,
+        "dominance": -0.452
+    },
+    {
+        "term": "missingyou",
+        "valence": -0.48,
+        "arousal": -0.058,
+        "dominance": -0.246
+    },
+    {
+        "term": "mistrust",
+        "valence": -0.73,
+        "arousal": 0.314,
+        "dominance": -0.538
+    },
+    {
+        "term": "mistrustful",
+        "valence": -0.667,
+        "arousal": -0.667,
+        "dominance": -0.375
+    },
+    {
+        "term": "mistrustfulness",
+        "valence": -0.667,
+        "arousal": -0.667,
+        "dominance": -0.542
+    },
+    {
+        "term": "mixed feelings",
+        "valence": -0.12,
+        "arousal": 0.274,
+        "dominance": -0.3
+    },
+    {
+        "term": "moderate anticipation",
+        "valence": 0.334,
+        "arousal": -0.098,
+        "dominance": 0.148
+    },
+    {
+        "term": "moderate disgust",
+        "valence": -0.542,
+        "arousal": 0.116,
+        "dominance": -0.238
+    },
+    {
+        "term": "moderate surprise",
+        "valence": 0.552,
+        "arousal": 0.326,
+        "dominance": 0.274
+    },
+    {
+        "term": "monophobia",
+        "valence": -0.667,
+        "arousal": -0.519,
+        "dominance": -0.792
+    },
+    {
+        "term": "moodiness",
+        "valence": -0.667,
+        "arousal": -0.417,
+        "dominance": -0.458
+    },
+    {
+        "term": "moody",
+        "valence": -0.51,
+        "arousal": 0.622,
+        "dominance": 0.19
+    },
+    {
+        "term": "moonstruck",
+        "valence": 0.166,
+        "arousal": -0.124,
+        "dominance": -0.186
+    },
+    {
+        "term": "mope",
+        "valence": -0.188,
+        "arousal": -0.382,
+        "dominance": -0.31
+    },
+    {
+        "term": "morose",
+        "valence": -0.52,
+        "arousal": 0.326,
+        "dominance": -0.472
+    },
+    {
+        "term": "morosely",
+        "valence": -0.958,
+        "arousal": -0.952,
+        "dominance": -0.619
+    },
+    {
+        "term": "moroseness",
+        "valence": -0.963,
+        "arousal": -1.0,
+        "dominance": -0.611
+    },
+    {
+        "term": "mortification",
+        "valence": -0.73,
+        "arousal": 0.288,
+        "dominance": -0.192
+    },
+    {
+        "term": "mortified",
+        "valence": -0.674,
+        "arousal": 0.462,
+        "dominance": -0.46
+    },
+    {
+        "term": "mortify",
+        "valence": -0.667,
+        "arousal": 0.667,
+        "dominance": -0.619
+    },
+    {
+        "term": "mourn",
+        "valence": -0.903,
+        "arousal": 0.166,
+        "dominance": -0.7
+    },
+    {
+        "term": "mournful",
+        "valence": -0.64,
+        "arousal": -0.118,
+        "dominance": -0.624
+    },
+    {
+        "term": "mournfully",
+        "valence": -0.667,
+        "arousal": -0.952,
+        "dominance": -0.722
+    },
+    {
+        "term": "mournfulness",
+        "valence": -0.704,
+        "arousal": -0.875,
+        "dominance": -0.593
+    },
+    {
+        "term": "mourning",
+        "valence": -0.646,
+        "arousal": -0.02,
+        "dominance": -0.468
+    },
+    {
+        "term": "moved",
+        "valence": 0.524,
+        "arousal": 0.519,
+        "dominance": -0.167
+    },
+    {
+        "term": "murderous",
+        "valence": -0.972,
+        "arousal": 0.669,
+        "dominance": 0.364
+    },
+    {
+        "term": "murderousness",
+        "valence": -1.0,
+        "arousal": 1.0,
+        "dominance": 1.0
+    },
+    {
+        "term": "my pleasure",
+        "valence": 0.7,
+        "arousal": -0.214,
+        "dominance": 0.108
+    },
+    {
+        "term": "mystified",
+        "valence": -0.312,
+        "arousal": 0.2,
+        "dominance": 0.018
+    },
+    {
+        "term": "neediness",
+        "valence": -0.667,
+        "arousal": -0.167,
+        "dominance": -0.889
+    },
+    {
+        "term": "neglected",
+        "valence": -0.458,
+        "arousal": -0.23,
+        "dominance": -0.68
+    },
+    {
+        "term": "nerve racking",
+        "valence": -0.592,
+        "arousal": 0.376,
+        "dominance": -0.26
+    },
+    {
+        "term": "nerve wracking",
+        "valence": -0.552,
+        "arousal": 0.37,
+        "dominance": -0.23
+    },
+    {
+        "term": "nervous",
+        "valence": -0.583,
+        "arousal": 0.64,
+        "dominance": -0.574
+    },
+    {
+        "term": "nervous wreck",
+        "valence": -0.666,
+        "arousal": 0.984,
+        "dominance": -0.4
+    },
+    {
+        "term": "nervously",
+        "valence": -0.667,
+        "arousal": 0.667,
+        "dominance": -0.708
+    },
+    {
+        "term": "nervousness",
+        "valence": -0.674,
+        "arousal": 0.83,
+        "dominance": -0.518
+    },
+    {
+        "term": "nervy",
+        "valence": -0.5,
+        "arousal": 0.66,
+        "dominance": -0.518
+    },
+    {
+        "term": "nightmarish",
+        "valence": -1.0,
+        "arousal": 0.963,
+        "dominance": -0.542
+    },
+    {
+        "term": "nonchalance",
+        "valence": -0.125,
+        "arousal": -1.0,
+        "dominance": 0.074
+    },
+    {
+        "term": "nonchalant",
+        "valence": -0.376,
+        "arousal": -0.372,
+        "dominance": -0.268
+    },
+    {
+        "term": "nonplussed",
+        "valence": -0.333,
+        "arousal": -0.619,
+        "dominance": -0.619
+    },
+    {
+        "term": "nostalgia",
+        "valence": -0.166,
+        "arousal": -0.326,
+        "dominance": -0.322
+    },
+    {
+        "term": "nostalgic",
+        "valence": -0.084,
+        "arousal": -0.298,
+        "dominance": -0.632
+    },
+    {
+        "term": "numb",
+        "valence": -0.784,
+        "arousal": -0.16,
+        "dominance": -0.296
+    },
+    {
+        "term": "numbness",
+        "valence": -0.388,
+        "arousal": -0.204,
+        "dominance": -0.47
+    },
+    {
+        "term": "obsessed",
+        "valence": -0.562,
+        "arousal": 0.526,
+        "dominance": -0.122
+    },
+    {
+        "term": "odiousness",
+        "valence": -0.963,
+        "arousal": -0.63,
+        "dominance": -0.571
+    },
+    {
+        "term": "offend",
+        "valence": -0.887,
+        "arousal": 0.637,
+        "dominance": 0.333
+    },
+    {
+        "term": "offended",
+        "valence": -0.624,
+        "arousal": 0.38,
+        "dominance": -0.326
+    },
+    {
+        "term": "on edge",
+        "valence": -0.31,
+        "arousal": 0.182,
+        "dominance": -0.266
+    },
+    {
+        "term": "onedge",
+        "valence": -0.042,
+        "arousal": 0.104,
+        "dominance": -0.2
+    },
+    {
+        "term": "oppressed",
+        "valence": -0.762,
+        "arousal": 0.28,
+        "dominance": -0.482
+    },
+    {
+        "term": "optimism",
+        "valence": 0.898,
+        "arousal": 0.13,
+        "dominance": 0.628
+    },
+    {
+        "term": "optimistic",
+        "valence": 0.958,
+        "arousal": 0.16,
+        "dominance": 0.642
+    },
+    {
+        "term": "ornery",
+        "valence": -0.278,
+        "arousal": 0.04,
+        "dominance": 0.018
+    },
+    {
+        "term": "ostracized",
+        "valence": -0.77,
+        "arousal": 0.38,
+        "dominance": -0.246
+    },
+    {
+        "term": "outrage",
+        "valence": -0.88,
+        "arousal": 0.378,
+        "dominance": 0.084
+    },
+    {
+        "term": "outraged",
+        "valence": -0.688,
+        "arousal": 0.392,
+        "dominance": 0.076
+    },
+    {
+        "term": "overanxious",
+        "valence": -0.667,
+        "arousal": 1.0,
+        "dominance": -0.889
+    },
+    {
+        "term": "overanxiously",
+        "valence": -0.667,
+        "arousal": 0.952,
+        "dominance": -0.875
+    },
+    {
+        "term": "overconfident",
+        "valence": -0.389,
+        "arousal": 0.667,
+        "dominance": 0.667
+    },
+    {
+        "term": "overenthusiastic",
+        "valence": 0.296,
+        "arousal": 1.0,
+        "dominance": -0.481
+    },
+    {
+        "term": "overexcite",
+        "valence": -0.148,
+        "arousal": 1.0,
+        "dominance": -0.037
+    },
+    {
+        "term": "overexcitement",
+        "valence": -0.333,
+        "arousal": 1.0,
+        "dominance": -0.429
+    },
+    {
+        "term": "overjoyed",
+        "valence": 0.816,
+        "arousal": 0.416,
+        "dominance": 0.51
+    },
+    {
+        "term": "overthemoon",
+        "valence": 0.286,
+        "arousal": 0.062,
+        "dominance": -0.038
+    },
+    {
+        "term": "overwhelm",
+        "valence": -0.5,
+        "arousal": 0.646,
+        "dominance": -0.076
+    },
+    {
+        "term": "overwhelmed",
+        "valence": -0.318,
+        "arousal": 0.36,
+        "dominance": -0.304
+    },
+    {
+        "term": "overwhelming",
+        "valence": -0.346,
+        "arousal": 0.66,
+        "dominance": 0.28
+    },
+    {
+        "term": "overwrought",
+        "valence": -0.688,
+        "arousal": 0.8,
+        "dominance": 0.142
+    },
+    {
+        "term": "pacified",
+        "valence": 0.604,
+        "arousal": -0.612,
+        "dominance": -0.172
+    },
+    {
+        "term": "pain",
+        "valence": -0.918,
+        "arousal": 0.53,
+        "dominance": -0.351
+    },
+    {
+        "term": "pained",
+        "valence": -0.776,
+        "arousal": 0.0,
+        "dominance": -0.5
+    },
+    {
+        "term": "painfulness",
+        "valence": -0.958,
+        "arousal": 0.667,
+        "dominance": -0.667
+    },
+    {
+        "term": "panic",
+        "valence": -0.876,
+        "arousal": 0.876,
+        "dominance": -0.2
+    },
+    {
+        "term": "panic attack",
+        "valence": -0.758,
+        "arousal": 0.476,
+        "dominance": -0.5
+    },
+    {
+        "term": "panicattack",
+        "valence": -0.49,
+        "arousal": 0.448,
+        "dominance": -0.228
+    },
+    {
+        "term": "panicked",
+        "valence": -0.8,
+        "arousal": 0.898,
+        "dominance": -0.48
+    },
+    {
+        "term": "panicking",
+        "valence": -0.812,
+        "arousal": 0.764,
+        "dominance": -0.334
+    },
+    {
+        "term": "panicky",
+        "valence": -0.432,
+        "arousal": 0.955,
+        "dominance": -0.237
+    },
+    {
+        "term": "paranoia",
+        "valence": -0.708,
+        "arousal": 0.682,
+        "dominance": -0.186
+    },
+    {
+        "term": "paranoid",
+        "valence": -0.756,
+        "arousal": 0.836,
+        "dominance": -0.272
+    },
+    {
+        "term": "passion",
+        "valence": 0.708,
+        "arousal": 0.73,
+        "dominance": 0.456
+    },
+    {
+        "term": "passionate",
+        "valence": 0.99,
+        "arousal": 0.448,
+        "dominance": 0.498
+    },
+    {
+        "term": "passionless",
+        "valence": -0.667,
+        "arousal": -1.0,
+        "dominance": -0.667
+    },
+    {
+        "term": "pathos",
+        "valence": -0.3,
+        "arousal": -0.102,
+        "dominance": -0.076
+    },
+    {
+        "term": "patronising",
+        "valence": -0.122,
+        "arousal": -0.09,
+        "dominance": 0.164
+    },
+    {
+        "term": "patronizing",
+        "valence": 0.084,
+        "arousal": -0.27,
+        "dominance": 0.058
+    },
+    {
+        "term": "peace",
+        "valence": 0.939,
+        "arousal": -0.844,
+        "dominance": 0.226
+    },
+    {
+        "term": "peaceful",
+        "valence": 0.734,
+        "arousal": -0.892,
+        "dominance": 0.149
+    },
+    {
+        "term": "peacefulness",
+        "valence": 1.0,
+        "arousal": -1.0,
+        "dominance": -0.417
+    },
+    {
+        "term": "peachy",
+        "valence": 0.442,
+        "arousal": -0.042,
+        "dominance": -0.224
+    },
+    {
+        "term": "peeve",
+        "valence": -0.548,
+        "arousal": 0.182,
+        "dominance": -0.124
+    },
+    {
+        "term": "peeved",
+        "valence": -0.688,
+        "arousal": 0.5,
+        "dominance": -0.066
+    },
+    {
+        "term": "peevish",
+        "valence": -0.667,
+        "arousal": -0.417,
+        "dominance": -0.444
+    },
+    {
+        "term": "peevishly",
+        "valence": -0.667,
+        "arousal": -0.375,
+        "dominance": -0.625
+    },
+    {
+        "term": "peevishness",
+        "valence": -1.0,
+        "arousal": 0.63,
+        "dominance": -0.5
+    },
+    {
+        "term": "penitence",
+        "valence": 0.333,
+        "arousal": -0.875,
+        "dominance": -0.889
+    },
+    {
+        "term": "penitent",
+        "valence": 0.084,
+        "arousal": 0.06,
+        "dominance": 0.016
+    },
+    {
+        "term": "penitently",
+        "valence": -0.481,
+        "arousal": -0.667,
+        "dominance": -0.519
+    },
+    {
+        "term": "pensive",
+        "valence": 0.08,
+        "arousal": -0.56,
+        "dominance": 0.058
+    },
+    {
+        "term": "pensiveness",
+        "valence": -0.074,
+        "arousal": -0.667,
+        "dominance": -0.4
+    },
+    {
+        "term": "peppiness",
+        "valence": 1.0,
+        "arousal": 1.0,
+        "dominance": 0.6
+    },
+    {
+        "term": "peppy",
+        "valence": 0.354,
+        "arousal": 0.058,
+        "dominance": -0.124
+    },
+    {
+        "term": "perkiness",
+        "valence": 0.958,
+        "arousal": 1.0,
+        "dominance": 0.556
+    },
+    {
+        "term": "perky",
+        "valence": 0.792,
+        "arousal": 0.584,
+        "dominance": 0.346
+    },
+    {
+        "term": "perplexed",
+        "valence": -0.376,
+        "arousal": 0.41,
+        "dominance": -0.364
+    },
+    {
+        "term": "persecuted",
+        "valence": -1.0,
+        "arousal": 0.667,
+        "dominance": -0.667
+    },
+    {
+        "term": "persecutory",
+        "valence": -0.952,
+        "arousal": 0.857,
+        "dominance": 0.556
+    },
+    {
+        "term": "perturb",
+        "valence": -0.667,
+        "arousal": 0.667,
+        "dominance": -0.458
+    },
+    {
+        "term": "pessimistic",
+        "valence": -0.824,
+        "arousal": -0.212,
+        "dominance": -0.528
+    },
+    {
+        "term": "petrified",
+        "valence": -0.558,
+        "arousal": 0.25,
+        "dominance": -0.536
+    },
+    {
+        "term": "petrify",
+        "valence": -0.646,
+        "arousal": 0.142,
+        "dominance": -0.106
+    },
+    {
+        "term": "petulance",
+        "valence": -0.667,
+        "arousal": 0.917,
+        "dominance": -0.63
+    },
+    {
+        "term": "petulancy",
+        "valence": -0.833,
+        "arousal": 0.667,
+        "dominance": -0.583
+    },
+    {
+        "term": "petulant",
+        "valence": -0.506,
+        "arousal": 0.37,
+        "dominance": -0.018
+    },
+    {
+        "term": "petulantly",
+        "valence": -0.667,
+        "arousal": 0.619,
+        "dominance": -0.792
+    },
+    {
+        "term": "phlegmatic",
+        "valence": 0.0,
+        "arousal": -0.958,
+        "dominance": -0.417
+    },
+    {
+        "term": "phobic",
+        "valence": -0.667,
+        "arousal": 0.708,
+        "dominance": -0.63
+    },
+    {
+        "term": "pique",
+        "valence": -0.166,
+        "arousal": 0.0,
+        "dominance": -0.148
+    },
+    {
+        "term": "piss off",
+        "valence": -0.828,
+        "arousal": 0.2,
+        "dominance": -0.264
+    },
+    {
+        "term": "pissed",
+        "valence": -0.796,
+        "arousal": 0.776,
+        "dominance": 0.086
+    },
+    {
+        "term": "pissed off",
+        "valence": -0.646,
+        "arousal": 0.976,
+        "dominance": -0.066
+    },
+    {
+        "term": "pissedoff",
+        "valence": -0.52,
+        "arousal": 0.302,
+        "dominance": -0.082
+    },
+    {
+        "term": "pissesmeoff",
+        "valence": -0.64,
+        "arousal": 0.174,
+        "dominance": -0.118
+    },
+    {
+        "term": "pissingmeoff",
+        "valence": -0.584,
+        "arousal": 0.244,
+        "dominance": -0.154
+    },
+    {
+        "term": "pissoff",
+        "valence": -0.49,
+        "arousal": 0.234,
+        "dominance": -0.2
+    },
+    {
+        "term": "piteousness",
+        "valence": -0.667,
+        "arousal": -0.667,
+        "dominance": -0.875
+    },
+    {
+        "term": "pitiful",
+        "valence": -0.562,
+        "arousal": -0.02,
+        "dominance": -0.536
+    },
+    {
+        "term": "pity",
+        "valence": -0.68,
+        "arousal": -0.204,
+        "dominance": -0.772
+    },
+    {
+        "term": "placidity",
+        "valence": 0.667,
+        "arousal": -1.0,
+        "dominance": -0.741
+    },
+    {
+        "term": "plaintive",
+        "valence": -0.416,
+        "arousal": 0.058,
+        "dominance": -0.388
+    },
+    {
+        "term": "plaintiveness",
+        "valence": -0.6,
+        "arousal": -0.667,
+        "dominance": -0.667
+    },
+    {
+        "term": "playful",
+        "valence": 0.784,
+        "arousal": 0.376,
+        "dominance": -0.074
+    },
+    {
+        "term": "playfulness",
+        "valence": 1.0,
+        "arousal": 0.815,
+        "dominance": 0.333
+    },
+    {
+        "term": "pleasant",
+        "valence": 0.878,
+        "arousal": -0.38,
+        "dominance": 0.346
+    },
+    {
+        "term": "pleasantly surprised",
+        "valence": 0.598,
+        "arousal": 0.084,
+        "dominance": 0.162
+    },
+    {
+        "term": "pleasantness",
+        "valence": 1.0,
+        "arousal": -0.458,
+        "dominance": 0.111
+    },
+    {
+        "term": "pleased",
+        "valence": 0.878,
+        "arousal": 0.096,
+        "dominance": 0.59
+    },
+    {
+        "term": "pleased with",
+        "valence": 0.484,
+        "arousal": 0.02,
+        "dominance": 0.142
+    },
+    {
+        "term": "pleasurable",
+        "valence": 0.896,
+        "arousal": 0.058,
+        "dominance": 0.338
+    },
+    {
+        "term": "pleasure",
+        "valence": 0.878,
+        "arousal": 0.48,
+        "dominance": 0.364
+    },
+    {
+        "term": "pluckiness",
+        "valence": 1.0,
+        "arousal": 0.667,
+        "dominance": 0.556
+    },
+    {
+        "term": "poignancy",
+        "valence": -0.333,
+        "arousal": -0.375,
+        "dominance": -0.333
+    },
+    {
+        "term": "poignant",
+        "valence": 0.292,
+        "arousal": -0.112,
+        "dominance": 0.036
+    },
+    {
+        "term": "positive",
+        "valence": 0.918,
+        "arousal": 0.02,
+        "dominance": 0.71
+    },
+    {
+        "term": "possessive",
+        "valence": -0.442,
+        "arousal": 0.296,
+        "dominance": 0.392
+    },
+    {
+        "term": "possessiveness",
+        "valence": -0.667,
+        "arousal": -0.667,
+        "dominance": 0.583
+    },
+    {
+        "term": "postpartum depression",
+        "valence": -0.7,
+        "arousal": 0.122,
+        "dominance": -0.214
+    },
+    {
+        "term": "pouting",
+        "valence": -0.474,
+        "arousal": -0.058,
+        "dominance": -0.46
+    },
+    {
+        "term": "pouty",
+        "valence": -0.334,
+        "arousal": -0.04,
+        "dominance": -0.214
+    },
+    {
+        "term": "powerless",
+        "valence": -0.75,
+        "arousal": 0.177,
+        "dominance": -0.344
+    },
+    {
+        "term": "powerlessness",
+        "valence": -0.667,
+        "arousal": -0.933,
+        "dominance": -1.0
+    },
+    {
+        "term": "preoccupied",
+        "valence": -0.47,
+        "arousal": 0.4,
+        "dominance": -0.53
+    },
+    {
+        "term": "prickliness",
+        "valence": -0.667,
+        "arousal": -0.083,
+        "dominance": -0.25
+    },
+    {
+        "term": "pride",
+        "valence": 0.458,
+        "arousal": 0.268,
+        "dominance": 0.696
+    },
+    {
+        "term": "prideful",
+        "valence": 0.5,
+        "arousal": 0.667,
+        "dominance": 0.611
+    },
+    {
+        "term": "proud",
+        "valence": 0.812,
+        "arousal": 0.4,
+        "dominance": 0.746
+    },
+    {
+        "term": "proud of",
+        "valence": 0.46,
+        "arousal": 0.064,
+        "dominance": 0.392
+    },
+    {
+        "term": "proudest",
+        "valence": 1.0,
+        "arousal": -0.083,
+        "dominance": 0.926
+    },
+    {
+        "term": "provoked",
+        "valence": -0.458,
+        "arousal": 0.352,
+        "dominance": 0.056
+    },
+    {
+        "term": "puckish",
+        "valence": 0.667,
+        "arousal": 0.556,
+        "dominance": 0.37
+    },
+    {
+        "term": "pumped",
+        "valence": 0.23,
+        "arousal": 0.4,
+        "dominance": 0.056
+    },
+    {
+        "term": "pumped up",
+        "valence": 0.5,
+        "arousal": 0.292,
+        "dominance": 0.028
+    },
+    {
+        "term": "pure joy",
+        "valence": 0.718,
+        "arousal": 0.112,
+        "dominance": 0.624
+    },
+    {
+        "term": "purebliss",
+        "valence": 0.25,
+        "arousal": -0.098,
+        "dominance": 0.052
+    },
+    {
+        "term": "purposeless",
+        "valence": -0.667,
+        "arousal": -0.667,
+        "dominance": -0.667
+    },
+    {
+        "term": "purposelessness",
+        "valence": -0.667,
+        "arousal": -1.0,
+        "dominance": -0.667
+    },
+    {
+        "term": "put out",
+        "valence": -0.3,
+        "arousal": -0.166,
+        "dominance": -0.044
+    },
+    {
+        "term": "puzzled",
+        "valence": -0.592,
+        "arousal": 0.0,
+        "dominance": -0.456
+    },
+    {
+        "term": "puzzlement",
+        "valence": -0.667,
+        "arousal": -0.667,
+        "dominance": -0.542
+    },
+    {
+        "term": "qualm",
+        "valence": -0.667,
+        "arousal": -0.667,
+        "dominance": -0.556
+    },
+    {
+        "term": "quarrelsome",
+        "valence": -0.741,
+        "arousal": 0.917,
+        "dominance": 0.542
+    },
+    {
+        "term": "rage",
+        "valence": -0.836,
+        "arousal": 0.776,
+        "dominance": 0.316
+    },
+    {
+        "term": "raging",
+        "valence": -0.562,
+        "arousal": 0.854,
+        "dominance": 0.196
+    },
+    {
+        "term": "rancor",
+        "valence": -0.963,
+        "arousal": 0.556,
+        "dominance": -0.667
+    },
+    {
+        "term": "rancorous",
+        "valence": -0.952,
+        "arousal": 0.667,
+        "dominance": 0.75
+    },
+    {
+        "term": "rapt",
+        "valence": 0.042,
+        "arousal": 0.472,
+        "dominance": 0.02
+    },
+    {
+        "term": "rapture",
+        "valence": -0.122,
+        "arousal": 0.766,
+        "dominance": 0.134
+    },
+    {
+        "term": "rapturous",
+        "valence": 1.0,
+        "arousal": 1.0,
+        "dominance": 0.476
+    },
+    {
+        "term": "rapturously",
+        "valence": 1.0,
+        "arousal": 1.0,
+        "dominance": 0.125
+    },
+    {
+        "term": "rattled",
+        "valence": -0.292,
+        "arousal": 0.282,
+        "dominance": -0.34
+    },
+    {
+        "term": "ratty",
+        "valence": -0.292,
+        "arousal": -0.1,
+        "dominance": -0.284
+    },
+    {
+        "term": "reassured",
+        "valence": 0.708,
+        "arousal": -0.628,
+        "dominance": 0.038
+    },
+    {
+        "term": "reassuring",
+        "valence": 0.694,
+        "arousal": -0.384,
+        "dominance": 0.382
+    },
+    {
+        "term": "refreshed",
+        "valence": 0.82,
+        "arousal": -0.246,
+        "dominance": -0.04
+    },
+    {
+        "term": "regret",
+        "valence": -0.54,
+        "arousal": 0.246,
+        "dominance": -0.338
+    },
+    {
+        "term": "regretful",
+        "valence": -0.666,
+        "arousal": -0.04,
+        "dominance": -0.624
+    },
+    {
+        "term": "regretfully",
+        "valence": -0.625,
+        "arousal": -0.667,
+        "dominance": -0.519
+    },
+    {
+        "term": "regretted",
+        "valence": -0.296,
+        "arousal": 0.08,
+        "dominance": -0.264
+    },
+    {
+        "term": "regretting",
+        "valence": -0.49,
+        "arousal": 0.134,
+        "dominance": -0.454
+    },
+    {
+        "term": "rejected",
+        "valence": -0.796,
+        "arousal": -0.04,
+        "dominance": -0.5
+    },
+    {
+        "term": "rejection",
+        "valence": -0.84,
+        "arousal": 0.408,
+        "dominance": -0.34
+    },
+    {
+        "term": "rejoice",
+        "valence": 0.654,
+        "arousal": 0.3,
+        "dominance": 0.396
+    },
+    {
+        "term": "rejoice in",
+        "valence": 0.166,
+        "arousal": 0.126,
+        "dominance": -0.072
+    },
+    {
+        "term": "rejoicing",
+        "valence": 0.622,
+        "arousal": 0.274,
+        "dominance": 0.184
+    },
+    {
+        "term": "rejuvenated",
+        "valence": 0.618,
+        "arousal": 0.346,
+        "dominance": 0.4
+    },
+    {
+        "term": "relax",
+        "valence": 0.854,
+        "arousal": -0.5,
+        "dominance": -0.25
+    },
+    {
+        "term": "relaxation",
+        "valence": 0.746,
+        "arousal": -0.524,
+        "dominance": -0.238
+    },
+    {
+        "term": "relaxed",
+        "valence": 0.73,
+        "arousal": -0.91,
+        "dominance": -0.189
+    },
+    {
+        "term": "relief",
+        "valence": 0.688,
+        "arousal": -0.444,
+        "dominance": -0.038
+    },
+    {
+        "term": "relieve",
+        "valence": 0.626,
+        "arousal": -0.634,
+        "dominance": 0.072
+    },
+    {
+        "term": "relieved",
+        "valence": 0.792,
+        "arousal": -0.372,
+        "dominance": -0.218
+    },
+    {
+        "term": "relieving",
+        "valence": 0.48,
+        "arousal": -0.49,
+        "dominance": -0.09
+    },
+    {
+        "term": "relish",
+        "valence": 0.708,
+        "arousal": 0.22,
+        "dominance": 0.264
+    },
+    {
+        "term": "remorse",
+        "valence": -0.794,
+        "arousal": 0.346,
+        "dominance": -0.246
+    },
+    {
+        "term": "remorseful",
+        "valence": -0.306,
+        "arousal": -0.142,
+        "dominance": -0.5
+    },
+    {
+        "term": "remorsefully",
+        "valence": -0.667,
+        "arousal": -0.667,
+        "dominance": -0.75
+    },
+    {
+        "term": "remorsefulness",
+        "valence": -0.667,
+        "arousal": -0.593,
+        "dominance": -0.417
+    },
+    {
+        "term": "remorseless",
+        "valence": -0.917,
+        "arousal": 0.667,
+        "dominance": 0.926
+    },
+    {
+        "term": "repent",
+        "valence": -0.102,
+        "arousal": -0.156,
+        "dominance": -0.228
+    },
+    {
+        "term": "repentant",
+        "valence": -0.348,
+        "arousal": 0.0,
+        "dominance": -0.6
+    },
+    {
+        "term": "reproach",
+        "valence": -0.52,
+        "arousal": 0.51,
+        "dominance": -0.232
+    },
+    {
+        "term": "reproachful",
+        "valence": -0.667,
+        "arousal": -0.63,
+        "dominance": -0.571
+    },
+    {
+        "term": "repugnance",
+        "valence": -0.876,
+        "arousal": 0.368,
+        "dominance": -0.15
+    },
+    {
+        "term": "repugnancy",
+        "valence": -1.0,
+        "arousal": -0.926,
+        "dominance": -0.63
+    },
+    {
+        "term": "repulse",
+        "valence": -0.667,
+        "arousal": 0.917,
+        "dominance": 0.583
+    },
+    {
+        "term": "repulsion",
+        "valence": -0.506,
+        "arousal": 0.346,
+        "dominance": -0.294
+    },
+    {
+        "term": "repulsive",
+        "valence": -0.708,
+        "arousal": 0.55,
+        "dominance": -0.15
+    },
+    {
+        "term": "resent",
+        "valence": -0.793,
+        "arousal": 0.106,
+        "dominance": -0.674
+    },
+    {
+        "term": "resentful",
+        "valence": -0.76,
+        "arousal": 0.216,
+        "dominance": -0.352
+    },
+    {
+        "term": "resentfully",
+        "valence": -1.0,
+        "arousal": 0.417,
+        "dominance": -0.5
+    },
+    {
+        "term": "resentment",
+        "valence": -0.674,
+        "arousal": 0.49,
+        "dominance": 0.056
+    },
+    {
+        "term": "resignation",
+        "valence": -0.71,
+        "arousal": -0.216,
+        "dominance": -0.38
+    },
+    {
+        "term": "resigned",
+        "valence": -0.52,
+        "arousal": -0.66,
+        "dominance": -0.464
+    },
+    {
+        "term": "resigned to",
+        "valence": -0.322,
+        "arousal": -0.136,
+        "dominance": -0.242
+    },
+    {
+        "term": "resignedly",
+        "valence": -0.375,
+        "arousal": -0.905,
+        "dominance": -0.667
+    },
+    {
+        "term": "respected",
+        "valence": 0.816,
+        "arousal": -0.118,
+        "dominance": 0.706
+    },
+    {
+        "term": "restive",
+        "valence": -0.667,
+        "arousal": 0.889,
+        "dominance": -0.519
+    },
+    {
+        "term": "restless",
+        "valence": -0.562,
+        "arousal": 0.62,
+        "dominance": -0.392
+    },
+    {
+        "term": "restlessness",
+        "valence": -0.834,
+        "arousal": 0.588,
+        "dominance": -0.206
+    },
+    {
+        "term": "revengeful",
+        "valence": -0.933,
+        "arousal": 0.708,
+        "dominance": 0.833
+    },
+    {
+        "term": "revengefully",
+        "valence": -1.0,
+        "arousal": 0.667,
+        "dominance": 0.778
+    },
+    {
+        "term": "revengefulness",
+        "valence": -0.75,
+        "arousal": 0.722,
+        "dominance": 0.81
+    },
+    {
+        "term": "reverence",
+        "valence": 0.286,
+        "arousal": -0.306,
+        "dominance": 0.032
+    },
+    {
+        "term": "revolting",
+        "valence": -0.796,
+        "arousal": 0.38,
+        "dominance": -0.4
+    },
+    {
+        "term": "revulsion",
+        "valence": -0.792,
+        "arousal": 0.53,
+        "dominance": -0.314
+    },
+    {
+        "term": "rhapsodic",
+        "valence": 0.944,
+        "arousal": 0.667,
+        "dominance": 0.286
+    },
+    {
+        "term": "ridiculed",
+        "valence": -0.776,
+        "arousal": 0.612,
+        "dominance": -0.576
+    },
+    {
+        "term": "riled",
+        "valence": -0.667,
+        "arousal": 1.0,
+        "dominance": 0.407
+    },
+    {
+        "term": "road rage",
+        "valence": -0.344,
+        "arousal": 0.274,
+        "dominance": -0.032
+    },
+    {
+        "term": "roadrage",
+        "valence": -0.084,
+        "arousal": 0.134,
+        "dominance": 0.13
+    },
+    {
+        "term": "romantic",
+        "valence": 0.872,
+        "arousal": 0.062,
+        "dominance": 0.196
+    },
+    {
+        "term": "rue",
+        "valence": -0.354,
+        "arousal": -0.212,
+        "dominance": -0.508
+    },
+    {
+        "term": "rueful",
+        "valence": -0.654,
+        "arousal": -0.142,
+        "dominance": -0.55
+    },
+    {
+        "term": "ruefully",
+        "valence": -0.667,
+        "arousal": -0.63,
+        "dominance": -0.667
+    },
+    {
+        "term": "ruefulness",
+        "valence": -0.667,
+        "arousal": -0.667,
+        "dominance": -0.4
+    },
+    {
+        "term": "sad",
+        "valence": -0.55,
+        "arousal": -0.334,
+        "dominance": -0.702
+    },
+    {
+        "term": "sadden",
+        "valence": -1.0,
+        "arousal": -0.667,
+        "dominance": -0.619
+    },
+    {
+        "term": "saddens",
+        "valence": -0.792,
+        "arousal": -0.128,
+        "dominance": -0.712
+    },
+    {
+        "term": "sadder",
+        "valence": -1.0,
+        "arousal": -0.667,
+        "dominance": -0.429
+    },
+    {
+        "term": "saddest",
+        "valence": -0.566,
+        "arousal": -0.246,
+        "dominance": -0.4
+    },
+    {
+        "term": "sadness",
+        "valence": -0.896,
+        "arousal": -0.424,
+        "dominance": -0.672
+    },
+    {
+        "term": "salty",
+        "valence": -0.224,
+        "arousal": 0.062,
+        "dominance": -0.424
+    },
+    {
+        "term": "sanguine",
+        "valence": 0.04,
+        "arousal": 0.12,
+        "dominance": 0.09
+    },
+    {
+        "term": "sanguinely",
+        "valence": 0.833,
+        "arousal": 0.704,
+        "dominance": 0.476
+    },
+    {
+        "term": "sanguineness",
+        "valence": 1.0,
+        "arousal": 0.056,
+        "dominance": 0.407
+    },
+    {
+        "term": "sanguinity",
+        "valence": 0.917,
+        "arousal": -0.259,
+        "dominance": 0.333
+    },
+    {
+        "term": "satisfaction",
+        "valence": 0.878,
+        "arousal": 0.274,
+        "dominance": 0.346
+    },
+    {
+        "term": "satisfied",
+        "valence": 0.918,
+        "arousal": 0.02,
+        "dominance": 0.37
+    },
+    {
+        "term": "satisfied with",
+        "valence": 0.548,
+        "arousal": -0.18,
+        "dominance": 0.414
+    },
+    {
+        "term": "satisfying",
+        "valence": 0.78,
+        "arousal": 0.212,
+        "dominance": 0.628
+    },
+    {
+        "term": "scare",
+        "valence": -0.756,
+        "arousal": 0.82,
+        "dominance": -0.472
+    },
+    {
+        "term": "scared",
+        "valence": -0.708,
+        "arousal": 0.656,
+        "dominance": -0.63
+    },
+    {
+        "term": "scares",
+        "valence": -0.756,
+        "arousal": 0.694,
+        "dominance": -0.228
+    },
+    {
+        "term": "scariest",
+        "valence": -0.666,
+        "arousal": 0.726,
+        "dominance": 0.076
+    },
+    {
+        "term": "scariness",
+        "valence": -0.958,
+        "arousal": 0.741,
+        "dominance": 0.208
+    },
+    {
+        "term": "schadenfreude",
+        "valence": -0.292,
+        "arousal": 0.28,
+        "dominance": -0.074
+    },
+    {
+        "term": "scorn",
+        "valence": -0.78,
+        "arousal": 0.442,
+        "dominance": -0.288
+    },
+    {
+        "term": "scorned",
+        "valence": -0.876,
+        "arousal": 0.058,
+        "dominance": -0.548
+    },
+    {
+        "term": "scornful",
+        "valence": -0.654,
+        "arousal": 0.216,
+        "dominance": -0.264
+    },
+    {
+        "term": "scornfulness",
+        "valence": -0.905,
+        "arousal": 0.5,
+        "dominance": 0.667
+    },
+    {
+        "term": "seasick",
+        "valence": -0.77,
+        "arousal": 0.366,
+        "dominance": -0.51
+    },
+    {
+        "term": "see red",
+        "valence": -0.38,
+        "arousal": 0.0,
+        "dominance": 0.148
+    },
+    {
+        "term": "seeing red",
+        "valence": -0.078,
+        "arousal": 0.138,
+        "dominance": 0.26
+    },
+    {
+        "term": "seethe",
+        "valence": -0.667,
+        "arousal": 1.0,
+        "dominance": 0.481
+    },
+    {
+        "term": "seething",
+        "valence": -0.522,
+        "arousal": 0.821,
+        "dominance": 0.35
+    },
+    {
+        "term": "self conscious",
+        "valence": 0.166,
+        "arousal": 0.04,
+        "dominance": 0.064
+    },
+    {
+        "term": "self deprecating",
+        "valence": -0.334,
+        "arousal": 0.15,
+        "dominance": -0.034
+    },
+    {
+        "term": "self loathing",
+        "valence": -0.234,
+        "arousal": 0.114,
+        "dominance": -0.242
+    },
+    {
+        "term": "self pity",
+        "valence": -0.612,
+        "arousal": -0.05,
+        "dominance": -0.434
+    },
+    {
+        "term": "sentimental",
+        "valence": 0.166,
+        "arousal": -0.244,
+        "dominance": -0.376
+    },
+    {
+        "term": "separation anxiety",
+        "valence": -0.226,
+        "arousal": 0.968,
+        "dominance": 0.0
+    },
+    {
+        "term": "serene",
+        "valence": 0.604,
+        "arousal": -0.736,
+        "dominance": -0.26
+    },
+    {
+        "term": "sereneness",
+        "valence": 1.0,
+        "arousal": -1.0,
+        "dominance": 0.381
+    },
+    {
+        "term": "serenity",
+        "valence": 0.8,
+        "arousal": -0.878,
+        "dominance": 0.114
+    },
+    {
+        "term": "shaken",
+        "valence": -0.312,
+        "arousal": 0.314,
+        "dominance": -0.334
+    },
+    {
+        "term": "shaken up",
+        "valence": -0.148,
+        "arousal": 0.276,
+        "dominance": -0.1
+    },
+    {
+        "term": "shame",
+        "valence": -0.88,
+        "arousal": 0.34,
+        "dominance": -0.69
+    },
+    {
+        "term": "shamed",
+        "valence": -0.73,
+        "arousal": 0.134,
+        "dominance": -0.564
+    },
+    {
+        "term": "shamefaced",
+        "valence": -0.958,
+        "arousal": -0.667,
+        "dominance": -0.778
+    },
+    {
+        "term": "shamefacedness",
+        "valence": -0.857,
+        "arousal": -0.667,
+        "dominance": -0.833
+    },
+    {
+        "term": "shameful",
+        "valence": -0.92,
+        "arousal": 0.36,
+        "dominance": -0.472
+    },
+    {
+        "term": "shamefulness",
+        "valence": -0.958,
+        "arousal": -0.667,
+        "dominance": -0.625
+    },
+    {
+        "term": "sheepish",
+        "valence": -0.348,
+        "arousal": -0.118,
+        "dominance": -0.59
+    },
+    {
+        "term": "sheepishness",
+        "valence": -0.533,
+        "arousal": -0.667,
+        "dominance": -0.722
+    },
+    {
+        "term": "shellshock",
+        "valence": -0.852,
+        "arousal": 0.792,
+        "dominance": -0.958
+    },
+    {
+        "term": "shitty",
+        "valence": -0.96,
+        "arousal": 0.358,
+        "dominance": -0.674
+    },
+    {
+        "term": "shock",
+        "valence": -0.428,
+        "arousal": 0.642,
+        "dominance": -0.094
+    },
+    {
+        "term": "shocked",
+        "valence": -0.416,
+        "arousal": 0.546,
+        "dominance": -0.25
+    },
+    {
+        "term": "shook up",
+        "valence": -0.334,
+        "arousal": 0.042,
+        "dominance": -0.034
+    },
+    {
+        "term": "shrewish",
+        "valence": -1.0,
+        "arousal": 0.667,
+        "dominance": -0.667
+    },
+    {
+        "term": "shy",
+        "valence": -0.44,
+        "arousal": -0.694,
+        "dominance": -0.736
+    },
+    {
+        "term": "shyness",
+        "valence": -0.376,
+        "arousal": -0.47,
+        "dominance": -0.508
+    },
+    {
+        "term": "sick of",
+        "valence": -0.656,
+        "arousal": -0.14,
+        "dominance": -0.31
+    },
+    {
+        "term": "silly",
+        "valence": -0.232,
+        "arousal": -0.302,
+        "dominance": -0.678
+    },
+    {
+        "term": "sinking feeling",
+        "valence": -0.7,
+        "arousal": 0.224,
+        "dominance": -0.2
+    },
+    {
+        "term": "skittish",
+        "valence": -0.688,
+        "arousal": 0.63,
+        "dominance": -0.656
+    },
+    {
+        "term": "skittishness",
+        "valence": -0.625,
+        "arousal": 0.833,
+        "dominance": -0.926
+    },
+    {
+        "term": "slaphappy",
+        "valence": -0.417,
+        "arousal": 0.667,
+        "dominance": -0.667
+    },
+    {
+        "term": "slight anticipation",
+        "valence": 0.124,
+        "arousal": -0.02,
+        "dominance": -0.11
+    },
+    {
+        "term": "slight disgust",
+        "valence": -0.688,
+        "arousal": 0.156,
+        "dominance": -0.364
+    },
+    {
+        "term": "slight surprise",
+        "valence": 0.354,
+        "arousal": 0.492,
+        "dominance": 0.114
+    },
+    {
+        "term": "smitten",
+        "valence": -0.694,
+        "arousal": 0.52,
+        "dominance": -0.592
+    },
+    {
+        "term": "smug",
+        "valence": -0.604,
+        "arousal": 0.104,
+        "dominance": 0.174
+    },
+    {
+        "term": "smugness",
+        "valence": -0.667,
+        "arousal": -0.481,
+        "dominance": -0.417
+    },
+    {
+        "term": "snappiness",
+        "valence": 0.0,
+        "arousal": 0.667,
+        "dominance": 0.625
+    },
+    {
+        "term": "snappish",
+        "valence": -0.667,
+        "arousal": 0.875,
+        "dominance": -0.296
+    },
+    {
+        "term": "snappishness",
+        "valence": -0.667,
+        "arousal": 0.722,
+        "dominance": 0.333
+    },
+    {
+        "term": "snappy",
+        "valence": 0.146,
+        "arousal": 0.184,
+        "dominance": -0.164
+    },
+    {
+        "term": "snarky",
+        "valence": -0.63,
+        "arousal": 0.667,
+        "dominance": 0.222
+    },
+    {
+        "term": "snarly",
+        "valence": -0.741,
+        "arousal": 0.81,
+        "dominance": -0.333
+    },
+    {
+        "term": "snippiness",
+        "valence": -0.667,
+        "arousal": 0.667,
+        "dominance": -0.333
+    },
+    {
+        "term": "snippy",
+        "valence": -0.164,
+        "arousal": -0.018,
+        "dominance": -0.038
+    },
+    {
+        "term": "snubbed",
+        "valence": -0.47,
+        "arousal": 0.056,
+        "dominance": -0.442
+    },
+    {
+        "term": "snugness",
+        "valence": 0.952,
+        "arousal": -0.905,
+        "dominance": -0.292
+    },
+    {
+        "term": "socialanxiety",
+        "valence": -0.46,
+        "arousal": 0.176,
+        "dominance": -0.148
+    },
+    {
+        "term": "softhearted",
+        "valence": 0.667,
+        "arousal": -0.667,
+        "dominance": -0.63
+    },
+    {
+        "term": "solemn",
+        "valence": 0.416,
+        "arousal": -0.26,
+        "dominance": 0.418
+    },
+    {
+        "term": "solicitous",
+        "valence": 0.542,
+        "arousal": -0.389,
+        "dominance": -0.667
+    },
+    {
+        "term": "solicitude",
+        "valence": 0.708,
+        "arousal": -0.444,
+        "dominance": -0.667
+    },
+    {
+        "term": "somber",
+        "valence": -0.632,
+        "arousal": -0.182,
+        "dominance": -0.24
+    },
+    {
+        "term": "somberness",
+        "valence": -0.704,
+        "arousal": -0.958,
+        "dominance": -0.5
+    },
+    {
+        "term": "some anticipation",
+        "valence": -0.154,
+        "arousal": -0.036,
+        "dominance": -0.056
+    },
+    {
+        "term": "some disgust",
+        "valence": -0.812,
+        "arousal": 0.314,
+        "dominance": -0.358
+    },
+    {
+        "term": "some surprise",
+        "valence": 0.654,
+        "arousal": 0.698,
+        "dominance": 0.0
+    },
+    {
+        "term": "soppiness",
+        "valence": -0.444,
+        "arousal": -0.583,
+        "dominance": -0.667
+    },
+    {
+        "term": "sorrow",
+        "valence": -0.896,
+        "arousal": -0.53,
+        "dominance": -0.672
+    },
+    {
+        "term": "sorrowful",
+        "valence": -0.902,
+        "arousal": -0.156,
+        "dominance": -0.674
+    },
+    {
+        "term": "sorrowfully",
+        "valence": -1.0,
+        "arousal": -0.63,
+        "dominance": -0.704
+    },
+    {
+        "term": "sorrowfulness",
+        "valence": -1.0,
+        "arousal": -0.667,
+        "dominance": -0.778
+    },
+    {
+        "term": "sorry",
+        "valence": -0.188,
+        "arousal": -0.276,
+        "dominance": -0.576
+    },
+    {
+        "term": "spaced out",
+        "valence": 0.066,
+        "arousal": -0.228,
+        "dominance": -0.4
+    },
+    {
+        "term": "spellbound",
+        "valence": 0.062,
+        "arousal": 0.294,
+        "dominance": -0.226
+    },
+    {
+        "term": "spiritless",
+        "valence": -0.933,
+        "arousal": -0.963,
+        "dominance": -0.875
+    },
+    {
+        "term": "spiritlessly",
+        "valence": -0.667,
+        "arousal": -1.0,
+        "dominance": -0.815
+    },
+    {
+        "term": "spite",
+        "valence": -0.84,
+        "arousal": 0.2,
+        "dominance": -0.366
+    },
+    {
+        "term": "spiteful",
+        "valence": -0.854,
+        "arousal": 0.42,
+        "dominance": -0.34
+    },
+    {
+        "term": "spitefully",
+        "valence": -1.0,
+        "arousal": 0.667,
+        "dominance": 0.556
+    },
+    {
+        "term": "spitefulness",
+        "valence": -1.0,
+        "arousal": 0.667,
+        "dominance": -0.292
+    },
+    {
+        "term": "spunkiness",
+        "valence": 0.667,
+        "arousal": 0.958,
+        "dominance": 0.556
+    },
+    {
+        "term": "squeamish",
+        "valence": -0.648,
+        "arousal": 0.312,
+        "dominance": -0.094
+    },
+    {
+        "term": "squeamishly",
+        "valence": -0.667,
+        "arousal": -0.571,
+        "dominance": -0.833
+    },
+    {
+        "term": "squeamishness",
+        "valence": -0.667,
+        "arousal": -0.542,
+        "dominance": -0.833
+    },
+    {
+        "term": "starstruck",
+        "valence": 0.611,
+        "arousal": 0.714,
+        "dominance": -0.481
+    },
+    {
+        "term": "startle",
+        "valence": -0.448,
+        "arousal": 0.634,
+        "dominance": -0.166
+    },
+    {
+        "term": "startled",
+        "valence": -0.334,
+        "arousal": 0.73,
+        "dominance": 0.052
+    },
+    {
+        "term": "stir crazy",
+        "valence": -0.434,
+        "arousal": 0.38,
+        "dominance": 0.25
+    },
+    {
+        "term": "stirred",
+        "valence": 0.037,
+        "arousal": 0.667,
+        "dominance": 0.042
+    },
+    {
+        "term": "stress",
+        "valence": -0.654,
+        "arousal": 0.686,
+        "dominance": -0.366
+    },
+    {
+        "term": "stress out",
+        "valence": -0.5,
+        "arousal": 0.122,
+        "dominance": -0.236
+    },
+    {
+        "term": "stressed",
+        "valence": -0.666,
+        "arousal": 0.48,
+        "dominance": 0.004
+    },
+    {
+        "term": "stressed out",
+        "valence": -0.75,
+        "arousal": 0.086,
+        "dominance": -0.458
+    },
+    {
+        "term": "stressin",
+        "valence": -0.708,
+        "arousal": 0.729,
+        "dominance": -0.266
+    },
+    {
+        "term": "stressing",
+        "valence": -0.674,
+        "arousal": 0.732,
+        "dominance": -0.076
+    },
+    {
+        "term": "strung out",
+        "valence": 0.082,
+        "arousal": 0.096,
+        "dominance": -0.434
+    },
+    {
+        "term": "stunned",
+        "valence": -0.388,
+        "arousal": 0.326,
+        "dominance": -0.288
+    },
+    {
+        "term": "stupefaction",
+        "valence": -0.412,
+        "arousal": 0.408,
+        "dominance": -0.04
+    },
+    {
+        "term": "stupefied",
+        "valence": -0.667,
+        "arousal": -1.0,
+        "dominance": -0.778
+    },
+    {
+        "term": "subdued",
+        "valence": -0.528,
+        "arousal": -0.074,
+        "dominance": -0.554
+    },
+    {
+        "term": "submissive",
+        "valence": -0.04,
+        "arousal": -0.566,
+        "dominance": -0.654
+    },
+    {
+        "term": "submissiveness",
+        "valence": -0.667,
+        "arousal": -0.667,
+        "dominance": -1.0
+    },
+    {
+        "term": "suffer",
+        "valence": -0.836,
+        "arousal": 0.82,
+        "dominance": -0.482
+    },
+    {
+        "term": "suffering",
+        "valence": -0.96,
+        "arousal": 0.438,
+        "dominance": -0.53
+    },
+    {
+        "term": "suffocated",
+        "valence": -1.0,
+        "arousal": -1.0,
+        "dominance": -0.952
+    },
+    {
+        "term": "suffocating",
+        "valence": -0.734,
+        "arousal": 0.548,
+        "dominance": -0.142
+    },
+    {
+        "term": "suicidal",
+        "valence": -0.979,
+        "arousal": 0.701,
+        "dominance": -1.0
+    },
+    {
+        "term": "sulk",
+        "valence": -0.5,
+        "arousal": 0.16,
+        "dominance": -0.188
+    },
+    {
+        "term": "sulkily",
+        "valence": -0.762,
+        "arousal": -0.667,
+        "dominance": -0.571
+    },
+    {
+        "term": "sulkiness",
+        "valence": -0.708,
+        "arousal": -0.667,
+        "dominance": -0.583
+    },
+    {
+        "term": "sulking",
+        "valence": -0.704,
+        "arousal": -0.667,
+        "dominance": -0.667
+    },
+    {
+        "term": "sulky",
+        "valence": -0.667,
+        "arousal": -0.667,
+        "dominance": -0.667
+    },
+    {
+        "term": "sullen",
+        "valence": -0.5,
+        "arousal": -0.186,
+        "dominance": -0.474
+    },
+    {
+        "term": "sullenly",
+        "valence": -0.667,
+        "arousal": -0.667,
+        "dominance": -0.704
+    },
+    {
+        "term": "sullenness",
+        "valence": -0.714,
+        "arousal": -1.0,
+        "dominance": -0.593
+    },
+    {
+        "term": "surliness",
+        "valence": -1.0,
+        "arousal": -0.556,
+        "dominance": -0.542
+    },
+    {
+        "term": "surprise",
+        "valence": 0.75,
+        "arousal": 0.75,
+        "dominance": 0.124
+    },
+    {
+        "term": "surprised",
+        "valence": 0.568,
+        "arousal": 0.71,
+        "dominance": 0.078
+    },
+    {
+        "term": "surprised at",
+        "valence": 0.534,
+        "arousal": 0.134,
+        "dominance": 0.388
+    },
+    {
+        "term": "suspicion",
+        "valence": -0.592,
+        "arousal": 0.422,
+        "dominance": -0.246
+    },
+    {
+        "term": "suspicious",
+        "valence": -0.694,
+        "arousal": 0.49,
+        "dominance": -0.138
+    },
+    {
+        "term": "suspiciousness",
+        "valence": -0.667,
+        "arousal": 0.667,
+        "dominance": -0.625
+    },
+    {
+        "term": "sympathetic",
+        "valence": 0.592,
+        "arousal": -0.132,
+        "dominance": 0.218
+    },
+    {
+        "term": "sympathies",
+        "valence": 0.429,
+        "arousal": -0.667,
+        "dominance": -0.333
+    },
+    {
+        "term": "sympathy",
+        "valence": 0.654,
+        "arousal": -0.006,
+        "dominance": 0.268
+    },
+    {
+        "term": "take offense",
+        "valence": -0.372,
+        "arousal": 0.194,
+        "dominance": -0.108
+    },
+    {
+        "term": "take pride",
+        "valence": 0.4,
+        "arousal": 0.062,
+        "dominance": 0.2
+    },
+    {
+        "term": "tearful",
+        "valence": -0.584,
+        "arousal": 0.0,
+        "dominance": -0.632
+    },
+    {
+        "term": "tearfulness",
+        "valence": -0.667,
+        "arousal": 0.667,
+        "dominance": -0.778
+    },
+    {
+        "term": "teary",
+        "valence": -0.666,
+        "arousal": -0.054,
+        "dominance": -0.568
+    },
+    {
+        "term": "tedium",
+        "valence": -0.552,
+        "arousal": -0.338,
+        "dominance": -0.404
+    },
+    {
+        "term": "tempestuous",
+        "valence": -0.667,
+        "arousal": 1.0,
+        "dominance": 0.619
+    },
+    {
+        "term": "tender",
+        "valence": 0.26,
+        "arousal": 0.04,
+        "dominance": 0.018
+    },
+    {
+        "term": "tenderhearted",
+        "valence": 1.0,
+        "arousal": -0.6,
+        "dominance": -0.667
+    },
+    {
+        "term": "tenderheartedness",
+        "valence": 1.0,
+        "arousal": -0.917,
+        "dominance": -0.556
+    },
+    {
+        "term": "tenderness",
+        "valence": 0.898,
+        "arousal": -0.448,
+        "dominance": -0.266
+    },
+    {
+        "term": "tense",
+        "valence": -0.208,
+        "arousal": -0.122,
+        "dominance": 0.31
+    },
+    {
+        "term": "tenseness",
+        "valence": -0.667,
+        "arousal": 0.667,
+        "dominance": -0.37
+    },
+    {
+        "term": "tension",
+        "valence": -0.392,
+        "arousal": 0.62,
+        "dominance": 0.058
+    },
+    {
+        "term": "terrified",
+        "valence": -0.82,
+        "arousal": 0.804,
+        "dominance": -0.226
+    },
+    {
+        "term": "terrifies",
+        "valence": -0.834,
+        "arousal": 0.846,
+        "dominance": 0.0
+    },
+    {
+        "term": "terrify",
+        "valence": -0.896,
+        "arousal": 0.778,
+        "dominance": 0.018
+    },
+    {
+        "term": "terrifying",
+        "valence": -0.938,
+        "arousal": 0.672,
+        "dominance": 0.204
+    },
+    {
+        "term": "terror",
+        "valence": -0.862,
+        "arousal": 0.804,
+        "dominance": -0.17
+    },
+    {
+        "term": "testily",
+        "valence": -0.611,
+        "arousal": 0.944,
+        "dominance": -0.407
+    },
+    {
+        "term": "testiness",
+        "valence": -0.667,
+        "arousal": 0.667,
+        "dominance": -0.524
+    },
+    {
+        "term": "testy",
+        "valence": -0.699,
+        "arousal": 0.28,
+        "dominance": -0.286
+    },
+    {
+        "term": "thankful",
+        "valence": 0.938,
+        "arousal": -0.312,
+        "dominance": 0.428
+    },
+    {
+        "term": "thankful for",
+        "valence": 0.8,
+        "arousal": -0.324,
+        "dominance": 0.128
+    },
+    {
+        "term": "thankfully",
+        "valence": 1.0,
+        "arousal": -0.37,
+        "dominance": -0.083
+    },
+    {
+        "term": "thankfulness",
+        "valence": 1.0,
+        "arousal": -0.625,
+        "dominance": -0.333
+    },
+    {
+        "term": "that sucks",
+        "valence": -0.58,
+        "arousal": 0.082,
+        "dominance": -0.354
+    },
+    {
+        "term": "threatened",
+        "valence": -0.896,
+        "arousal": 0.856,
+        "dominance": -0.292
+    },
+    {
+        "term": "thrill",
+        "valence": 0.776,
+        "arousal": 0.674,
+        "dominance": 0.422
+    },
+    {
+        "term": "thrilled",
+        "valence": 0.796,
+        "arousal": 0.636,
+        "dominance": 0.614
+    },
+    {
+        "term": "thrilling",
+        "valence": 0.893,
+        "arousal": 0.808,
+        "dominance": 0.595
+    },
+    {
+        "term": "ticked",
+        "valence": -0.062,
+        "arousal": -0.228,
+        "dominance": -0.09
+    },
+    {
+        "term": "ticked off",
+        "valence": -0.536,
+        "arousal": 0.104,
+        "dominance": -0.234
+    },
+    {
+        "term": "tickled",
+        "valence": 0.51,
+        "arousal": 0.414,
+        "dominance": -0.272
+    },
+    {
+        "term": "timid",
+        "valence": -0.346,
+        "arousal": -0.448,
+        "dominance": -0.736
+    },
+    {
+        "term": "timidity",
+        "valence": -0.334,
+        "arousal": -0.284,
+        "dominance": -0.694
+    },
+    {
+        "term": "titillation",
+        "valence": 0.429,
+        "arousal": 0.667,
+        "dominance": 0.296
+    },
+    {
+        "term": "tizzy",
+        "valence": -0.583,
+        "arousal": 1.0,
+        "dominance": -0.625
+    },
+    {
+        "term": "torment",
+        "valence": -0.886,
+        "arousal": 0.5,
+        "dominance": -0.226
+    },
+    {
+        "term": "tormented",
+        "valence": -0.858,
+        "arousal": 0.71,
+        "dominance": -0.354
+    },
+    {
+        "term": "tortured",
+        "valence": -0.876,
+        "arousal": 0.78,
+        "dominance": -0.278
+    },
+    {
+        "term": "touched",
+        "valence": 0.184,
+        "arousal": -0.24,
+        "dominance": -0.192
+    },
+    {
+        "term": "touchiness",
+        "valence": -0.63,
+        "arousal": 0.619,
+        "dominance": -0.619
+    },
+    {
+        "term": "touchy",
+        "valence": -0.354,
+        "arousal": 0.02,
+        "dominance": -0.314
+    },
+    {
+        "term": "tranquil",
+        "valence": 0.917,
+        "arousal": -0.937,
+        "dominance": -0.321
+    },
+    {
+        "term": "tranquility",
+        "valence": 0.68,
+        "arousal": -0.73,
+        "dominance": -0.116
+    },
+    {
+        "term": "tranquillity",
+        "valence": 1.0,
+        "arousal": -1.0,
+        "dominance": -0.5
+    },
+    {
+        "term": "trapped",
+        "valence": -0.73,
+        "arousal": 0.23,
+        "dominance": -0.24
+    },
+    {
+        "term": "traumatized",
+        "valence": -0.952,
+        "arousal": 0.762,
+        "dominance": -0.833
+    },
+    {
+        "term": "trepid",
+        "valence": -0.667,
+        "arousal": -0.667,
+        "dominance": -0.704
+    },
+    {
+        "term": "trepidation",
+        "valence": 0.164,
+        "arousal": 0.188,
+        "dominance": -0.072
+    },
+    {
+        "term": "triumph",
+        "valence": 0.938,
+        "arousal": 0.596,
+        "dominance": 0.852
+    },
+    {
+        "term": "triumphant",
+        "valence": 0.898,
+        "arousal": 0.674,
+        "dominance": 0.972
+    },
+    {
+        "term": "triumphantly",
+        "valence": 1.0,
+        "arousal": 1.0,
+        "dominance": 1.0
+    },
+    {
+        "term": "troubled",
+        "valence": -0.666,
+        "arousal": 0.254,
+        "dominance": -0.23
+    },
+    {
+        "term": "trustful",
+        "valence": 0.762,
+        "arousal": -0.333,
+        "dominance": 0.333
+    },
+    {
+        "term": "turmoil",
+        "valence": -0.604,
+        "arousal": 0.776,
+        "dominance": -0.166
+    },
+    {
+        "term": "turned on",
+        "valence": 0.3,
+        "arousal": 0.25,
+        "dominance": 0.104
+    },
+    {
+        "term": "twinge",
+        "valence": -0.368,
+        "arousal": 0.44,
+        "dominance": -0.058
+    },
+    {
+        "term": "twitchiness",
+        "valence": -0.619,
+        "arousal": 0.958,
+        "dominance": -0.714
+    },
+    {
+        "term": "twitchy",
+        "valence": -0.812,
+        "arousal": 0.836,
+        "dominance": -0.438
+    },
+    {
+        "term": "umbrage",
+        "valence": -0.667,
+        "arousal": -0.667,
+        "dominance": -0.238
+    },
+    {
+        "term": "unafraid",
+        "valence": 0.0,
+        "arousal": 0.04,
+        "dominance": 0.31
+    },
+    {
+        "term": "unappeased",
+        "valence": -0.667,
+        "arousal": 0.667,
+        "dominance": 0.37
+    },
+    {
+        "term": "unappreciated",
+        "valence": -0.544,
+        "arousal": -0.138,
+        "dominance": -0.582
+    },
+    {
+        "term": "unappreciative",
+        "valence": -0.778,
+        "arousal": -0.667,
+        "dominance": -0.762
+    },
+    {
+        "term": "unashamed",
+        "valence": 0.833,
+        "arousal": -0.042,
+        "dominance": 0.63
+    },
+    {
+        "term": "unbothered",
+        "valence": 0.667,
+        "arousal": -0.963,
+        "dominance": 0.524
+    },
+    {
+        "term": "uncaring",
+        "valence": -0.646,
+        "arousal": -0.51,
+        "dominance": -0.358
+    },
+    {
+        "term": "uncomfortable",
+        "valence": -0.624,
+        "arousal": 0.22,
+        "dominance": -0.572
+    },
+    {
+        "term": "uncomforted",
+        "valence": -0.667,
+        "arousal": -0.611,
+        "dominance": -0.792
+    },
+    {
+        "term": "unconcern",
+        "valence": -0.333,
+        "arousal": -0.958,
+        "dominance": -0.583
+    },
+    {
+        "term": "unconcerned",
+        "valence": 0.124,
+        "arousal": -0.434,
+        "dominance": -0.404
+    },
+    {
+        "term": "unconfident",
+        "valence": -0.667,
+        "arousal": -0.619,
+        "dominance": -1.0
+    },
+    {
+        "term": "underappreciated",
+        "valence": -0.667,
+        "arousal": -0.333,
+        "dominance": -0.5
+    },
+    {
+        "term": "underwhelmed",
+        "valence": -0.667,
+        "arousal": -0.619,
+        "dominance": -0.625
+    },
+    {
+        "term": "undismayed",
+        "valence": 0.952,
+        "arousal": -0.583,
+        "dominance": 0.958
+    },
+    {
+        "term": "unease",
+        "valence": -0.667,
+        "arousal": 0.5,
+        "dominance": -0.667
+    },
+    {
+        "term": "uneasily",
+        "valence": -0.667,
+        "arousal": 0.667,
+        "dominance": -0.593
+    },
+    {
+        "term": "uneasiness",
+        "valence": -0.643,
+        "arousal": 0.596,
+        "dominance": -0.544
+    },
+    {
+        "term": "uneasy",
+        "valence": -0.77,
+        "arousal": 0.196,
+        "dominance": -0.302
+    },
+    {
+        "term": "unenthused",
+        "valence": -0.667,
+        "arousal": -1.0,
+        "dominance": -0.583
+    },
+    {
+        "term": "unenthusiastic",
+        "valence": -0.667,
+        "arousal": -0.963,
+        "dominance": -0.593
+    },
+    {
+        "term": "unexcited",
+        "valence": -0.4,
+        "arousal": -0.762,
+        "dominance": -0.375
+    },
+    {
+        "term": "unflustered",
+        "valence": 0.667,
+        "arousal": -1.0,
+        "dominance": 0.926
+    },
+    {
+        "term": "unfriendliness",
+        "valence": -0.905,
+        "arousal": -0.667,
+        "dominance": -0.778
+    },
+    {
+        "term": "unfulfilled",
+        "valence": -0.649,
+        "arousal": -0.148,
+        "dominance": -0.464
+    },
+    {
+        "term": "unfulfilling",
+        "valence": -1.0,
+        "arousal": -0.611,
+        "dominance": -0.667
+    },
+    {
+        "term": "unglued",
+        "valence": -0.244,
+        "arousal": -0.108,
+        "dominance": -0.296
+    },
+    {
+        "term": "ungratified",
+        "valence": -0.667,
+        "arousal": -0.667,
+        "dominance": -0.556
+    },
+    {
+        "term": "unhappily",
+        "valence": -0.958,
+        "arousal": 0.476,
+        "dominance": -0.481
+    },
+    {
+        "term": "unhappiness",
+        "valence": -0.834,
+        "arousal": 0.26,
+        "dominance": -0.556
+    },
+    {
+        "term": "unhappy",
+        "valence": -0.776,
+        "arousal": 0.0,
+        "dominance": -0.536
+    },
+    {
+        "term": "unhopeful",
+        "valence": -0.778,
+        "arousal": -1.0,
+        "dominance": -0.741
+    },
+    {
+        "term": "unimpressed",
+        "valence": -0.604,
+        "arousal": -0.396,
+        "dominance": -0.346
+    },
+    {
+        "term": "uninspired",
+        "valence": -0.674,
+        "arousal": -0.445,
+        "dominance": -0.48
+    },
+    {
+        "term": "uninterested",
+        "valence": -0.27,
+        "arousal": -0.52,
+        "dominance": -0.344
+    },
+    {
+        "term": "unlovable",
+        "valence": -1.0,
+        "arousal": -0.917,
+        "dominance": -0.778
+    },
+    {
+        "term": "unloved",
+        "valence": -1.0,
+        "arousal": -0.905,
+        "dominance": -0.952
+    },
+    {
+        "term": "unloving",
+        "valence": -1.0,
+        "arousal": -0.667,
+        "dominance": -0.5
+    },
+    {
+        "term": "unmotivated",
+        "valence": -0.667,
+        "arousal": -1.0,
+        "dominance": -0.833
+    },
+    {
+        "term": "unmoved",
+        "valence": -0.632,
+        "arousal": -0.29,
+        "dominance": -0.28
+    },
+    {
+        "term": "unnerve",
+        "valence": -0.667,
+        "arousal": 0.952,
+        "dominance": -0.556
+    },
+    {
+        "term": "unnerved",
+        "valence": -0.667,
+        "arousal": 0.667,
+        "dominance": -0.667
+    },
+    {
+        "term": "unperturbed",
+        "valence": 0.619,
+        "arousal": -1.0,
+        "dominance": 0.75
+    },
+    {
+        "term": "unpleasant",
+        "valence": -0.756,
+        "arousal": 0.224,
+        "dominance": -0.63
+    },
+    {
+        "term": "unpleasantness",
+        "valence": -0.916,
+        "arousal": 0.448,
+        "dominance": -0.472
+    },
+    {
+        "term": "unpleased",
+        "valence": -0.667,
+        "arousal": -0.619,
+        "dominance": -0.458
+    },
+    {
+        "term": "unquiet",
+        "valence": -0.667,
+        "arousal": 0.905,
+        "dominance": -0.417
+    },
+    {
+        "term": "unremorseful",
+        "valence": -0.704,
+        "arousal": 0.667,
+        "dominance": 0.792
+    },
+    {
+        "term": "unruffled",
+        "valence": 0.625,
+        "arousal": -0.958,
+        "dominance": 0.875
+    },
+    {
+        "term": "unsatisfied",
+        "valence": -0.6,
+        "arousal": 0.094,
+        "dominance": -0.518
+    },
+    {
+        "term": "unsatisfying",
+        "valence": -0.926,
+        "arousal": -0.458,
+        "dominance": -0.583
+    },
+    {
+        "term": "unsettle",
+        "valence": -0.667,
+        "arousal": 0.926,
+        "dominance": -0.625
+    },
+    {
+        "term": "unsettled",
+        "valence": -0.625,
+        "arousal": 0.481,
+        "dominance": -0.627
+    },
+    {
+        "term": "unsettledness",
+        "valence": -0.667,
+        "arousal": 0.667,
+        "dominance": -0.571
+    },
+    {
+        "term": "unsurprised",
+        "valence": 0.0,
+        "arousal": -1.0,
+        "dominance": 0.074
+    },
+        {
+        "term": "unthankful",
+        "valence": -0.667,
+        "arousal": -0.667,
+        "dominance": -0.5
+    },
+    {
+        "term": "unworried",
+        "valence": 1.0,
+        "arousal": -1.0,
+        "dominance": 0.238
+    },
+    {
+        "term": "upset",
+        "valence": -0.858,
+        "arousal": 0.36,
+        "dominance": -0.34
+    },
+    {
+        "term": "upsetting",
+        "valence": -1.0,
+        "arousal": 0.667,
+        "dominance": -0.593
+    },
+    {
+        "term": "veryangry",
+        "valence": -0.354,
+        "arousal": 0.428,
+        "dominance": 0.054
+    },
+    {
+        "term": "worried",
+        "valence": -0.812,
+        "arousal": 0.648,
+        "dominance": -0.21
+    },
+    {
+        "term": "worriedly",
+        "valence": -0.733,
+        "arousal": 0.667,
+        "dominance": -0.625
+    },
+    {
+        "term": "worry",
+        "valence": -0.51,
+        "arousal": 0.552,
+        "dominance": -0.466
+    },
+    {
+        "term": "worrying",
+        "valence": -0.906,
+        "arousal": 0.5,
+        "dominance": -0.408
+    },
+    {
+        "term": "wrath",
+        "valence": -0.922,
+        "arousal": 0.816,
+        "dominance": 0.096
+    },
+    {
+        "term": "wrathful",
+        "valence": -0.796,
+        "arousal": 0.46,
+        "dominance": -0.108
+    },
+    {
+        "term": "wrathfully",
+        "valence": -1.0,
+        "arousal": 1.0,
+        "dominance": 0.857
+    },
+    {
+        "term": "wrathfulness",
+        "valence": -0.944,
+        "arousal": 1.0,
+        "dominance": 0.833
+    }
+]
