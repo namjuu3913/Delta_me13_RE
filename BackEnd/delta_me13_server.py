@@ -20,6 +20,9 @@ async def lifespan(app: FastAPI):
     print(f"Shutting down LLM controller (PID: {state.llm_controller.pid})...")
     
     pid_to_kill = state.llm_controller.pid
+
+    if state.Character != None:
+        state.Character.memory.turn_off()
     
     try:
         if sys.platform == "win32":
