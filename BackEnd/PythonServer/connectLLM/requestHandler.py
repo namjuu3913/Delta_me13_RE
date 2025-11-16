@@ -26,20 +26,52 @@ class requestHandler:
         self.client  = client
 
     async def sendMsg(self, user_input:str, character:Character) -> List[dict]:
+        # get info first
+        character_info_and_mem:str = character.getCharJsonLLM(user_input)
+
+        # find character's emotion
+        psycologist_response_system_msg = self.psycologist_response_card()
+        participant_info = character_info_and_mem
+
+        messages_psycologist_response = [
+                    {"role": "system", "content": psycologist_response_system_msg},
+                    {"role": "user", "content": participant_info},
+        ]
         try:
-            system_msg = self.persona_card_from_json(character.getCharJsonLLM(user_input))
+            r = await self.client.chat.completions.create(
+                model = ALIAS,
+                messages = messages_psycologist_response,
+                temperature = self.temperature,
+                max_tokens = self.max_tokens,
+            )
+
+            if not r.choices or not r.choices[0].message.content:
+                raise Exception("LLM response did not contain any content.")
+                
+            llm_content = r.choices[0].message.content
+            parsed_response = self._parse_llm_response(llm_content)
+
+        except BadRequestError as e:
+            body = getattr(getattr(e, "response", None), "text", None)
+            raise Exception("400 from server:", body or str(e))
+        
+        
+
+        # get actual character's response
+        try:
+            character_response_system_msg = self.character_response_card_from_json(character_info_and_mem)
         except Exception as e:
             raise Exception(e.__str__())
 
-        messages = [
-                    {"role": "system", "content": system_msg},
+        messages_actual_response = [
+                    {"role": "system", "content": character_response_system_msg},
                     {"role": "user", "content": user_input},
                 ]
         
         try:
             r = await self.client.chat.completions.create(
                 model = ALIAS,
-                messages = messages,
+                messages = messages_actual_response,
                 temperature = self.temperature,
                 max_tokens = self.max_tokens,
             )
@@ -76,8 +108,11 @@ class requestHandler:
             answer_content = content
 
         return {"think": think_content, "answer": answer_content}
+    
+    def psycologist_response_card(self) -> str:
+        return ""
 
-    def persona_card_from_json(self, j: Dict[str, Any]) -> str:
+    def character_response_card_from_json(self, j: Dict[str, Any]) -> str:
         name = j.get("name", "unknown")
         MBTI = j.get("MBTI", "ENFP")        #default is ENFP
         sex = j.get("sex", "")

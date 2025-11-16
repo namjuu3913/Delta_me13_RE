@@ -21,9 +21,10 @@ async def lifespan(app: FastAPI):
     
     pid_to_kill = state.llm_controller.pid
 
+    # save log
     if state.Character != None:
-        state.Character.memory.turn_off()
-    
+        state.Character.turn_off_character()
+
     try:
         if sys.platform == "win32":
             # Windows: taskkill 

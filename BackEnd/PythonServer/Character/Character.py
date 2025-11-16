@@ -26,7 +26,7 @@ class Character:
         self.memory = Fuli(self.name, last_num , recent_num, impressive_num, long_num, background_num, emotion_num)
 
         self.last_coversation : Conversation
-        
+
 
     def updateMemory(self, conver_in : Conversation):
         self.memory.update_memory(conver_in)
@@ -52,17 +52,19 @@ class Character:
         else:
             return False
         
+
     # update emotion
     def update_emotion(self, VAD_raw_str: str):
         if not self.memory.get_emotion(VAD_str = VAD_raw_str):
             raise Exception("Emotion update in Fuli failed!!!!")
+
 
     # get total memory
     def getMemory(self, user_input:str) -> dict:
         if(not self.memory.Abnomality):
             raise Exception("Emotion is not updated!!!!")
         return self.memory.get_memories(user_input)
-         
+    
 
         
     def getCharJsonLLM(self, user_input:str) -> dict:
@@ -78,6 +80,7 @@ class Character:
             }
         return j
 
+
     def getCharInfo(self) -> dict:
         j:json = {
             "name"          : self.name,
@@ -91,5 +94,9 @@ class Character:
             }
         return j
 
+
+    def turn_off_character(self) -> None:
+        self.memory.turn_off()
+        return
 
 
