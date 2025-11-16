@@ -3,7 +3,7 @@ from PythonServer.Character.Character import Character
 from pathlib import Path
 from typing import List, Any, Dict
 import BackEnd.Config.config as cfg
-import re
+import re, warnings, json
 
 #load config
 BIN:Path        = Path(cfg.LLM_SERVER_CONFIG["BIN"])
@@ -27,41 +27,62 @@ class requestHandler:
 
     async def sendMsg(self, user_input:str, character:Character) -> List[dict]:
         # get info first
-        character_info_and_mem:str = character.getCharJsonLLM(user_input)
+        character_info_and_mem:dict = character.getCharJsonLLM(user_input)
 
-        # find character's emotion
-        psycologist_response_system_msg = self.psycologist_response_card()
-        participant_info = character_info_and_mem
+        # find character's emotion----------------------------------------------------
+        psycologist_response_system_msg = self.psycologist_response_card(json.dumps(character_info_and_mem, ensure_ascii=False, indent=2))
 
         messages_psycologist_response = [
                     {"role": "system", "content": psycologist_response_system_msg},
-                    {"role": "user", "content": participant_info},
+                    {"role": "user", "content": f"Analyze the reaction to this user input: '{user_input}'"},
         ]
         try:
-            r = await self.client.chat.completions.create(
+            r_psy = await self.client.chat.completions.create(
                 model = ALIAS,
                 messages = messages_psycologist_response,
-                temperature = self.temperature,
+                temperature = 0.0,
                 max_tokens = self.max_tokens,
             )
 
-            if not r.choices or not r.choices[0].message.content:
+            if not r_psy.choices or not r_psy.choices[0].message.content:
                 raise Exception("LLM response did not contain any content.")
                 
-            llm_content = r.choices[0].message.content
-            parsed_response = self._parse_llm_response(llm_content)
+            llm_psy_content = r_psy.choices[0].message.content
+            psycologist_raw_str = self._parse_llm_response(llm_psy_content)
 
         except BadRequestError as e:
             body = getattr(getattr(e, "response", None), "text", None)
             raise Exception("400 from server:", body or str(e))
-        
-        
 
-        # get actual character's response
-        try:
-            character_response_system_msg = self.character_response_card_from_json(character_info_and_mem)
-        except Exception as e:
-            raise Exception(e.__str__())
+        # try to parse psycologist_raw_str as json
+        try: 
+            if not isinstance(psycologist_raw_str, str):
+                warnings.warn(f"Error: it is not JSON string but {type(psycologist_raw_str)}.", TypeError)
+            
+            else:
+                psycologist_parsed_json:dict = json.loads(psycologist_raw_str)        
+                # succeed to parse it as json
+                print("RequestHandler says: psycologist response successfully parsed to json!!!")
+        except json.JSONDecodeError as e:
+            raise Exception(f"Failed: str is not json format. \nError: {e}\n Raw String: {psycologist_raw_str}")
+        except TypeError:
+            raise Exception(f"Failed: it is not str. (type: {type(psycologist_raw_str)}).")
+
+        # is it right format of json?
+        required_keys = {"Valence", "Dominance", "Arousal"}
+        if required_keys.issubset(psycologist_parsed_json.keys()):
+            print("Success: 'Valance', 'Dominance', 'Arousal' keys are in it.")
+        else:
+            missing_keys = required_keys - psycologist_parsed_json.keys()
+            raise Exception(f"Keys are missing in the response!! \nMissing keys : {missing_keys}\nRaw String: {psycologist_raw_str}")
+
+        # update character's emotion state
+        character.update_emotion(json.dump(psycologist_parsed_json, ensure_ascii = False, indent = 1))
+        #------------------------------------------------------------------------------
+
+
+        # get actual character's response----------------------------------------------- 
+        character_response_system_msg = self.character_response_card_from_json(character_info_and_mem, character)
 
         messages_actual_response = [
                     {"role": "system", "content": character_response_system_msg},
@@ -69,20 +90,20 @@ class requestHandler:
                 ]
         
         try:
-            r = await self.client.chat.completions.create(
+            r_char = await self.client.chat.completions.create(
                 model = ALIAS,
                 messages = messages_actual_response,
                 temperature = self.temperature,
                 max_tokens = self.max_tokens,
             )
 
-            if not r.choices or not r.choices[0].message.content:
+            if not r_char.choices or not  r_char.choices[0].message.content:
                 raise Exception("LLM response did not contain any content.")
                 
-            llm_content = r.choices[0].message.content
+            llm_content = r_char.choices[0].message.content
             parsed_response = self._parse_llm_response(llm_content)
             
-            return [parsed_response, r.model_dump()]
+            return [parsed_response, r_char.model_dump()]
 
 
         except BadRequestError as e:
@@ -109,10 +130,28 @@ class requestHandler:
 
         return {"think": think_content, "answer": answer_content}
     
-    def psycologist_response_card(self) -> str:
-        return ""
+    def psycologist_response_card(self, participant:str) -> str:
+        return f"""
+        You are the world's best psycologist
+        Analyze the VAD vector emotion vector of the following participant when participant was asked input question and return a JSON object 
+        with three values: Valence, Dominance, and Arousal with float value between -1 and 1. 
 
-    def character_response_card_from_json(self, j: Dict[str, Any]) -> str:
+        Rules:
+            - Each value should be a float number between -1 and 1. 
+
+            - Only return the JSON object, no extra text
+
+            - The JSON format will looks like this:
+                {{
+                    "Valence" : float value,
+                    "Dominance" : float value,
+                    "Arousal"   : float value
+                }}
+
+        participant: {participant}
+        """
+
+    def character_response_card_from_json(j: Dict[str, Any], char:Character) -> str:
         name = j.get("name", "unknown")
         MBTI = j.get("MBTI", "ENFP")        #default is ENFP
         sex = j.get("sex", "")
@@ -133,6 +172,8 @@ class requestHandler:
         Sex: {sex}
         Backstory: {backstory}
         Memory: {memory}
+        {name}'s current emotion: {str(char.memory.simple_emotion_result)}
+        {name}'s current state: {str(char.memory.simple_emotion_analysis_token)}
 
         Rules:
             - Speak only as "{name}."

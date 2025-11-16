@@ -169,6 +169,8 @@ class Fuli:
         # VAD variables
         self.VAD_search_result: Union[dict, None] = None
         self.VAD_analysis_result: Union[AnalysisResult_py, None] = None
+        self.simple_emotion_result:Union[List[str], None] = None
+        self.simple_emotion_analysis_token: Union[tokens, None] = None
 
         # did it searched emotion?
         self.Abnomality: bool = False       
@@ -331,6 +333,17 @@ class Fuli:
         except Exception as e:
             print(f"Analysis Fail! Location:{Path(__file__)}. Error: {e}")
             return False
+        
+        parsed_data = self.VAD_search_result
+        emotion_result_array = parsed_data.get("result", [])
+        self.simple_emotion_result = [item['term'] for item in emotion_result_array[:self.emotion_num] if 'term' in item]
+
+        # get state tokens
+        self.simple_emotion_analysis_token = tokens(
+            stress = self.VAD_analysis_result['instant']['stress_ratio'],
+            reward = self.VAD_analysis_result['instant']['reward_ratio'],
+            shockingLevel = self.VAD_analysis_result['dynamics']['affective_lability']
+        )
 
         self.Abnomality = True
         return True
@@ -378,6 +391,8 @@ class Fuli:
         self.LOG.append(new_LOG)        
         self.VAD_analysis_result = None
         self.VAD_search_result = None
+        self.simple_emotion_analysis_token = None
+        self.simple_emotion_result = None
         self.Abnomality = False
 
 #TODO asyncio
@@ -407,25 +422,13 @@ class Fuli:
                 raise Exception("Failed to save last 10 conversation to db")
 
     def make_new_gen_mem(self, context_in: Conversation, impressiveness_in: int, time_stamp_in:str) -> general_mem:
-        # emotion search (emotion)
-        parsed_data = self.VAD_search_result
-        emotion_result_array = parsed_data.get("result", [])
-        emotions_list = [item['term'] for item in emotion_result_array[:self.emotion_num] if 'term' in item]
-
-        # get state tokens
-        generated_tokens: tokens = tokens(
-            stress = self.VAD_analysis_result['instant']['stress_ratio'],
-            reward = self.VAD_analysis_result['instant']['reward_ratio'],
-            shockingLevel = self.VAD_analysis_result['dynamics']['affective_lability']
-        )
-
         # make new memory
         new_memory : general_mem = general_mem(
-            emotion = emotions_list,
+            emotion = self.simple_emotion_result,
             impressiveness = impressiveness_in,
             time_stamp = time_stamp_in,
             context = context_in,
-            state_tokens = generated_tokens
+            state_tokens = self.simple_emotion_analysis_token
         )
 
         return new_memory
