@@ -89,8 +89,8 @@ class Character:
             "age"           : self.age,
             "backstory"     : self.back_story,
             "constraints"   : self.constraints,
-            "safety"        : self.safety,
-            "last_memory"   : self.getMemory(self.last_coversation.user_context)
+            "safety"        : self.safety
+            # "last_memory"   : self.getMemory(self.last_coversation.user_context)
             }
         return j
 
