@@ -27,7 +27,7 @@ class requestHandler:
 
     async def sendMsg(self, user_input:str, character:Character) -> List[dict]:
         # get info first
-        character_info_and_mem:dict = character.getCharJsonLLM(user_input)
+        character_info_and_mem:dict = await character.getCharJsonLLM(user_input)
 
         # find character's emotion----------------------------------------------------
         psycologist_response_system_msg = self.psycologist_response_card(json.dumps(character_info_and_mem, ensure_ascii=False, indent=2))
@@ -48,7 +48,7 @@ class requestHandler:
                 raise Exception("LLM response did not contain any content.")
                 
             llm_psy_content = r_psy.choices[0].message.content
-            psycologist_raw_str = self._parse_llm_response(llm_psy_content)
+            psycologist_raw_str = self._parse_llm_response(llm_psy_content)["answer"]
 
         except BadRequestError as e:
             body = getattr(getattr(e, "response", None), "text", None)
@@ -77,7 +77,7 @@ class requestHandler:
             raise Exception(f"Keys are missing in the response!! \nMissing keys : {missing_keys}\nRaw String: {psycologist_raw_str}")
 
         # update character's emotion state
-        character.update_emotion(json.dump(psycologist_parsed_json, ensure_ascii = False, indent = 1))
+        character.update_emotion(json.dumps(psycologist_parsed_json, ensure_ascii = False, indent = 1))
         #------------------------------------------------------------------------------
 
 
@@ -151,7 +151,7 @@ class requestHandler:
         participant: {participant}
         """
 
-    def character_response_card_from_json(j: Dict[str, Any], char:Character) -> str:
+    def character_response_card_from_json(self, j: Dict[str, Any], char:Character) -> str:
         name = j.get("name", "unknown")
         MBTI = j.get("MBTI", "ENFP")        #default is ENFP
         sex = j.get("sex", "")

@@ -1,4 +1,6 @@
 import sys, os
+import asyncio
+import signal
 
 PROJECT_ROOT = os.path.dirname(os.path.abspath(os.path.dirname(__file__)))
 sys.path.append(PROJECT_ROOT)
@@ -22,25 +24,22 @@ async def lifespan(app: FastAPI):
     pid_to_kill = state.llm_controller.pid
 
     # save log
-    if state.Character != None:
-        state.Character.turn_off_character()
+    if state.character != None:
+        print("--- Lifespan: Saving logs in thread... ---")
+        await asyncio.to_thread(state.character.turn_off_character)
+        print("--- Lifespan: Log saving finished. ---")
 
     try:
+        print(f"--- Lifespan: Killing PID {pid_to_kill} in thread... ---")
         if sys.platform == "win32":
-            # Windows: taskkill 
-            subprocess.run(
+            await asyncio.to_thread(
+                subprocess.run,
                 ["taskkill", "/F", "/T", "/PID", str(pid_to_kill)],
-                check=True,
-                capture_output=True, # prevent log to mess up terminal
-                text=True
+                check=True, capture_output=True, text=True
             )
-            print(f"Successfully sent taskkill to PID {pid_to_kill}")
-            
         else:
-            # Linux / macOS: os.kill 
-            # signal.SIGKILL == taskkill
-            os.kill(pid_to_kill, signal.SIGKILL)
-            print(f"Successfully sent SIGKILL to PID {pid_to_kill}")
+            await asyncio.to_thread(os.kill, pid_to_kill, signal.SIGKILL)
+        print(f"--- Lifespan: Kill signal sent. ---")
 
     except Exception as e:
         print(f"Error while trying to kill process {pid_to_kill}: {e}")

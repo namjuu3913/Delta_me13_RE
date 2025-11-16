@@ -60,14 +60,13 @@ class Character:
 
 
     # get total memory
-    def getMemory(self, user_input:str) -> dict:
-        if(not self.memory.Abnomality):
-            raise Exception("Emotion is not updated!!!!")
-        return self.memory.get_memories(user_input)
+    async def getMemory(self, user_input:str) -> dict:
+        return await self.memory.get_memories(user_input)
     
 
         
-    def getCharJsonLLM(self, user_input:str) -> dict:
+    async def getCharJsonLLM(self, user_input:str) -> dict:
+        memory_data = await self.getMemory(user_input)
         j:json = {
             "name"          : self.name,
             "MBTI"          : self.MBTI,
@@ -76,7 +75,7 @@ class Character:
             "backstory"     : self.back_story,
             "constraints"   : self.constraints,
             "safety"        : self.safety,
-            "memory"        : self.getMemory(user_input)
+            "memory"        : memory_data
             }
         return j
 

@@ -1,4 +1,3 @@
-from PythonServer.customPY.deltaEGO import InstantMetrics, DynamicMetrics, CumulativeMetrics, AnalysisResult_py
 from pydantic import BaseModel, Field
 from typing import Optional
 from PythonServer.customPY.default_class import Conversation
@@ -27,8 +26,8 @@ class long_term_mem(BaseModel):
     diary      : str
 
 class Fuli_LOG(BaseModel):
-    character_mem   : general_mem
-    VAD             : VADModel
-    analysis        : AnalysisResult_py
+    character_mem   : dict
+    VAD             : dict
+    analysis        : dict
     search_log      : dict
     time_stamp      : str
