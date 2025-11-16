@@ -6,6 +6,7 @@ from PythonServer.Character.Character import Character
 import BackEnd.Config.config as cfg
 import subprocess, platform, signal, os
 from PythonServer.Global import state
+from PythonServer.customPY.default_class import Conversation
 
 router = APIRouter()
 
@@ -242,7 +243,12 @@ async def chat_with_character(user: input.Item_Chat):
         # result[0]: full content (goes to client) result[1]: only message (goes to character's memory) <--- not yet
         result: List[dict] = await state.request_handler.sendMsg(user.chat, state.character)
         # character memory update
-        state.character.updateMemory(result[0]["answer"], user.chat)
+        state.character.updateMemory(Conversation(
+            user_name = "User", #TODO
+            user_context = user.chat,
+            your_name = state.character.name,
+            your_context = result[0]["answer"]
+        ))
         return output.UserOut_Chat(
             is_normal = True,
             character_name=state.character.name,
