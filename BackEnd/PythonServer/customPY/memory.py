@@ -1,7 +1,7 @@
 from PythonServer.customPY.deltaEGO import InstantMetrics, DynamicMetrics, CumulativeMetrics, AnalysisResult_py
 from pydantic import BaseModel, Field
 from typing import Optional
-from default_class import Conversation
+from PythonServer.customPY.default_class import Conversation
 
 
 class VADModel(BaseModel):
@@ -15,7 +15,7 @@ class tokens(BaseModel):
     shocking_level :float
 
 class general_mem(BaseModel):
-    emotion         : dict[str]
+    emotion         : list[str]
     state_tokens    : tokens
     impressiveness  : int   
     context         : Conversation

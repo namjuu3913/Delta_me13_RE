@@ -147,7 +147,7 @@ class Fuli:
         # impressive memory
         self.impressive_mem_path = Path(__file__).resolve().parent / "CharacterSave" / self.name/"Memories"/"impressive_mem"
         # long term memory
-        self.long_term_mem_path = Path(__file__).resolve().parent / "CharacterSave" / self.name/"Memories"/"long_term_mem"
+        # self.long_term_mem_path = Path(__file__).resolve().parent / "CharacterSave" / self.name/"Memories"/"long_term_mem"
         # background
         # self.background_path= Path(__file__).resolve().parent / "CharacterSave" / self.name/"Memories"/"background"
         # LOG

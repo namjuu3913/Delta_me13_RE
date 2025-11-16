@@ -153,7 +153,7 @@ def load_character(user: input.Item_loadCharacter):
         )
     
     try:
-        state.character = Character(user.character_file_name)
+        state.character = Character(user.character_file_name, 8, 6, 3, 0, 0, 3)
 
         return output.UserOut_loadCharacter(
             is_normal = True,
