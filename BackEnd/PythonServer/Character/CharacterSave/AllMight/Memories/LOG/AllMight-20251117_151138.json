@@ -1,0 +1,144 @@
+[
+  {
+    "character_mem": {
+      "emotion": [
+        "celebratory",
+        "proud",
+        "satisfying"
+      ],
+      "state_tokens": {
+        "stress": 0.19999999999999998,
+        "reward": 0.8,
+        "shocking_level": 0.5
+      },
+      "impressiveness": 63,
+      "context": {
+        "user_name": "User",
+        "user_context": "Hello, nice to meet you!",
+        "your_name": "AllMight",
+        "your_context": "Hello! It's a pleasure to meet you too! I'm All Might, Japan's Symbol of Peace. Though my body may be frail, my spirit remains unyielding. I'm always here to protect and inspire, just as I've done for years. Let's make today a memorable one!"
+      },
+      "time_stamp": "2025-11-17T15:09:30.740489"
+    },
+    "VAD": {
+      "V": 0.8,
+      "A": 0.3,
+      "D": 0.7
+    },
+    "analysis": {
+      "instant": {
+        "stress": 0.11999999999999998,
+        "reward": 0.48,
+        "ratio_total": 0.6,
+        "stress_ratio": 0.19999999999999998,
+        "reward_ratio": 0.8,
+        "deviation": 1.104536101718726
+      },
+      "dynamics": {
+        "delta": {
+          "v": 0.0,
+          "a": 0.0,
+          "dtimestamp": 0.0,
+          "owner": ""
+        },
+        "affective_lability": 0.5
+      },
+      "cumulative": {
+        "average_area": {
+          "x": 0.8,
+          "y": 0.3,
+          "z": 0.7,
+          "radius": 0.0
+        },
+        "stress": 0.0,
+        "reward": 0.0,
+        "total": 0.0,
+        "stress_ratio": 0.0,
+        "reward_ratio": 0.0
+      }
+    },
+    "search_log": {
+      "count": 5,
+      "mode": {
+        "d": 0.3,
+        "flag": "B",
+        "input_sim": "gauss_w",
+        "input_visit": "knn",
+        "k": 5
+      },
+      "query": {
+        "A": 0.3,
+        "D": 0.7,
+        "V": 0.8
+      },
+      "result": [
+        {
+          "VAD": {
+            "A": 0.306,
+            "D": 0.69,
+            "V": 0.714
+          },
+          "distance_pow2": 0.0075320000000000135,
+          "emotion": "celebratory",
+          "emotion_simplified": "absolute celebratory",
+          "rank": 1,
+          "similarity_metric": "Whitened / Axis-scaled Gaussian",
+          "similarity_percent": 97
+        },
+        {
+          "VAD": {
+            "A": 0.4,
+            "D": 0.746,
+            "V": 0.812
+          },
+          "distance_pow2": 0.01226000000000001,
+          "emotion": "proud",
+          "emotion_simplified": "intense proud",
+          "rank": 2,
+          "similarity_metric": "Whitened / Axis-scaled Gaussian",
+          "similarity_percent": 92
+        },
+        {
+          "VAD": {
+            "A": 0.212,
+            "D": 0.628,
+            "V": 0.78
+          },
+          "distance_pow2": 0.013327999999999993,
+          "emotion": "satisfying",
+          "emotion_simplified": "intense satisfying",
+          "rank": 3,
+          "similarity_metric": "Whitened / Axis-scaled Gaussian",
+          "similarity_percent": 90
+        },
+        {
+          "VAD": {
+            "A": 0.296,
+            "D": 0.58,
+            "V": 0.75
+          },
+          "distance_pow2": 0.016916000000000004,
+          "emotion": "cheered",
+          "emotion_simplified": "intense cheered",
+          "rank": 4,
+          "similarity_metric": "Whitened / Axis-scaled Gaussian",
+          "similarity_percent": 85
+        },
+        {
+          "VAD": {
+            "A": 0.408,
+            "D": 0.586,
+            "V": 0.826
+          },
+          "distance_pow2": 0.02533599999999999,
+          "emotion": "felicity",
+          "emotion_simplified": "intense felicity",
+          "rank": 5,
+          "similarity_metric": "Whitened / Axis-scaled Gaussian",
+          "similarity_percent": 81
+        }
+      ]
+    },
+    "time_stamp": "2025-11-17T15:09:30.740489"
+  }
+]

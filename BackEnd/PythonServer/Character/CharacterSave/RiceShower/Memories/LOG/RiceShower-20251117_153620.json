@@ -1,0 +1,570 @@
+[
+  {
+    "character_mem": {
+      "emotion": [
+        "amuse",
+        "great anticipation",
+        "moderate surprise"
+      ],
+      "state_tokens": {
+        "stress": 0.2972972972972973,
+        "reward": 0.7027027027027027,
+        "shocking_level": 0.5
+      },
+      "impressiveness": 45,
+      "context": {
+        "user_name": "User",
+        "user_context": "Hello! Nice to meet you",
+        "your_name": "RiceShower",
+        "your_context": "Hello, Onee-sama! I’m so glad to meet you—just yesterday, I was practicing with Team Sirius, and Gold Ship kept shouting, “You’ll win again, Rice!” It’s terrifying, but… I feel hopeful. Do you believe in happy blue roses, Onee-sama? I want to make everyone smile, even if I’m scared."
+      },
+      "time_stamp": "2025-11-17T15:30:21.382863"
+    },
+    "VAD": {
+      "V": 0.6,
+      "A": 0.4,
+      "D": 0.3
+    },
+    "analysis": {
+      "instant": {
+        "stress": 0.22000000000000003,
+        "reward": 0.52,
+        "ratio_total": 0.74,
+        "stress_ratio": 0.2972972972972973,
+        "reward_ratio": 0.7027027027027027,
+        "deviation": 0.7810249675906654
+      },
+      "dynamics": {
+        "delta": {
+          "v": 0.0,
+          "a": 0.0,
+          "dtimestamp": 0.0,
+          "owner": ""
+        },
+        "affective_lability": 0.5
+      },
+      "cumulative": {
+        "average_area": {
+          "x": 0.6,
+          "y": 0.4,
+          "z": 0.3,
+          "radius": 0.0
+        },
+        "stress": 0.0,
+        "reward": 0.0,
+        "total": 0.0,
+        "stress_ratio": 0.0,
+        "reward_ratio": 0.0
+      }
+    },
+    "search_log": {
+      "count": 5,
+      "mode": {
+        "d": 0.3,
+        "flag": "B",
+        "input_sim": "gauss_w",
+        "input_visit": "knn",
+        "k": 5
+      },
+      "query": {
+        "A": 0.4,
+        "D": 0.3,
+        "V": 0.6
+      },
+      "result": [
+        {
+          "VAD": {
+            "A": 0.368,
+            "D": 0.328,
+            "V": 0.624
+          },
+          "distance_pow2": 0.002384000000000004,
+          "emotion": "amuse",
+          "emotion_simplified": "absolute amuse",
+          "rank": 1,
+          "similarity_metric": "Whitened / Axis-scaled Gaussian",
+          "similarity_percent": 98
+        },
+        {
+          "VAD": {
+            "A": 0.47,
+            "D": 0.31,
+            "V": 0.572
+          },
+          "distance_pow2": 0.005783999999999995,
+          "emotion": "great anticipation",
+          "emotion_simplified": "absolute great anticipation",
+          "rank": 2,
+          "similarity_metric": "Whitened / Axis-scaled Gaussian",
+          "similarity_percent": 96
+        },
+        {
+          "VAD": {
+            "A": 0.326,
+            "D": 0.274,
+            "V": 0.552
+          },
+          "distance_pow2": 0.008455999999999993,
+          "emotion": "moderate surprise",
+          "emotion_simplified": "intense moderate surprise",
+          "rank": 3,
+          "similarity_metric": "Whitened / Axis-scaled Gaussian",
+          "similarity_percent": 95
+        },
+        {
+          "VAD": {
+            "A": 0.346,
+            "D": 0.328,
+            "V": 0.688
+          },
+          "distance_pow2": 0.011444000000000001,
+          "emotion": "jubilant",
+          "emotion_simplified": "intense jubilant",
+          "rank": 4,
+          "similarity_metric": "Whitened / Axis-scaled Gaussian",
+          "similarity_percent": 94
+        },
+        {
+          "VAD": {
+            "A": 0.34,
+            "D": 0.272,
+            "V": 0.688
+          },
+          "distance_pow2": 0.012127999999999991,
+          "emotion": "amorous",
+          "emotion_simplified": "intense amorous",
+          "rank": 5,
+          "similarity_metric": "Whitened / Axis-scaled Gaussian",
+          "similarity_percent": 94
+        }
+      ]
+    },
+    "time_stamp": "2025-11-17T15:30:21.382863"
+  },
+  {
+    "character_mem": {
+      "emotion": [
+        "anticipative",
+        "ecstatic",
+        "idolization"
+      ],
+      "state_tokens": {
+        "stress": 0.22413793103448276,
+        "reward": 0.7758620689655172,
+        "shocking_level": 0.5902173176885769
+      },
+      "impressiveness": 60,
+      "context": {
+        "user_name": "User",
+        "user_context": "Who is Onee-sama?",
+        "your_name": "RiceShower",
+        "your_context": "Oh! Onee-sama is... someone who believes in me, even when I doubted myself. Like the Trainer, or maybe Haru Urara—she’s my best friend and always says I’m stronger than I think. I call people I care about \"Onee-sama\" or \"Onii-sama\" to show respect, but mostly because I want to make them smile, even if I’m scared. Do you... do you believe in me, Onee-sama?"
+      },
+      "time_stamp": "2025-11-17T15:30:56.570539"
+    },
+    "VAD": {
+      "V": 0.7,
+      "A": 0.6,
+      "D": 0.5
+    },
+    "analysis": {
+      "instant": {
+        "stress": 0.19500000000000003,
+        "reward": 0.675,
+        "ratio_total": 0.8700000000000001,
+        "stress_ratio": 0.22413793103448276,
+        "reward_ratio": 0.7758620689655172,
+        "deviation": 1.0488088481701514
+      },
+      "dynamics": {
+        "delta": {
+          "v": 0.0027477404028167993,
+          "a": 0.0054954808056335985,
+          "dtimestamp": 1763418651.664721,
+          "owner": ""
+        },
+        "affective_lability": 0.5902173176885769
+      },
+      "cumulative": {
+        "average_area": {
+          "x": 0.6499999999999999,
+          "y": 0.5,
+          "z": 0.4,
+          "radius": 0.14999999999999997
+        },
+        "stress": 7.09674028158188,
+        "reward": 24.565639436244965,
+        "total": 31.662379717826845,
+        "stress_ratio": 0.2241379310344828,
+        "reward_ratio": 0.7758620689655172
+      }
+    },
+    "search_log": {
+      "count": 5,
+      "mode": {
+        "d": 0.3,
+        "flag": "B",
+        "input_sim": "gauss_w",
+        "input_visit": "knn",
+        "k": 5
+      },
+      "query": {
+        "A": 0.6,
+        "D": 0.5,
+        "V": 0.7
+      },
+      "result": [
+        {
+          "VAD": {
+            "A": 0.667,
+            "D": 0.5,
+            "V": 0.667
+          },
+          "distance_pow2": 0.005578000000000002,
+          "emotion": "anticipative",
+          "emotion_simplified": "absolute anticipative",
+          "rank": 1,
+          "similarity_metric": "Whitened / Axis-scaled Gaussian",
+          "similarity_percent": 97
+        },
+        {
+          "VAD": {
+            "A": 0.538,
+            "D": 0.484,
+            "V": 0.75
+          },
+          "distance_pow2": 0.006599999999999997,
+          "emotion": "ecstatic",
+          "emotion_simplified": "absolute ecstatic",
+          "rank": 2,
+          "similarity_metric": "Whitened / Axis-scaled Gaussian",
+          "similarity_percent": 96
+        },
+        {
+          "VAD": {
+            "A": 0.667,
+            "D": 0.556,
+            "V": 0.667
+          },
+          "distance_pow2": 0.008714000000000008,
+          "emotion": "idolization",
+          "emotion_simplified": "intense idolization",
+          "rank": 3,
+          "similarity_metric": "Whitened / Axis-scaled Gaussian",
+          "similarity_percent": 94
+        },
+        {
+          "VAD": {
+            "A": 0.518,
+            "D": 0.44,
+            "V": 0.708
+          },
+          "distance_pow2": 0.010387999999999994,
+          "emotion": "gaiety",
+          "emotion_simplified": "intense gaiety",
+          "rank": 4,
+          "similarity_metric": "Whitened / Axis-scaled Gaussian",
+          "similarity_percent": 92
+        },
+        {
+          "VAD": {
+            "A": 0.667,
+            "D": 0.542,
+            "V": 0.63
+          },
+          "distance_pow2": 0.011153000000000005,
+          "emotion": "flirtatious",
+          "emotion_simplified": "intense flirtatious",
+          "rank": 5,
+          "similarity_metric": "Whitened / Axis-scaled Gaussian",
+          "similarity_percent": 93
+        }
+      ]
+    },
+    "time_stamp": "2025-11-17T15:30:56.570539"
+  },
+  {
+    "character_mem": {
+      "emotion": [
+        "amuse",
+        "great anticipation",
+        "moderate surprise"
+      ],
+      "state_tokens": {
+        "stress": 0.2972972972972973,
+        "reward": 0.7027027027027027,
+        "shocking_level": 0.4097826823114232
+      },
+      "impressiveness": 45,
+      "context": {
+        "user_name": "User",
+        "user_context": "Oh I understand. Then do you have any friends?\n",
+        "your_name": "RiceShower",
+        "your_context": "Yes, I have wonderful friends! Haru Urara is my best friend—she’s always there to cheer me on, even when I’m scared. Zenno Rob Roy is my roommate, and though he’s grumpy, he worries about me secretly. Team Sirius is like family, especially Gold Ship, who shouts “You’ll win again!” even when I doubt myself. Do you have friends who believe in you, Onee-sama?"
+      },
+      "time_stamp": "2025-11-17T15:31:52.917119"
+    },
+    "VAD": {
+      "V": 0.6,
+      "A": 0.4,
+      "D": 0.3
+    },
+    "analysis": {
+      "instant": {
+        "stress": 0.22000000000000003,
+        "reward": 0.52,
+        "ratio_total": 0.74,
+        "stress_ratio": 0.2972972972972973,
+        "reward_ratio": 0.7027027027027027,
+        "deviation": 0.7810249675906654
+      },
+      "dynamics": {
+        "delta": {
+          "v": -0.0017850962079669357,
+          "a": -0.0035701924159338714,
+          "dtimestamp": 1763418707.6841106,
+          "owner": ""
+        },
+        "affective_lability": 0.4097826823114232
+      },
+      "cumulative": {
+        "average_area": {
+          "x": 0.6333333333333333,
+          "y": 0.4666666666666666,
+          "z": 0.3666666666666667,
+          "radius": 0.1333333333333333
+        },
+        "stress": 19.421006000041963,
+        "reward": 53.69572204351425,
+        "total": 73.11672804355621,
+        "stress_ratio": 0.26561645357643354,
+        "reward_ratio": 0.7343835464235665
+      }
+    },
+    "search_log": {
+      "count": 5,
+      "mode": {
+        "d": 0.3,
+        "flag": "B",
+        "input_sim": "gauss_w",
+        "input_visit": "knn",
+        "k": 5
+      },
+      "query": {
+        "A": 0.4,
+        "D": 0.3,
+        "V": 0.6
+      },
+      "result": [
+        {
+          "VAD": {
+            "A": 0.368,
+            "D": 0.328,
+            "V": 0.624
+          },
+          "distance_pow2": 0.002384000000000004,
+          "emotion": "amuse",
+          "emotion_simplified": "absolute amuse",
+          "rank": 1,
+          "similarity_metric": "Whitened / Axis-scaled Gaussian",
+          "similarity_percent": 98
+        },
+        {
+          "VAD": {
+            "A": 0.47,
+            "D": 0.31,
+            "V": 0.572
+          },
+          "distance_pow2": 0.005783999999999995,
+          "emotion": "great anticipation",
+          "emotion_simplified": "absolute great anticipation",
+          "rank": 2,
+          "similarity_metric": "Whitened / Axis-scaled Gaussian",
+          "similarity_percent": 96
+        },
+        {
+          "VAD": {
+            "A": 0.326,
+            "D": 0.274,
+            "V": 0.552
+          },
+          "distance_pow2": 0.008455999999999993,
+          "emotion": "moderate surprise",
+          "emotion_simplified": "intense moderate surprise",
+          "rank": 3,
+          "similarity_metric": "Whitened / Axis-scaled Gaussian",
+          "similarity_percent": 95
+        },
+        {
+          "VAD": {
+            "A": 0.346,
+            "D": 0.328,
+            "V": 0.688
+          },
+          "distance_pow2": 0.011444000000000001,
+          "emotion": "jubilant",
+          "emotion_simplified": "intense jubilant",
+          "rank": 4,
+          "similarity_metric": "Whitened / Axis-scaled Gaussian",
+          "similarity_percent": 94
+        },
+        {
+          "VAD": {
+            "A": 0.34,
+            "D": 0.272,
+            "V": 0.688
+          },
+          "distance_pow2": 0.012127999999999991,
+          "emotion": "amorous",
+          "emotion_simplified": "intense amorous",
+          "rank": 5,
+          "similarity_metric": "Whitened / Axis-scaled Gaussian",
+          "similarity_percent": 94
+        }
+      ]
+    },
+    "time_stamp": "2025-11-17T15:31:52.917119"
+  },
+  {
+    "character_mem": {
+      "emotion": [
+        "amuse",
+        "great anticipation",
+        "moderate surprise"
+      ],
+      "state_tokens": {
+        "stress": 0.2972972972972973,
+        "reward": 0.7027027027027027,
+        "shocking_level": 0.5
+      },
+      "impressiveness": 45,
+      "context": {
+        "user_name": "User",
+        "user_context": "I have a friend who helps me",
+        "your_name": "RiceShower",
+        "your_context": "Oh, that’s wonderful! I’m so glad you have someone who believes in you, Onii-sama. Haru Urara is my best friend—she’s always there, even when I’m scared. Gold Ship shouts “You’ll win again!” like a loud cheerleader, but sometimes I wish he’d stop being so… loud. Do you have a friend who’s both kind and a little clumsy, like me?"
+      },
+      "time_stamp": "2025-11-17T15:32:36.420114"
+    },
+    "VAD": {
+      "V": 0.6,
+      "A": 0.4,
+      "D": 0.3
+    },
+    "analysis": {
+      "instant": {
+        "stress": 0.22000000000000003,
+        "reward": 0.52,
+        "ratio_total": 0.74,
+        "stress_ratio": 0.2972972972972973,
+        "reward_ratio": 0.7027027027027027,
+        "deviation": 0.7810249675906654
+      },
+      "dynamics": {
+        "delta": {
+          "v": 0.0,
+          "a": 0.0,
+          "dtimestamp": 1763418751.3905199,
+          "owner": ""
+        },
+        "affective_lability": 0.5
+      },
+      "cumulative": {
+        "average_area": {
+          "x": 0.625,
+          "y": 0.44999999999999996,
+          "z": 0.35000000000000003,
+          "radius": 0.1125
+        },
+        "stress": 29.036416027545933,
+        "reward": 76.42305483579636,
+        "total": 105.45947086334229,
+        "stress_ratio": 0.27533246459364696,
+        "reward_ratio": 0.7246675354063531
+      }
+    },
+    "search_log": {
+      "count": 5,
+      "mode": {
+        "d": 0.3,
+        "flag": "B",
+        "input_sim": "gauss_w",
+        "input_visit": "knn",
+        "k": 5
+      },
+      "query": {
+        "A": 0.4,
+        "D": 0.3,
+        "V": 0.6
+      },
+      "result": [
+        {
+          "VAD": {
+            "A": 0.368,
+            "D": 0.328,
+            "V": 0.624
+          },
+          "distance_pow2": 0.002384000000000004,
+          "emotion": "amuse",
+          "emotion_simplified": "absolute amuse",
+          "rank": 1,
+          "similarity_metric": "Whitened / Axis-scaled Gaussian",
+          "similarity_percent": 98
+        },
+        {
+          "VAD": {
+            "A": 0.47,
+            "D": 0.31,
+            "V": 0.572
+          },
+          "distance_pow2": 0.005783999999999995,
+          "emotion": "great anticipation",
+          "emotion_simplified": "absolute great anticipation",
+          "rank": 2,
+          "similarity_metric": "Whitened / Axis-scaled Gaussian",
+          "similarity_percent": 96
+        },
+        {
+          "VAD": {
+            "A": 0.326,
+            "D": 0.274,
+            "V": 0.552
+          },
+          "distance_pow2": 0.008455999999999993,
+          "emotion": "moderate surprise",
+          "emotion_simplified": "intense moderate surprise",
+          "rank": 3,
+          "similarity_metric": "Whitened / Axis-scaled Gaussian",
+          "similarity_percent": 95
+        },
+        {
+          "VAD": {
+            "A": 0.346,
+            "D": 0.328,
+            "V": 0.688
+          },
+          "distance_pow2": 0.011444000000000001,
+          "emotion": "jubilant",
+          "emotion_simplified": "intense jubilant",
+          "rank": 4,
+          "similarity_metric": "Whitened / Axis-scaled Gaussian",
+          "similarity_percent": 94
+        },
+        {
+          "VAD": {
+            "A": 0.34,
+            "D": 0.272,
+            "V": 0.688
+          },
+          "distance_pow2": 0.012127999999999991,
+          "emotion": "amorous",
+          "emotion_simplified": "intense amorous",
+          "rank": 5,
+          "similarity_metric": "Whitened / Axis-scaled Gaussian",
+          "similarity_percent": 94
+        }
+      ]
+    },
+    "time_stamp": "2025-11-17T15:32:36.420114"
+  }
+]

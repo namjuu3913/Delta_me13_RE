@@ -1,0 +1,134 @@
+[
+  {
+    "character_mem": {
+      "emotion": [
+        "enjoying",
+        "fascination",
+        "felicity"
+      ],
+      "state_tokens": {
+        "stress": 0.18421052631578946,
+        "reward": 0.8157894736842105,
+        "shocking_level": 0.5
+      },
+      "impressiveness": 64,
+      "context": {
+        "user_name": "User",
+        "user_context": "Hello nice to meet you!",
+        "your_name": "AllMight",
+        "your_context": "Hello! It's a pleasure to meet you too! 😊 As the Symbol of Peace, I'm always ready to lend a hand or share a smile. What brings you here today? I’d be honored to help in any way I can!"
+      },
+      "time_stamp": "2025-11-17T14:55:25.656795"
+    },
+    "VAD": {
+      "V": 0.8,
+      "A": 0.5,
+      "D": 0.6
+    },
+    "analysis": {
+      "instant": {
+        "stress": 0.13999999999999999,
+        "reward": 0.62,
+        "ratio_total": 0.76,
+        "stress_ratio": 0.18421052631578946,
+        "reward_ratio": 0.8157894736842105,
+        "deviation": 1.118033988749895
+      },
+      "dynamics": {
+        "delta": "<deltaEGO_compute._core.VADPoint object at 0x0000024FB12B68F0>",
+        "affective_lability": 0.5
+      },
+      "cumulative": {
+        "average_area": "<deltaEGO_compute._core.VAD_ave object at 0x0000024FB15D2FB0>",
+        "stress": 0.0,
+        "reward": 0.0,
+        "total": 0.0,
+        "stress_ratio": 0.0,
+        "reward_ratio": 0.0
+      }
+    },
+    "search_log": {
+      "count": 5,
+      "mode": {
+        "d": 0.3,
+        "flag": "B",
+        "input_sim": "gauss_w",
+        "input_visit": "knn",
+        "k": 5
+      },
+      "query": {
+        "A": 0.5,
+        "D": 0.6,
+        "V": 0.8
+      },
+      "result": [
+        {
+          "VAD": {
+            "A": 0.518,
+            "D": 0.518,
+            "V": 0.816
+          },
+          "distance_pow2": 0.007303999999999991,
+          "emotion": "enjoying",
+          "emotion_simplified": "intense enjoying",
+          "rank": 1,
+          "similarity_metric": "Whitened / Axis-scaled Gaussian",
+          "similarity_percent": 93
+        },
+        {
+          "VAD": {
+            "A": 0.546,
+            "D": 0.67,
+            "V": 0.77
+          },
+          "distance_pow2": 0.007916000000000013,
+          "emotion": "fascination",
+          "emotion_simplified": "intense fascination",
+          "rank": 2,
+          "similarity_metric": "Whitened / Axis-scaled Gaussian",
+          "similarity_percent": 93
+        },
+        {
+          "VAD": {
+            "A": 0.408,
+            "D": 0.586,
+            "V": 0.826
+          },
+          "distance_pow2": 0.009336,
+          "emotion": "felicity",
+          "emotion_simplified": "intense felicity",
+          "rank": 3,
+          "similarity_metric": "Whitened / Axis-scaled Gaussian",
+          "similarity_percent": 94
+        },
+        {
+          "VAD": {
+            "A": 0.416,
+            "D": 0.51,
+            "V": 0.816
+          },
+          "distance_pow2": 0.015411999999999995,
+          "emotion": "overjoyed",
+          "emotion_simplified": "intense overjoyed",
+          "rank": 4,
+          "similarity_metric": "Whitened / Axis-scaled Gaussian",
+          "similarity_percent": 88
+        },
+        {
+          "VAD": {
+            "A": 0.538,
+            "D": 0.484,
+            "V": 0.75
+          },
+          "distance_pow2": 0.017400000000000006,
+          "emotion": "ecstatic",
+          "emotion_simplified": "intense ecstatic",
+          "rank": 5,
+          "similarity_metric": "Whitened / Axis-scaled Gaussian",
+          "similarity_percent": 85
+        }
+      ]
+    },
+    "time_stamp": "2025-11-17T14:55:25.656795"
+  }
+]
