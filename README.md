@@ -1,3 +1,7 @@
+## 🎥 Demo
+
+[![Demo Video](https://img.youtube.com/vi/JVK86SaqT3c?si=t137KuBTWVVRApx7/hqdefault.jpg)](https://youtu.be/JVK86SaqT3c?si=t137KuBTWVVRApx7)
+
 ## About the Project
 Delta-me13_py is a character chatbot that runs locally using a quantized GGUF LLM and multilingual sentence embeddings. It aims to provide responsive, multilingual dialog while keeping resource usage modest. I started this project after I got inspiration from a game named HSR(Honkai Star Rail). Currently, this code is somewhat messy and runs on hopes and dreams now, but I will work on fixing it.
 
